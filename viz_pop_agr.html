@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>House Prices Per Square Metre Map, England and Wales 2024</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.17.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.17.0/mapbox-gl.js"></script>
+    <link href='MapboxHousePrice_example_styles.css' rel='stylesheet' />  // Add external stylesheet that styles the legend
+    
+    <style>
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+    </style>
+</head>
+<body>
+
+<div id='map'></div>
+
+
+<div class='map-overlay'>  <!-- This div contains the legend information and data attribution -->
+    <div class='map-overlay-inner'>
+        <h1 id="title">House Price Paid Per Square Metre 2024</h1>
+        <p>Price Paid, £GBP per m2, England & Wales 2024. Data source: <a href="https://data.london.gov.uk/dataset/house-price-per-square-metre-in-england-and-wales-epo9w/">Chi et al. UCL</a>, <a href="https://www.gov.uk/government/collections/price-paid-data">Land Registry</a>, Crown &copy;. Map Design: D A Smith. Data scale: local authority and MSOA.</p>
+        	<table id="legendValues">
+                <tr><td class="colsq" style="background-color:#5e3c99;">&nbsp;</td><td class="value">&nbsp;0 - &pound;2,000</td></tr>
+                <tr><td class="colsq" style="background-color:#836db2;">&nbsp;</td><td class="value">&nbsp;&pound;2,000 - &pound;2,500</td></tr>
+                <tr><td class="colsq" style="background-color:#a99fcc;">&nbsp;</td><td class="value">&nbsp;&pound;2,500 - &pound;3,000</td></tr>
+                <tr><td class="colsq" style="background-color:#c9c4de;">&nbsp;</td><td class="value">&nbsp;&pound;3,000 - &pound;3,500</td></tr>
+                <tr><td class="colsq" style="background-color:#e8e6ef;">&nbsp;</td><td class="value">&nbsp;&pound;3,500 - &pound;4,000</td></tr>
+                <tr><td class="colsq" style="background-color:#f8e9d6;">&nbsp;</td><td class="value">&nbsp;&pound;4,000 - &pound;4,500</td></tr>
+                <tr><td class="colsq" style="background-color:#fbcd94;">&nbsp;</td><td class="value">&nbsp;&pound;4,500 - &pound;5,250</td></tr>
+                <tr><td class="colsq" style="background-color:#faae58;">&nbsp;</td><td class="value">&nbsp;&pound;5,250 - &pound;6,500</td></tr>
+                <tr><td class="colsq" style="background-color:#f0882d;">&nbsp;</td><td class="value">&nbsp;&pound;6,500 - &pound;8,500</td></tr>
+                <tr><td class="colsq" style="background-color:#e66101;">&nbsp;</td><td class="value">&nbsp;&pound;8,500 - &pound;22,000</td></tr>
+	        </table>
+        <h3 id="laname">Hover over a local authority</h3>
+	</div>
+</div>
+
+<script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoiZHVuY2FuMjAwMSIsImEiOiIyRDhtOE1nIn0.OA5QmCprkPbOoxZog8HIow'; // Put your Mapbox Public Access token here
+
+    // Load a new map in the 'map' HTML div
+    var map = new mapboxgl.Map({
+    container: 'map', // container id
+    style: 'mapbox://styles/duncan2001/cmk9o0gw600my01s6d2b97mfz', // location of the stylesheet with the house price data layers included
+    center: [-2.5, 52], // starting position [lng, lat]
+    zoom: 6, // starting zoom
+    hash: true
+    });
+
+ map.addControl(new mapboxgl.NavigationControl());
+ map.addControl(new mapboxgl.ScaleControl(), 'bottom-right');
+
+// disable map rotation using right click + drag
+map.dragRotate.disable();
+
+// disable map rotation using touch rotation gesture
+map.touchZoomRotate.disableRotation();
+
+
+map.on('load', function() {
+
+
+
+    map.addLayer({                  //Add the Local Authority fill layer. It is not visible (opacity 0) and is used only for the hover selection
+            id: 'LocalAuthorities',
+            type: 'fill',
+            source: {
+              type: 'vector',
+              maxzoom: 8.5, // The map data scale switches from local authority to MSOA according to the zoom level set here
+              url: 'mapbox://duncan2001.961qqn17' // Your Mapbox tileset Map ID
+            },
+            'source-layer': 'LADBSC_HPPSQ2024_1-a62ceq', // name of tilesets
+            'layout': {
+                'visibility': 'visible'
+            },
+            paint: {
+                'fill-color': '#fff',
+                'fill-opacity': 0
+                }
+          });
+
+    map.addLayer({                  // Add the LA line highlight layer. This layer has a filter, which initially is empty.
+            id: 'lahighlight',
+            type: 'line',
+            source: {
+              type: 'vector',
+              maxzoom: 8.5,
+              url: 'mapbox://duncan2001.961qqn17' // Your Mapbox tileset Map ID
+            },
+            'source-layer': 'LADBSC_HPPSQ2024_1-a62ceq', // name of tilesets
+            'layout': {
+                'visibility': 'visible'
+            },
+            paint: {
+                'line-color': '#adf',
+                'line-width': 3
+                },
+            filter: ['==','name','empty']
+          });
+
+
+    map.addLayer({                  //Add the MSOA fill layer. It is not visible (opacity 0) and is used only as the basis of the hover selection
+            id: 'MSOA',
+            type: 'fill',
+            source: {
+              type: 'vector',
+              minzoom: 8.5,  // This layer only appears above this zoom setting, switching between the local authority and MSOA layers
+              url: 'mapbox://duncan2001.3nr4p27w' // Your Mapbox tileset Map ID
+            },
+            'source-layer': 'MSOA_HPPSQ2024_1-bi062w', // name of tilesets
+            'layout': {
+                'visibility': 'visible'
+            },
+            paint: {
+                'fill-color': '#fff',
+                'fill-opacity': 0
+                }
+          });
+
+    map.addLayer({                  // Add the MSOA line highlight layer. This layer has a filter, which initially is empty.
+            id: 'MSOAhighlight',
+            type: 'line',
+            source: {
+              type: 'vector',
+              minzoom: 8.5,
+              url: 'mapbox://duncan2001.3nr4p27w' // Your Mapbox tileset Map ID
+            },
+            'source-layer': 'MSOA_HPPSQ2024_1-bi062w', // name of tilesets
+            'layout': {
+                'visibility': 'visible'
+            },
+            paint: {
+                'line-color': '#adf',
+                'line-width': 3
+                },
+            filter: ['==','name','empty']
+          });
+
+
+
+    map.on('mousemove', function(e) {       // This is the main event listner which is triggered when the mouse moves
+          var la = map.queryRenderedFeatures(e.point, {   // This queries whether the mouse is over an object in the LocalAuthorities layer
+            layers: ['LocalAuthorities']
+          });
+
+          function numberWithCommas(x) {  // Simple function to add thousand commas to the price data that appears below the legend
+            return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            }
+
+
+        if (la.length==1) {   // This if statement is run when the mouse is over a local authority
+
+            map.setFilter('lahighlight', ['==','LAD25NM',la[0].properties.LAD25NM]);  // Filter the highlight layer to show the local authority outline
+            console.log("LA If Statement");
+            console.log(la[0].properties.LAD25NM);
+            var name = la[0].properties.LAD25NM;
+            var avprice = numberWithCommas(Math.round(la[0].properties.PricePSQ_1,0));
+            var text1 = name + "<br />Average Price: £" + avprice + " per m2";
+            document.getElementById('laname').innerHTML = text1; // Change the name in the top left box to show the local authority name
+            console.log(la[0].id);
+            console.log(la);
+
+        } 
+
+
+        var msoal = map.queryRenderedFeatures(e.point, {   // This queries whether the mouse is over an object in the MSOA layer
+            layers: ['MSOA']
+          });
+
+
+        if (msoal.length==1) {   // This if statement is run when the mouse is over an MSOA
+
+            map.setFilter('MSOAhighlight', ['==','MSOA21NM',msoal[0].properties.MSOA21NM]);  // Filter the highlight layer to show the MSOA outline
+            console.log("MSOA If Statement");
+            console.log(msoal[0].properties.MSOA21NM);
+            var name2 = msoal[0].properties.MSOA21NM;
+            var avprice2 = numberWithCommas(Math.round(msoal[0].properties.PricePSQ_1,0));
+            var text2 = name2 + "<br />Average Price: £" + avprice2 + " per m2";
+            document.getElementById('laname').innerHTML = text2; // Change the name in the top left box to show the MSOA name
+            console.log(msoal[0].id);
+            console.log(msoal);
+
+        } 
+
+        if ((la.length==0) && (msoal.length==0)) {   //This clears the highlight layer when the mouse is over no features in either layer
+            map.setFilter('lahighlight', ['==','LA25NM','null']);    
+            map.setFilter('MSOAhighlight', ['==','MSOA21NM','null']);
+            console.log('No features');
+            document.getElementById('laname').innerHTML = "Hover over a local authority";
+        }
+
+
+        });
+
+
+});
+
+</script>
+
+</body>
+</html>
