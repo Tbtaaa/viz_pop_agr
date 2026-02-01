@@ -2,31 +2,27 @@ library(sf)
 library(tidyverse)
 library(countrycode)
 
-# https://www.fao.org/faostat/en/#data/RL
-# https://data.worldbank.org/indicator/SP.POP.TOTL
-# https://datacatalog.worldbank.org/search/dataset/0038272/world-bank-official-boundaries
-
-agr_africa <- read_csv("data/FAOSTAT_data_en_1-29-2026_Africa.csv") %>%
+agr_africa <- read_csv("data/FAOSTAT_data_en_1-30-2026_Africa.csv") %>%
   select('Area', 'Year', 'Value') %>%
   rename(Country = Area,
          Agr_area = Value)
 
-agr_america <- read_csv("data/FAOSTAT_data_en_1-29-2026_America.csv") %>%
+agr_america <- read_csv("data/FAOSTAT_data_en_1-30-2026_America.csv") %>%
   select("Area", "Year", "Value") %>%
   rename(Country = Area,
          Agr_area = Value)
   
-agr_asia <- read_csv("data/FAOSTAT_data_en_1-29-2026_Asia.csv") %>%
+agr_asia <- read_csv("data/FAOSTAT_data_en_1-30-2026_Asia.csv") %>%
   select("Area", "Year", "Value") %>%
   rename(Country = Area,
          Agr_area = Value)
   
-agr_europe <- read_csv("data/FAOSTAT_data_en_1-29-2026_Europe.csv") %>%
+agr_europe <- read_csv("data/FAOSTAT_data_en_1-30-2026_Europe.csv") %>%
   select("Area", "Year", "Value") %>%
   rename(Country = Area,
          Agr_area = Value)
   
-agr_oceania <- read_csv("data/FAOSTAT_data_en_1-29-2026_Oceania.csv") %>%
+agr_oceania <- read_csv("data/FAOSTAT_data_en_1-30-2026_Oceania.csv") %>%
   select("Area", "Year", "Value") %>%
   rename(Country = Area,
          Agr_area = Value)
@@ -38,7 +34,6 @@ agr_world <- bind_rows(agr_africa,
                    agr_asia,
                    agr_europe,
                    agr_oceania)%>%
-  filter(Year != 2024) %>%
   pivot_wider(names_from  = Year,
               values_from = Agr_area)
 
