@@ -66,12 +66,7 @@ pop_world <- read_csv("data/API_SP.POP.TOTL_DS2_en_csv_v2_7.csv", skip = 4) %>%
              "LAC","LCN","LDC","LTE","MEA","MNA",
              "NAC","OED","OSS","PRE","PSS","PST",
              "SAS","SSA","SSF","SST","TEA","TEC",
-             "TLA","TMN","TSA","TSS")) #%>%
-
- # pivot_longer(cols = -Country,
-  #             names_to = "Year",
-   #            values_to = "Population") %>%
-#  mutate(Year = as.integer(Year))
+             "TLA","TMN","TSA","TSS")) 
 
 # geometries ###################################################################
 
@@ -85,16 +80,41 @@ countries_world <- st_read("data/World Bank Official Boundaries - Admin 0_all_la
 
 world_pop <- countries_world %>%
   left_join(pop_world,
-    by = c("Country_Code" = "Country Code")) %>% drop_na()
+            by = c("Country_Code" = "Country Code")) %>% 
+  drop_na() %>%
+  pivot_longer(cols = matches("^[0-9]{4}$"),
+               names_to = "year",
+               values_to = "Pop_value") %>%
+  mutate(year = as.integer(year)) %>%
+  st_drop_geometry() %>%
+  select(Country_Code, Country_Name, everything(), -Country)
+
+#-------------------------------------------------------------------------------
 
 world_agr <- countries_world %>%
   left_join(agr_world,
-            by = c("Country_Code" = "iso3"))
+            by = c("Country_Code" = "iso3")) %>%
+  st_transform(6933) %>%
+  st_make_valid() %>% 
+  mutate(country_area_m2 = as.numeric(st_area(geometry))) %>%
+  mutate(across(matches("^[0-9]{4}$"),
+      ~ (.x * 1e7 / country_area_m2) * 100)) %>%
+  st_drop_geometry() %>%
+  select(-Country)
+
+world_agr <- world_agr %>%
+  pivot_longer(
+    cols = matches("^[0-9]{4}$"),
+    names_to = "year",
+    values_to = "Crop_per") %>%
+  mutate(year = as.integer(year))%>%
+  select(Country_Code, Country_Name, everything(), -country_area_m2)
 
 # save #########################################################################
 
 st_write(world_pop,
-  "data/world_pop.shp")
+  "data/world_pop.csv")
 
 st_write(world_agr,
-  "data/world_agr.shp")
+  "data/world_agr.csv")
+
