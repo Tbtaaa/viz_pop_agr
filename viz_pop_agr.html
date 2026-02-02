@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8' />
     <title>Cropland vs Population</title>
@@ -8,10 +9,116 @@
     <link href="https://api.mapbox.com/mapbox-gl-js/v3.17.0/mapbox-gl.css" rel="stylesheet">
     <script src="https://api.mapbox.com/mapbox-gl-js/v3.17.0/mapbox-gl.js"></script>
     <link href='MapboxHousePrice_example_styles.css' rel='stylesheet' />  
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
     
     <style>
         body { margin:0; padding:0; }
         #map { position:absolute; top:0; bottom:0; width:100%; }
+        #panel{
+            position:absolute;
+            bottom:16px;
+            left:16px;
+            width:400px;
+            max-width: 40vw;
+            background: rgba(255, 255, 255, 0.88);
+            border-radius: 8px;
+            padding: 8px;
+            font-family: Arial, sans-serif;
+            z-index: 10;
+            overflow-y: auto;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.2s ease;
+            box-shadow: 0 10px 28px rgba(246, 246, 246, 0.1);
+        }
+      
+        .panel-title{
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        
+        .chartCanvasWrap{
+            height: 190px;  
+        }
+        
+        .chartCanvasWrap canvas{
+            width: 100% !important;
+            height: 100% !important;
+            display: block;
+        }
+
+        #infoBox{
+            position: absolute;
+            top: 16px;
+            left: 16px;
+            width: 388px;
+            max-width: 40vw;
+            background: rgba(255, 255, 255, 0.90);
+            border-radius: 12px;
+            padding: 14px 14px;
+            font-family: Arial, sans-serif;
+            z-index: 20;
+            box-shadow: 0 10px 28px rgba(246,246,246,0.10);
+          }
+
+        .info-title1{
+            font-weight: 800;
+            font-size: 22px;
+            line-height: 1.1;
+            margin-bottom: 6px;
+            color: #70A22E;
+          }
+
+        .info-title2{
+            font-weight: 800;
+            font-size: 22px;
+            line-height: 1.1;
+            margin-bottom: 10px;
+          }  
+
+        .info-subtitle{
+            opacity: 0.75;
+            font-size: 15px;
+            margin-bottom: 15px;
+          }
+
+        .info-meta{
+            font-size: 12px;
+            line-height: 1.4;
+            border-left: 3px solid rgba(0,0,0,0.15);
+            opacity: 0.75;
+            line-height: 1.35;
+            margin-bottom: 12px;
+            padding-left: 12px;
+          }
+
+        .info-legend{
+            margin-bottom: 10px;
+          }
+
+        .legend-row{
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin: 6px 0;
+            font-size: 12px;
+          }
+
+        .swatch{
+            width: 12px;
+            height: 12px;
+            border-radius: 3px;
+            display: inline-block;
+          }
+
+        .swatch-pop{ background: #000000; }  
+        .swatch-crop{ background: #70A22E; } 
+
+        .info-small{
+            font-size: 12px;
+            opacity: 0.85;
+          }
     </style>
 </head>
 
@@ -19,20 +126,207 @@
 
 <div id='map'></div>
 
-<script>  // This is the mapbox base
-    mapboxgl.accessToken = 'pk.eyJ1IjoidGJ0YWFhIiwiYSI6ImNta2xoNnYzejA0ZG4zZnBoOXFsbjJnY3kifQ.uYS3fcXXVnpjRIhd4GSWOA';
+<!-- Info box -->
+<div id="infoBox">
+  <div class="info-title1">CROPLAND COVER and</div>
+  <div class="info-title2">POPULATION CHANGE</div>
+  <div class="info-subtitle">How have cropland cover and population changed across countries over time?</div>
 
-    // Load a new map in the 'map' HTML div
-    var map = new mapboxgl.Map({
-    container: 'map', // container id
-    style: 'mapbox://styles/tbtaaa/cml1h8rbt001t01sg0gp4fuy6', // location of the stylesheet with the house price data layers included
-    center: [-2.5, 52], // starting position [lng, lat]
-    zoom: 5, // starting zoom
-    hash: true
+  <div class="info-meta">
+    <div>Cropland by year per country: <a href="https://www.fao.org/faostat/en/#data/RL" target="_blank">FAOSTAT</a></div>
+    <div>Population by year per country: <a href="https://data.worldbank.org/indicator/SP.POP.TOTL" target="_blank">World Bank - Population</a></div>
+    <div>Countries official boundaries: <a href=" https://datacatalog.worldbank.org/search/dataset/0038272/world-bank-official-boundaries" target="_blank">World Bank - Boundaries</a></div>
+    <div>World Cropland cover and urba areas: Copernicus satellite</div>
+  </div>
+
+  <div class="info-legend">
+    <div class="legend-row">
+      <span class="swatch swatch-pop"></span>
+      <span>Urban area</span>
+    </div>
+    <div class="legend-row">
+      <span class="swatch swatch-crop"></span>
+      <span>Cropland cover</span>
+    </div>
+  </div>
+
+  <div class="info-small" id="globalIndexLine">
+    Global index: —
+  </div>
+</div>
+
+<!-- Charts -->
+<div id="panel">   
+  <div class="panel-title" id="panelTitle">Select a country</div>
+
+  <div id="chartsContainer">
+  
+    <!-- Population chart -->
+    <div class="chartCanvasWrap">
+      <canvas id="popChart"></canvas>
+    </div>
+    
+    <!-- Cropland percentage chart -->
+    <div class="chartCanvasWrap">
+      <canvas id="cropChart"></canvas>
+    </div>
+  </div>
+</div>
+
+<script>  
+
+// Datasets
+const POP_CSV_URL  = "https://raw.githubusercontent.com/Tbtaaa/viz_pop_agr/main/viz_pop_agr/data/world_pop.csv";
+const CROP_CSV_URL = "https://raw.githubusercontent.com/Tbtaaa/viz_pop_agr/main/viz_pop_agr/data/world_agr.csv";
+
+// Define variables
+let popByISO = new Map();
+let cropByISO = new Map();
+
+// Function to read detasets
+function loadCSV(url) {
+  return new Promise((resolve, reject) => {
+    Papa.parse(url, {
+      download: true,
+      header: true,
+      dynamicTyping: true,
+      complete: (results) => resolve(results.data),
+      error: (err) => reject(err)
     });
+  });
+}
 
- map.addControl(new mapboxgl.NavigationControl());
- map.addControl(new mapboxgl.ScaleControl(), 'bottom-right');
+// Creates a series for all the countries
+function buildSeriesMap(rows, isoCol, yearCol, valueCol) {
+  const m = new Map();
+
+  for (const r of rows) {
+    const iso = r[isoCol];
+    const year = Number(r[yearCol]);
+    const val  = Number(r[valueCol]);
+
+    if (!iso || Number.isNaN(year) || Number.isNaN(val)) continue;
+    if (!m.has(iso)) m.set(iso, []);
+    m.get(iso).push({ x: year, y: val });
+  }
+
+  // organize by year
+  for (const [iso, arr] of m.entries()) {
+    arr.sort((a, b) => a.x - b.x);
+  }
+
+  return m;
+}
+
+// Load the datasets
+async function loadAllData() {
+  const [popRows, cropRows] = await Promise.all([
+    loadCSV(POP_CSV_URL),
+    loadCSV(CROP_CSV_URL)
+  ]);
+
+  popByISO  = buildSeriesMap(popRows,  "Country_Code", "year", "Pop_value");
+  cropByISO = buildSeriesMap(cropRows, "Country_Code", "year", "Crop_per");
+}
+
+let popChart, cropChart;
+const Y_AXIS_WIDTH = 52;
+
+// Animations -------------------------------------------------------------------------------------------
+function makeProgressiveOptions(yTitle, yTickFormatter = null) {
+  return {
+    responsive: true,
+    maintainAspectRatio: false,
+    animation: {
+      duration: 900,
+      easing: "linear"
+    },
+    plugins: {
+      legend: { display: false }
+    },
+    scales: {
+      x: {
+        type: "linear",
+        min: 1990,
+        max: 2025,
+        title: { display: true, text: "Year" },
+        ticks: { maxTicksLimit: 6,
+        callback: (value) => String(value).replaceAll(",", "") }},
+      y: {
+        title: { display: true, 
+          text: yTitle, 
+          padding: {
+            top: 0,
+            bottom: 2
+          }},
+        ticks: yTickFormatter ? { callback: yTickFormatter } : {},
+        afterFit: (scale) => {
+        scale.width = Y_AXIS_WIDTH;
+        }
+      }
+    }  
+  };
+}
+
+// Define charts -------------------------------------------------------------------------------------
+function createCharts() {
+  const popCtx  = document.getElementById("popChart").getContext("2d");
+  const cropCtx = document.getElementById("cropChart").getContext("2d");
+  const popFmt = new Intl.NumberFormat("en", {
+  notation: "compact",
+  compactDisplay: "short",
+  maximumFractionDigits: 1
+  });
+
+// Population chart
+  popChart = new Chart(popCtx, {
+    type: "line",
+    data: {
+      datasets: [{
+        label: "Population",
+        data: [],
+        borderColor: "black",
+        backgroundColor: "transparent",
+        pointRadius: 0,
+        tension: 0.25
+      }],
+      },
+    options: makeProgressiveOptions("People", (v) => popFmt.format(v))
+  });
+
+// Cropland chart
+  cropChart = new Chart(cropCtx, {
+    type: "line",
+    data: {
+      datasets: [{
+        label: "% Cropland",
+        data: [],
+        borderColor: "#70A22E",
+        backgroundColor: "transparent",
+        pointRadius: 0,
+        tension: 0.25
+      }]
+    },
+    options: makeProgressiveOptions("% Cropland")
+  });
+}
+
+// This is the mapbox base
+mapboxgl.accessToken = 'pk.eyJ1IjoidGJ0YWFhIiwiYSI6ImNta2xoNnYzejA0ZG4zZnBoOXFsbjJnY3kifQ.uYS3fcXXVnpjRIhd4GSWOA';
+
+// Load a new map in the 'map' HTML div
+var map = new mapboxgl.Map({
+container: 'map', // container id
+style: 'mapbox://styles/tbtaaa/cml1h8rbt001t01sg0gp4fuy6', // location of the stylesheet with the house price data layers included
+center: [-75, -8], // starting position [lng, lat]
+zoom: 4, // starting zoom
+minZoom: 1.5, 
+maxZoom: 8,
+projection: 'mercator',
+});
+
+map.addControl(new mapboxgl.NavigationControl());
+map.addControl(new mapboxgl.ScaleControl(), 'bottom-right');
 
 // disable map rotation using right click + drag
 map.dragRotate.disable();
@@ -40,62 +334,88 @@ map.dragRotate.disable();
 // disable map rotation using touch rotation gesture
 map.touchZoomRotate.disableRotation();
 
-map.on('load', () => {
+map.on('load', async () => {
+  await loadAllData();
+  createCharts();
 
-      map.addSource("countries-src", {
-        type: "vector",
-        url: "mapbox://tbtaaa.74s6scc0",
-        maxzoom: 8.5
-      });
+  map.addSource("countries-src", {
+    type: "vector",
+    url: "mapbox://tbtaaa.18ou27jd",
+    maxzoom: 5
+    });
 
-      // This must match the source-layer name INSIDE the tileset
-      const SOURCE_LAYER = "world_boundaries-dpk3jr";
+// This must match the source-layer name INSIDE the tileset
+const SOURCE_LAYER = "world_boundaries_simp-87nnt9";
 
-      // This must match the attribute name in your tileset properties
-      const NAME_FIELD = "NAM_0";
+// This must match the attribute name in your tileset properties
+const NAME_FIELD = "ISO_A3";
+const COUNTRY_FIELD = "NAM_0";
 
-    map.addLayer({ 
-            id: 'Countries',
-            type: 'fill',
-            source:  "countries-src",
-            "source-layer": SOURCE_LAYER,
-            paint: {
-                'fill-color': '#fff',
-                'fill-opacity': 0
-                }
-          });
+// Country
+map.addLayer({  
+    id: 'Countries',
+    type: 'fill',
+    source:  "countries-src",
+    "source-layer": SOURCE_LAYER,
+    paint: {
+        'fill-color': '#fff',
+        'fill-opacity': 0
+    }
+});
 
-    map.addLayer({ 
-            id: 'lahighlight',
-            type: 'line',
-            source: "countries-src",
-            "source-layer": SOURCE_LAYER,
-            paint: {
-                'line-color': '#adf',
-                'line-width': 3
-                },
-            filter: ["==", ["get", NAME_FIELD], ""]
-          });
+// Highlight
+map.addLayer({ 
+    id: 'lahighlight',
+    type: 'line',
+    source: "countries-src",
+    "source-layer": SOURCE_LAYER,
+    paint: {
+        'line-color': '#2D93AD',
+        'line-width': 2
+    },
+    filter: ["==", ["get", NAME_FIELD], ""]
+});
 
-      map.on("mousemove", "Countries", (e) => {
-        map.getCanvas().style.cursor = "pointer";
+const panelEl = document.getElementById("panel");
+let lastISO = null;
 
-        if (!e.features || !e.features.length) return;
+// What happens when mouse is on
+map.on("mousemove", "Countries", (e) => {
 
-        const f = e.features[0];
-        const hoveredName = f.properties?.[NAME_FIELD];
+  map.getCanvas().style.cursor = "pointer";
 
-        if (hoveredName == null) {
-          return;
-        }
+  panelEl.style.opacity = 1;
 
-        map.setFilter("lahighlight", ["==", ["get", NAME_FIELD], hoveredName]);
-      });
+  if (!e.features || !e.features.length) return;
 
-      map.on("mouseleave", "Countries", () => {
-        map.getCanvas().style.cursor = "";
-        map.setFilter("lahighlight", ["==", ["get", NAME_FIELD], ""]);
-      });
+  const iso = e.features[0].properties?.[NAME_FIELD];
+  const countryName = e.features[0].properties?.[COUNTRY_FIELD];
+
+  if (!iso) return;
+  if (iso === lastISO) return;
+  lastISO = iso;
+
+  document.getElementById("panelTitle").textContent = countryName;
+
+  const popSeries  = popByISO.get(iso)  || [];
+  const cropSeries = cropByISO.get(iso) || [];
+
+  popChart.data.datasets[0].data  = popSeries;
+  cropChart.data.datasets[0].data = cropSeries;
+
+  popChart.update();
+  cropChart.update();
+  
+  map.setFilter("lahighlight", ["==", ["get", NAME_FIELD], iso]);
+});
+
+// What happens when mouse is off
+map.on("mouseleave", "Countries", () => {
+    map.getCanvas().style.cursor = "";
+    panelEl.style.opacity = 0;
+    lastISO = null;
+    map.setFilter("lahighlight", ["==", ["get", NAME_FIELD], ""]);
+});
 
 });
 
