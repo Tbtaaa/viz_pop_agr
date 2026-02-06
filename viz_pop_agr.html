@@ -12,119 +12,9 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
     <script src="https://unpkg.com/@turf/turf@6/turf.min.js"></script>
+    <link href='viz_pop_agr_style.css' rel='stylesheet' />
+    <!-- <link href='https://raw.githubusercontent.com/Tbtaaa/viz_pop_agr/viz_pop_agr_style.css' rel='stylesheet' /> -->
 
-    <style>
-        body { margin:0; padding:0; }
-        #map { position:absolute; top:0; bottom:0; width:100%; }
-        #panel{
-            position:absolute;
-            bottom:16px;
-            left:16px;
-            width:400px;
-            max-width: 40vw;
-            background: rgba(255, 255, 255, 0.88);
-            border-radius: 8px;
-            padding: 8px;
-            font-family: Arial, sans-serif;
-            z-index: 10;
-            overflow-y: auto;
-            opacity: 0;
-            pointer-events: none;
-            transition: opacity 0.2s ease;
-            box-shadow: 0 10px 28px rgba(246, 246, 246, 0.1);
-        }
-      
-        .panel-title{
-            font-weight: 700;
-            margin-bottom: 10px;
-        }
-        
-        .chartCanvasWrap{
-            height: 185px;  
-        }
-        
-        .chartCanvasWrap canvas{
-            width: 100% !important;
-            height: 100% !important;
-            display: block;
-        }
-
-        #infoBox{
-            position: absolute;
-            top: 16px;
-            left: 16px;
-            width: 388px;
-            height: 285px;
-            max-width: 40vw; 
-            background: rgba(255, 255, 255, 0.90);
-            border-radius: 12px;
-            padding: 14px 14px;
-            font-family: Arial, sans-serif;
-            z-index: 20;
-            box-shadow: 0 10px 28px rgba(246,246,246,0.10);
-          }
-
-        .info-title1{
-            font-weight: 800;
-            font-size: 22px;
-            line-height: 1.1;
-            margin-bottom: 6px;
-            color: #70A22E;
-          }
-
-        .info-title2{
-            font-weight: 800;
-            font-size: 22px;
-            line-height: 1.1;
-            margin-bottom: 10px;
-          }  
-
-        .info-subtitle{
-            opacity: 0.75;
-            font-size: 15px;
-            margin-bottom: 15px;
-          }
-
-        .info-meta{
-            font-size: 12px;
-            line-height: 1.4;
-            border-left: 3px solid rgba(0,0,0,0.15);
-            opacity: 0.75;
-            line-height: 1.35;
-            margin-bottom: 12px;
-            padding-left: 12px;
-          }
-
-        .info-legend{
-            margin-bottom: 10px;
-          }
-
-        .legend-row{
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            margin: 6px 0;
-            font-size: 12px;
-          }
-
-        .swatch{
-            width: 12px;
-            height: 8px;
-            border-radius: 3px;
-            display: inline-block;
-          }
-
-        .swatch-pop{ background: #000000; }  
-        .swatch-crop10{ background: #6EA018; } 
-        .swatch-crop20{ background: #42B21F; }
-        .swatch-crop30{ background: #0B6A06; }
-        .swatch-crop40{ background: #3C5828; }
-
-        .info-small{
-            font-size: 12px;
-            opacity: 0.85;
-          }
-    </style>
 </head>
 
 <body>
@@ -170,6 +60,7 @@
 
 <!-- Charts -->
 <div id="panel">   
+   <button id="closePanel" aria-label="Close panel">×</button>
   <div class="panel-title" id="panelTitle">Select a country</div>
 
   <div id="chartsContainer">
@@ -245,39 +136,122 @@ async function loadAllData() {
 let popChart, cropChart;
 const Y_AXIS_WIDTH = 52;
 
+// Reveal (clip) from left plugin for Chart.js
+const revealFromLeftPlugin = {
+  id: "revealFromLeft",
+  beforeDatasetsDraw(chart) {
+    const { ctx, chartArea } = chart;
+    if (!chartArea) return;
+
+    const t = chart.$revealT ?? 1; // 0..1
+    const w = chartArea.width * t;
+
+    ctx.save();
+    ctx.beginPath();
+    ctx.rect(chartArea.left, chartArea.top, w, chartArea.height);
+    ctx.clip();
+  },
+  afterDatasetsDraw(chart) {
+    chart.ctx.restore();
+  }
+};
+
+Chart.register(revealFromLeftPlugin);
+
+// Manual reveal animation (no morph between countries)
+function revealChartFromLeft(chart, duration = 1200) {
+  chart.$revealT = 0;
+  const start = performance.now();
+
+  function frame(now) {
+    chart.$revealT = Math.min(1, (now - start) / duration);
+    chart.draw();
+    if (chart.$revealT < 1) requestAnimationFrame(frame);
+  }
+
+  requestAnimationFrame(frame);
+}
+
 // Animations -------------------------------------------------------------------------------------------
 function makeProgressiveOptions(yTitle, yTickFormatter = null) {
   return {
-    responsive: true,
-    maintainAspectRatio: false,
-    animation: {
-      duration: 900,
-      easing: "linear"
+    interaction: {
+      mode: "index",
+      intersect: false
     },
     plugins: {
-      legend: { display: false }
+      legend: { display: false },
+      revealFromLeft: {},
+      tooltip: {
+  enabled: true,
+  mode: "index",
+  intersect: false,
+  displayColors: false,
+  position: "nearest",
+
+  // ✅ cuadro
+  backgroundColor: (ctx) => {
+    const label = ctx?.tooltip?.dataPoints?.[0]?.dataset?.label || "";
+    // Population -> negro, Cropland -> verde
+    return label.includes("Cropland") ? "#70A22E" : "#000000";
+  },
+  borderWidth: 0,
+  cornerRadius: 8,
+  padding: {
+  top: 6,
+  bottom: 6,
+  left: 8,
+  right: 8
+},
+  caretSize: 6,
+
+  // ✅ texto blanco
+  titleColor: "#ffffff",
+  bodyColor: "#ffffff",
+
+  titleFont: { weight: "700", size: 12, lineHeight: 0.8 }, // año bold
+  bodyFont: { weight: "400", size: 12, lineHeight: 0.8 },  // valor regular
+
+  callbacks: {
+    // ✅ Año arriba
+    title: (items) => {
+      const year = items?.[0]?.parsed?.x;
+      return year != null ? String(year) : "";
     },
+    // ✅ Valor abajo (solo número)
+    label: (ctx) => {
+      const v = ctx.parsed.y;
+      return v != null ? Number(v).toLocaleString() : "";
+    }
+  }
+}
+    },
+    responsive: true,
+    maintainAspectRatio: false,
+    animation: false,
     scales: {
       x: {
         type: "linear",
         min: 1990,
         max: 2025,
         title: { display: true, text: "Year" },
-        ticks: { maxTicksLimit: 6,
-        callback: (value) => String(value).replaceAll(",", "") }},
+        ticks: {
+          maxTicksLimit: 6,
+          callback: (value) => String(value).replaceAll(",", "")
+        }
+      },
       y: {
-        title: { display: true, 
-          text: yTitle, 
-          padding: {
-            top: 0,
-            bottom: 2
-          }},
+        title: {
+          display: true,
+          text: yTitle,
+          padding: { top: 0, bottom: 2 }
+        },
         ticks: yTickFormatter ? { callback: yTickFormatter } : {},
         afterFit: (scale) => {
-        scale.width = Y_AXIS_WIDTH;
+          scale.width = Y_AXIS_WIDTH;
         }
       }
-    }  
+    }
   };
 }
 
@@ -322,7 +296,17 @@ function createCharts() {
         tension: 0.25
       }]
     },
-    options: makeProgressiveOptions("% Cropland")
+    options:{
+      ...makeProgressiveOptions("% Cropland"),
+      scales: {
+        ...makeProgressiveOptions("% Cropland").scales,
+      y: {
+        ...makeProgressiveOptions("% Cropland").scales.y,
+      min: 0,
+      max: 70
+    }
+  }
+}
   });
 }
 
@@ -335,7 +319,7 @@ container: 'map', // container id
 style: 'mapbox://styles/tbtaaa/cml1h8rbt001t01sg0gp4fuy6', // location of the stylesheet with the house price data layers included
 center: [-75, -8], // starting position [lng, lat]
 zoom: 4.1, // starting zoom
-minZoom: 0, 
+minZoom: 2, 
 maxZoom: 6,
 projection: 'equirectangular'
 });
@@ -393,6 +377,56 @@ map.addLayer({
 
 const panelEl = document.getElementById("panel");
 let lastISO = null;
+let pinnedISO = null;
+
+document.getElementById("closePanel").addEventListener("click", (ev) => {
+  ev.stopPropagation(); // por si acaso
+  unpinCharts();
+});
+
+function showCountryCharts(iso, countryName) {
+  panelEl.style.opacity = 1;
+  document.getElementById("panelTitle").textContent = countryName || iso;
+
+  const popSeries  = popByISO.get(iso)  || [];
+  const cropSeries = cropByISO.get(iso) || [];
+
+  popChart.data.datasets[0].data  = popSeries;
+  cropChart.data.datasets[0].data = cropSeries;
+
+  popChart.update("none");
+  cropChart.update("none");
+
+  revealChartFromLeft(popChart);
+  revealChartFromLeft(cropChart);
+
+  map.setFilter("lahighlight", ["==", ["get", NAME_FIELD], iso]);
+  setPinnedTooltips(true);
+
+  document.getElementById("closePanel").style.display = "block";
+}
+
+function unpinCharts() {
+  pinnedISO = null;
+  lastISO = null;
+  panelEl.style.opacity = 0;
+  panelEl.style.pointerEvents = "none";
+  document.getElementById("panelTitle").textContent = "Select a country";
+  map.setFilter("lahighlight", ["==", ["get", NAME_FIELD], ""]);
+  setPinnedTooltips(false);
+  document.getElementById("closePanel").style.display = "none";
+}
+
+function setPinnedTooltips(isPinned) {
+  const on = !!isPinned;
+
+  popChart.options.plugins.tooltip.enabled = on;
+  cropChart.options.plugins.tooltip.enabled = on;
+
+  // actualiza sin animación
+  popChart.update("none");
+  cropChart.update("none");
+}
 
 // What happens when mouse is on
 map.on("mousemove", "Countries", (e) => {
@@ -400,6 +434,8 @@ map.on("mousemove", "Countries", (e) => {
   map.getCanvas().style.cursor = "pointer";
 
   panelEl.style.opacity = 1;
+  panelEl.style.pointerEvents = "auto";
+  if (pinnedISO) return;
 
   if (!e.features || !e.features.length) return;
 
@@ -418,8 +454,13 @@ map.on("mousemove", "Countries", (e) => {
   popChart.data.datasets[0].data  = popSeries;
   cropChart.data.datasets[0].data = cropSeries;
 
-  popChart.update();
-  cropChart.update();
+  // update WITHOUT morphing from previous country
+  popChart.update("none");
+  cropChart.update("none");
+
+  // reveal from left
+  revealChartFromLeft(popChart);
+  revealChartFromLeft(cropChart);  
   
   map.setFilter("lahighlight", ["==", ["get", NAME_FIELD], iso]);
 });
@@ -427,17 +468,28 @@ map.on("mousemove", "Countries", (e) => {
 // What happens when clicking on a country
 map.on("click", "Countries", (e) => {
   if (!e.features || !e.features.length) return;
-
-  // From zoom 2
   if (map.getZoom() < 2) return;
 
-  const feature = e.features[0];
+  const iso = e.features[0].properties?.[NAME_FIELD];
+  const countryName = e.features[0].properties?.[COUNTRY_FIELD];
+  if (!iso) return;
 
-  // Cenre
-  const bbox = turf.bbox(feature); // [minX, minY, maxX, maxY]
+  // toggle: click same country -> unpin
+  if (pinnedISO === iso) {
+    unpinCharts();
+    return;
+  }
+
+  // pin new country
+  pinnedISO = iso;
+  lastISO = iso;
+  showCountryCharts(iso, countryName);
+
+  // (tu zoom-centre se queda igual)
+  const feature = e.features[0];
+  const bbox = turf.bbox(feature);
   const center = [(bbox[0] + bbox[2]) / 2, (bbox[1] + bbox[3]) / 2];
 
-  // Keep zoom
   map.easeTo({
     center,
     zoom: map.getZoom(),
@@ -448,6 +500,7 @@ map.on("click", "Countries", (e) => {
 
 // What happens when mouse is off
 map.on("mouseleave", "Countries", () => {
+  if (pinnedISO) return;
     map.getCanvas().style.cursor = "";
     panelEl.style.opacity = 0;
     lastISO = null;
