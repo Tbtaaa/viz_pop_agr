@@ -76,6 +76,19 @@ countries_world <- st_read("data/World Bank Official Boundaries - Admin 0_all_la
   rename(Country_Code = ISO_A3,
          Country_Name = NAM_0)
 
+#-------------------------------------------------------------------------------
+
+countries_world <- countries_world %>%
+  mutate(Country_Name = case_when(
+    Country_Code == "CIV" ~ "Côte d’Ivoire",
+    Country_Code == "STP" ~ "São Tomé and Príncipe",
+    Country_Code == "REU" ~ "eéunion",
+    Country_Code == "MYT" ~ "Mayotte",
+    Country_Code == "GLP" ~ "Guadeloupe",
+    Country_Code == "MTQ" ~ "Martinique",
+    Country_Code == "GUF" ~ "French Guiana",
+    TRUE ~ Country_Name))
+
 # combine ######################################################################
 
 world_pop <- countries_world %>%
@@ -91,18 +104,29 @@ world_pop <- countries_world %>%
 
 #-------------------------------------------------------------------------------
 
-world_agr <- countries_world %>%
+year_cols <- names(agr_world)[grepl("^[0-9]{4}$", names(agr_world))]
+
+world_agr_1 <- countries_world %>%
   left_join(agr_world,
             by = c("Country_Code" = "iso3")) %>%
   st_transform(6933) %>%
-  st_make_valid() %>% 
-  mutate(country_area_m2 = as.numeric(st_area(geometry))) %>%
-  mutate(across(matches("^[0-9]{4}$"),
-      ~ (.x * 1e7 / country_area_m2) * 100)) %>%
-  st_drop_geometry() %>%
-  select(-Country)
+  st_make_valid() %>%
+  group_by(Country_Code, Country_Name) %>%
+  summarise(
+    across(all_of(year_cols), first),
+    geometry = st_union(geometry),
+    .groups = "drop")
 
-world_agr <- world_agr %>%
+world_agr_2 <- world_agr_1 %>% 
+  mutate(country_area_m2 = as.numeric(st_area(geometry))) %>%
+  mutate(across(all_of(year_cols),
+                ~ (.x * 1e7 / country_area_m2) * 100)) %>%
+  distinct(Country_Code, .keep_all = TRUE)
+
+world_agr_3 <- world_agr_2 %>%
+  st_drop_geometry()
+
+world_agr <- world_agr_3 %>%
   pivot_longer(
     cols = matches("^[0-9]{4}$"),
     names_to = "year",
@@ -113,8 +137,14 @@ world_agr <- world_agr %>%
 # save #########################################################################
 
 st_write(world_pop,
-  "data/world_pop.csv")
+         "data/world_pop.csv")
 
 st_write(world_agr,
-  "data/world_agr.csv")
+         "data/world_agr.csv")
 
+st_write(countries_world,
+         "data/World_boundaries/world_boundaries.shp")
+
+#lokk for NULL values
+#check countries names
+#nas <- world_agr %>% filter(if_any(everything(), is.na))

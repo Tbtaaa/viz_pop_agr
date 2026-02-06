@@ -11,7 +11,8 @@
     <link href='MapboxHousePrice_example_styles.css' rel='stylesheet' />  
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
-    
+    <script src="https://unpkg.com/@turf/turf@6/turf.min.js"></script>
+
     <style>
         body { margin:0; padding:0; }
         #map { position:absolute; top:0; bottom:0; width:100%; }
@@ -39,7 +40,7 @@
         }
         
         .chartCanvasWrap{
-            height: 190px;  
+            height: 185px;  
         }
         
         .chartCanvasWrap canvas{
@@ -53,7 +54,8 @@
             top: 16px;
             left: 16px;
             width: 388px;
-            max-width: 40vw;
+            height: 285px;
+            max-width: 40vw; 
             background: rgba(255, 255, 255, 0.90);
             border-radius: 12px;
             padding: 14px 14px;
@@ -107,13 +109,16 @@
 
         .swatch{
             width: 12px;
-            height: 12px;
+            height: 8px;
             border-radius: 3px;
             display: inline-block;
           }
 
         .swatch-pop{ background: #000000; }  
-        .swatch-crop{ background: #70A22E; } 
+        .swatch-crop10{ background: #6EA018; } 
+        .swatch-crop20{ background: #42B21F; }
+        .swatch-crop30{ background: #0B6A06; }
+        .swatch-crop40{ background: #3C5828; }
 
         .info-small{
             font-size: 12px;
@@ -145,13 +150,21 @@
       <span>Urban area</span>
     </div>
     <div class="legend-row">
-      <span class="swatch swatch-crop"></span>
-      <span>Cropland cover</span>
+      <span class="swatch swatch-crop10"></span>
+      <span>Sparse cropland</span>
     </div>
-  </div>
-
-  <div class="info-small" id="globalIndexLine">
-    Global index: —
+        <div class="legend-row">
+      <span class="swatch swatch-crop20"></span>
+      <span>Mosaic cropland</span>
+    </div>
+        <div class="legend-row">
+      <span class="swatch swatch-crop30"></span>
+      <span>Medium coverage</span>
+    </div>
+        <div class="legend-row">
+      <span class="swatch swatch-crop40"></span>
+      <span>High coverage</span>
+    </div>
   </div>
 </div>
 
@@ -286,7 +299,8 @@ function createCharts() {
         label: "Population",
         data: [],
         borderColor: "black",
-        backgroundColor: "transparent",
+        backgroundColor: "rgba(0, 0, 0, 0.05)",
+        fill: true,
         pointRadius: 0,
         tension: 0.25
       }],
@@ -302,7 +316,8 @@ function createCharts() {
         label: "% Cropland",
         data: [],
         borderColor: "#70A22E",
-        backgroundColor: "transparent",
+        backgroundColor: "rgba(112, 162, 46, 0.1)",
+        fill: true,
         pointRadius: 0,
         tension: 0.25
       }]
@@ -319,10 +334,10 @@ var map = new mapboxgl.Map({
 container: 'map', // container id
 style: 'mapbox://styles/tbtaaa/cml1h8rbt001t01sg0gp4fuy6', // location of the stylesheet with the house price data layers included
 center: [-75, -8], // starting position [lng, lat]
-zoom: 4, // starting zoom
-minZoom: 1.5, 
-maxZoom: 8,
-projection: 'mercator',
+zoom: 4.1, // starting zoom
+minZoom: 0, 
+maxZoom: 6,
+projection: 'equirectangular'
 });
 
 map.addControl(new mapboxgl.NavigationControl());
@@ -340,16 +355,16 @@ map.on('load', async () => {
 
   map.addSource("countries-src", {
     type: "vector",
-    url: "mapbox://tbtaaa.18ou27jd",
+    url: "mapbox://tbtaaa.0iwy57p6",
     maxzoom: 5
     });
 
 // This must match the source-layer name INSIDE the tileset
-const SOURCE_LAYER = "world_boundaries_simp-87nnt9";
+const SOURCE_LAYER = "world_boundaries_simp02-210taa";
 
 // This must match the attribute name in your tileset properties
-const NAME_FIELD = "ISO_A3";
-const COUNTRY_FIELD = "NAM_0";
+const NAME_FIELD = "Cntry_C";
+const COUNTRY_FIELD = "Cntry_N";
 
 // Country
 map.addLayer({  
@@ -370,7 +385,7 @@ map.addLayer({
     source: "countries-src",
     "source-layer": SOURCE_LAYER,
     paint: {
-        'line-color': '#2D93AD',
+        'line-color': '#27187E',
         'line-width': 2
     },
     filter: ["==", ["get", NAME_FIELD], ""]
@@ -407,6 +422,28 @@ map.on("mousemove", "Countries", (e) => {
   cropChart.update();
   
   map.setFilter("lahighlight", ["==", ["get", NAME_FIELD], iso]);
+});
+
+// What happens when clicking on a country
+map.on("click", "Countries", (e) => {
+  if (!e.features || !e.features.length) return;
+
+  // From zoom 2
+  if (map.getZoom() < 2) return;
+
+  const feature = e.features[0];
+
+  // Cenre
+  const bbox = turf.bbox(feature); // [minX, minY, maxX, maxY]
+  const center = [(bbox[0] + bbox[2]) / 2, (bbox[1] + bbox[3]) / 2];
+
+  // Keep zoom
+  map.easeTo({
+    center,
+    zoom: map.getZoom(),
+    offset: [180, 0],
+    duration: 700
+  });
 });
 
 // What happens when mouse is off
