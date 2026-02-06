@@ -15,31 +15,60 @@
     <style>
       body { margin:0; padding:0; }
         #map { position:absolute; top:0; bottom:0; width:100%; }
-        #panel{
-          position:absolute;
-          bottom:16px;
-          left:16px;
-          width:400px;
-          max-width: 40vw;
- 
-          border-radius: 8px;
-          padding: 8px;          
- 
+
+        #leftColumn{
+          position: absolute;
+          top: 16px;
+          left: 16px;
+          bottom: 16px;
+          width: min(425px, 40vw);
+          display: flex;
+          flex-direction: column;
+          gap: 16px;
+          z-index: 30;
+        }
+
+        #infoBox{
+          position: relative;
+          width: 100%;
+          max-width: none;
+          box-sizing: border-box;
+
+          background: rgba(255, 255, 255, 0.90);
+          border-radius: 12px;
+          padding: 14px 14px;
           font-family: Arial, sans-serif;
-          z-index: 10;
+          z-index: 20;
+          box-shadow: 0 10px 28px rgba(246,246,246,0.10);
+        }
+
+        #panel{
+          position: relative;
+          width: 100%;
+          max-width: none;
+          box-sizing: border-box;
+
+          border-radius: 12px;
+          padding: 14px;
+          font-family: Arial, sans-serif;
+          background: rgba(255, 255, 255, 0.88);
+          box-shadow: 0 10px 28px rgba(246, 246, 246, 0.1);
+
+          flex: 1;
+          min-height: 180px;
           overflow-y: auto;
+          scrollbar-gutter: stable;
+
           opacity: 0;
           pointer-events: none;
           transition: opacity 0.2s ease;
-          background: rgba(255, 255, 255, 0.88);
-          box-shadow: 0 10px 28px rgba(246, 246, 246, 0.1);
-        }
+          }        
 
         #closePanel {
           display: none;
           position: absolute;
           top: 10px;
-          right: 12px;
+          right: 1px;
           border: none;
           background: none;
           font-size: 18px;
@@ -59,7 +88,7 @@
         }
         
         .chartCanvasWrap{
-          height: 185px;  
+          height: 160px;  
         }
         
         .chartCanvasWrap canvas{
@@ -67,21 +96,6 @@
           height: 100% !important;
           display: block;
         }
-
-        #infoBox{
-          position: absolute;
-          top: 16px;
-          left: 16px;
-          width: 388px;
-          height: 285px;
-          max-width: 40vw; 
-          background: rgba(255, 255, 255, 0.90);
-          border-radius: 12px;
-          padding: 14px 14px;
-          font-family: Arial, sans-serif;
-          z-index: 20;
-          box-shadow: 0 10px 28px rgba(246,246,246,0.10);
-         }
 
         .info-title1{
           font-weight: 800;
@@ -210,6 +224,14 @@
           transform: translateY(1px);
         }
 
+        @media (max-width: 1100px){
+        #leftColumn{
+          left: 5vw;
+          right: 5vw;
+          width: auto;
+        }
+      }
+        
     </style>
 
 </head>
@@ -243,6 +265,7 @@
   </div>
 </div>
 
+<div id="leftColumn">
 <!-- ID Info box -->
 <div id="infoBox">
   <div class="info-title1">CROPLAND COVER and</div>
@@ -358,7 +381,7 @@ async function loadAllData() {
 //#endregion
 
 let popChart, cropChart;
-const Y_AXIS_WIDTH = 60; 
+const Y_AXIS_WIDTH = 60;
 
 // Reveal (clip) from left
 const revealFromLeftPlugin = {
@@ -450,7 +473,7 @@ function makeProgressiveOptions(yTitle, yTickFormatter = null) {
         type: "linear",
         min: 1990,
         max: 2025,
-        title: { display: true, text: "Year" },
+        title: { display: false},
         ticks: {
           maxTicksLimit: 6,
           callback: (value) => String(value).replaceAll(",", "")
@@ -463,11 +486,9 @@ function makeProgressiveOptions(yTitle, yTickFormatter = null) {
           padding: { top: 0, bottom: 2 }
         },
         ticks: yTickFormatter ? { callback: yTickFormatter } : {},
-        afterFit: (scale) => {
-          scale.width = Y_AXIS_WIDTH;
-        }
+        afterFit: (scale) => {scale.width = Y_AXIS_WIDTH}
       }
-    }
+    }    
   };
 }
 
@@ -519,12 +540,19 @@ function createCharts() {
       y: {
         ...makeProgressiveOptions("% Cropland").scales.y,
       min: 0,
-      max: 70
+      max: 70,
+      ticks: {
+  callback: (v) => (v === 0 || v === 20 || v === 40 || v === 60 ? v : "")
+}
       }
       }
     }
   });
 }
+
+document.getElementById("startBtn").addEventListener("click", () => {
+document.getElementById("introOverlay").style.display = "none";
+});
 
 // This is the mapbox base
 mapboxgl.accessToken = 'pk.eyJ1IjoidGJ0YWFhIiwiYSI6ImNta2xoNnYzejA0ZG4zZnBoOXFsbjJnY3kifQ.uYS3fcXXVnpjRIhd4GSWOA';
@@ -722,10 +750,6 @@ map.on("mouseleave", "Countries", () => {
     panelEl.style.opacity = 0;
     lastISO = null;
     map.setFilter("lahighlight", ["==", ["get", NAME_FIELD], ""]);
-});
-
-document.getElementById("startBtn").addEventListener("click", () => {
-document.getElementById("introOverlay").style.display = "none";
 });
 
 });
