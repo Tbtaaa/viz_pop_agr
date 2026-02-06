@@ -8,20 +8,242 @@
 
     <link href="https://api.mapbox.com/mapbox-gl-js/v3.17.0/mapbox-gl.css" rel="stylesheet">
     <script src="https://api.mapbox.com/mapbox-gl-js/v3.17.0/mapbox-gl.js"></script>
-    <link href='MapboxHousePrice_example_styles.css' rel='stylesheet' />  
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
     <script src="https://unpkg.com/@turf/turf@6/turf.min.js"></script>
-    <link href='viz_pop_agr_style.css' rel='stylesheet' />
-    <!-- <link href='https://raw.githubusercontent.com/Tbtaaa/viz_pop_agr/viz_pop_agr_style.css' rel='stylesheet' /> -->
+
+    <style>
+      body { margin:0; padding:0; }
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+        #panel{
+          position:absolute;
+          bottom:16px;
+          left:16px;
+          width:400px;
+          max-width: 40vw;
+ 
+          border-radius: 8px;
+          padding: 8px;          
+ 
+          font-family: Arial, sans-serif;
+          z-index: 10;
+          overflow-y: auto;
+          opacity: 0;
+          pointer-events: none;
+          transition: opacity 0.2s ease;
+          background: rgba(255, 255, 255, 0.88);
+          box-shadow: 0 10px 28px rgba(246, 246, 246, 0.1);
+        }
+
+        #closePanel {
+          display: none;
+          position: absolute;
+          top: 10px;
+          right: 12px;
+          border: none;
+          background: none;
+          font-size: 18px;
+          font-weight: 600;
+          cursor: pointer;
+          color: #666;
+          line-height: 1;
+        }
+
+        #closePanel:hover {
+          color: #000;
+        }
+      
+        .panel-title{
+          font-weight: 700;
+          margin-bottom: 10px;
+        }
+        
+        .chartCanvasWrap{
+          height: 185px;  
+        }
+        
+        .chartCanvasWrap canvas{
+          width: 100% !important;
+          height: 100% !important;
+          display: block;
+        }
+
+        #infoBox{
+          position: absolute;
+          top: 16px;
+          left: 16px;
+          width: 388px;
+          height: 285px;
+          max-width: 40vw; 
+          background: rgba(255, 255, 255, 0.90);
+          border-radius: 12px;
+          padding: 14px 14px;
+          font-family: Arial, sans-serif;
+          z-index: 20;
+          box-shadow: 0 10px 28px rgba(246,246,246,0.10);
+         }
+
+        .info-title1{
+          font-weight: 800;
+          font-size: 22px;
+          line-height: 1.1;
+          margin-bottom: 6px;
+          color: #70A22E;
+        }
+
+        .info-title2{
+          font-weight: 800;
+          font-size: 22px;
+          line-height: 1.1;
+          margin-bottom: 10px;
+        }  
+
+        .info-subtitle{
+          opacity: 0.75;
+          font-size: 15px;
+          margin-bottom: 15px;
+        }
+
+        .info-meta{
+          font-size: 12px;
+          line-height: 1.4;
+          border-left: 3px solid rgba(0,0,0,0.15);
+          opacity: 0.75;
+          line-height: 1.35;
+          margin-bottom: 12px;
+          padding-left: 12px;
+        }
+
+        .info-legend{
+          margin-bottom: 10px;
+        }
+
+        .legend-row{
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          margin: 6px 0;
+          font-size: 12px;
+        }
+
+        .swatch{
+          width: 12px;
+          height: 8px;
+          border-radius: 3px;
+          display: inline-block;
+        }
+
+        .swatch-pop{ background: #000000; }  
+        .swatch-crop10{ background: #6EA018; } 
+        .swatch-crop20{ background: #42B21F; }
+        .swatch-crop30{ background: #0B6A06; }
+        .swatch-crop40{ background: #3C5828; }
+
+        .info-small{
+          font-size: 12px;
+          opacity: 0.85;
+        }
+
+        #introOverlay {
+          position: fixed;
+          inset: 0;
+          background: rgba(245, 245, 245, 0.9);
+          z-index: 9999;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .intro-card {
+          background: #ffffff;
+          padding: 40px 36px;
+          width: min(540px, 90vw);
+          border-radius: 14px;
+          box-shadow: 0 20px 40px rgba(0, 0, 0, 0.14);
+          text-align: left;
+          font-family: Arial, sans-serif;
+        }
+
+        .intro-card h1 {
+          margin: 0 0 25px 0;
+          font-size: 24px;
+          line-height: 0.6;
+          font-weight: 800;
+          letter-spacing: 0.2px;
+          color: #6ea822;
+        }
+
+        .intro-card h1 span {
+          color: #000; /* green accent */
+        }
+
+        .intro-purpose {
+          margin: 0 0 12px 0;
+          font-size: 14px;
+          line-height: 1.2;
+          color: #222;
+        }
+
+        .intro-instructions {
+          margin: 0 0 22px 0;
+          font-size: 13px;
+          line-height: 1.45;
+          color: #949494;
+        }
+
+        #startBtn {
+          background: #6ea822;
+          color: #ffffff;
+          border: none;
+          padding: 10px 18px;
+          font-size: 14px;
+          font-weight: 700;
+          border-radius: 8px;
+          cursor: pointer;
+        }
+
+        #startBtn:hover {
+          background: #5a8e1d;
+        }
+
+        #startBtn:active {
+          transform: translateY(1px);
+        }
+
+    </style>
 
 </head>
 
 <body>
 
+<!-- ID Map -->
 <div id='map'></div>
 
-<!-- Info box -->
+<!-- Intro overlay -->
+<div id="introOverlay">
+  <div class="intro-card">
+    <h1>CROPLAND COVER and<span> <br> <br> POPULATION CHANGE</span><br></h1>
+
+    <p class="intro-purpose">
+      Population growth is reshaping the planet at an unprecedented scale. 
+      As the number of people increases, the land and resources required to sustain life are placed under growing pressure.
+      The purpose of this interactive map is to explore the dinamics between global population growth and changes in cropland cover betwwen the year 1990 and 2023, enabling users to examine how demographic dynamics and agricultural land use evolve
+      across different regions of the world.
+    </p>
+
+    <p class="intro-instructions">
+      Explore the world by hovering over countries. 
+      <br>
+      Click a country to pin its charts, and click it again to unpin.
+      <br>
+      Data availability varies by country.
+    </p>
+
+    <button id="startBtn">START</button>
+  </div>
+</div>
+
+<!-- ID Info box -->
 <div id="infoBox">
   <div class="info-title1">CROPLAND COVER and</div>
   <div class="info-title2">POPULATION CHANGE</div>
@@ -58,12 +280,10 @@
   </div>
 </div>
 
-<!-- Charts -->
+<!-- ID Charts -->
 <div id="panel">   
-   <button id="closePanel" aria-label="Close panel">×</button>
+  <button id="closePanel" aria-label="Close panel">×</button>
   <div class="panel-title" id="panelTitle">Select a country</div>
-
-  <div id="chartsContainer">
   
     <!-- Population chart -->
     <div class="chartCanvasWrap">
@@ -78,6 +298,8 @@
 </div>
 
 <script>  
+
+//#region DATA LOADING AND PROCESSING --------------------------------------------------------------------------
 
 // Datasets
 const POP_CSV_URL  = "https://raw.githubusercontent.com/Tbtaaa/viz_pop_agr/main/viz_pop_agr/data/world_pop.csv";
@@ -133,10 +355,12 @@ async function loadAllData() {
   cropByISO = buildSeriesMap(cropRows, "Country_Code", "year", "Crop_per");
 }
 
-let popChart, cropChart;
-const Y_AXIS_WIDTH = 52;
+//#endregion
 
-// Reveal (clip) from left plugin for Chart.js
+let popChart, cropChart;
+const Y_AXIS_WIDTH = 60; 
+
+// Reveal (clip) from left
 const revealFromLeftPlugin = {
   id: "revealFromLeft",
   beforeDatasetsDraw(chart) {
@@ -172,7 +396,7 @@ function revealChartFromLeft(chart, duration = 1200) {
   requestAnimationFrame(frame);
 }
 
-// Animations -------------------------------------------------------------------------------------------
+// Animations ---------------------------------------------------------------------------------------------------
 function makeProgressiveOptions(yTitle, yTickFormatter = null) {
   return {
     interaction: {
@@ -183,48 +407,40 @@ function makeProgressiveOptions(yTitle, yTickFormatter = null) {
       legend: { display: false },
       revealFromLeft: {},
       tooltip: {
-  enabled: true,
-  mode: "index",
-  intersect: false,
-  displayColors: false,
-  position: "nearest",
+        enabled: true,
+        mode: "index",
+        intersect: false,
+        displayColors: false,
+        position: "nearest",
 
-  // ✅ cuadro
-  backgroundColor: (ctx) => {
-    const label = ctx?.tooltip?.dataPoints?.[0]?.dataset?.label || "";
-    // Population -> negro, Cropland -> verde
-    return label.includes("Cropland") ? "#70A22E" : "#000000";
-  },
-  borderWidth: 0,
-  cornerRadius: 8,
-  padding: {
-  top: 6,
-  bottom: 6,
-  left: 8,
-  right: 8
-},
-  caretSize: 6,
-
-  // ✅ texto blanco
-  titleColor: "#ffffff",
-  bodyColor: "#ffffff",
-
-  titleFont: { weight: "700", size: 12, lineHeight: 0.8 }, // año bold
-  bodyFont: { weight: "400", size: 12, lineHeight: 0.8 },  // valor regular
-
-  callbacks: {
-    // ✅ Año arriba
-    title: (items) => {
-      const year = items?.[0]?.parsed?.x;
-      return year != null ? String(year) : "";
-    },
-    // ✅ Valor abajo (solo número)
-    label: (ctx) => {
-      const v = ctx.parsed.y;
-      return v != null ? Number(v).toLocaleString() : "";
-    }
-  }
-}
+        backgroundColor: (ctx) => {
+          const label = ctx?.tooltip?.dataPoints?.[0]?.dataset?.label || "";
+          return label.includes("Cropland") ? "#70A22E" : "#000000";
+        },
+        borderWidth: 0,
+        cornerRadius: 8,
+        padding: {
+          top: 6,
+          bottom: 6,
+          left: 8,
+          right: 8
+        },
+        caretSize: 6,
+        titleColor: "#ffffff",
+        bodyColor: "#ffffff",
+        titleFont: { weight: "700", size: 12, lineHeight: 0.8 }, // año bold
+        bodyFont: { weight: "400", size: 12, lineHeight: 0.8 },  // valor regular
+        callbacks: {
+        title: (items) => {
+          const year = items?.[0]?.parsed?.x;
+          return year != null ? String(year) : "";
+        },
+        label: (ctx) => {
+          const v = ctx.parsed.y;
+          return v != null ? Number(v).toLocaleString() : "";
+        }
+        } 
+      }
     },
     responsive: true,
     maintainAspectRatio: false,
@@ -255,7 +471,7 @@ function makeProgressiveOptions(yTitle, yTickFormatter = null) {
   };
 }
 
-// Define charts -------------------------------------------------------------------------------------
+// Define charts ------------------------------------------------------------------------------------------------
 function createCharts() {
   const popCtx  = document.getElementById("popChart").getContext("2d");
   const cropCtx = document.getElementById("cropChart").getContext("2d");
@@ -304,9 +520,9 @@ function createCharts() {
         ...makeProgressiveOptions("% Cropland").scales.y,
       min: 0,
       max: 70
+      }
+      }
     }
-  }
-}
   });
 }
 
@@ -333,6 +549,7 @@ map.dragRotate.disable();
 // disable map rotation using touch rotation gesture
 map.touchZoomRotate.disableRotation();
 
+// MAP OPTIONS  ---------------------------------------------------------------------------------------------------
 map.on('load', async () => {
   await loadAllData();
   createCharts();
@@ -505,6 +722,10 @@ map.on("mouseleave", "Countries", () => {
     panelEl.style.opacity = 0;
     lastISO = null;
     map.setFilter("lahighlight", ["==", ["get", NAME_FIELD], ""]);
+});
+
+document.getElementById("startBtn").addEventListener("click", () => {
+document.getElementById("introOverlay").style.display = "none";
 });
 
 });
