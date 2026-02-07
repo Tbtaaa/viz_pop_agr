@@ -126,12 +126,12 @@
           font-weight: 800;
           font-size: 22px;
           line-height: 1.1;
-          margin-bottom: 10px;
+          margin-bottom: 8px;
         }  
 
         .info-subtitle{
           opacity: 0.75;
-          font-size: 15px;
+          font-size: 16px;
           margin-bottom: 15px;
         }
 
@@ -196,17 +196,25 @@
         }
 
         .intro-card h1 {
-          margin: 0 0 25px 0;
+          margin: 0 0 4px 0;
           font-size: 24px;
           line-height: 0.6;
           font-weight: 800;
-          letter-spacing: 0.2px;
+          letter-spacing: 0px;
           color: #6ea822;
         }
 
         .intro-card h1 span {
           color: #000; /* green accent */
         }
+
+        .intro-subtitle {
+          margin: -4 0 6px 0;
+          font-family: Arial, sans-serif;
+          font-size: 18px;
+          line-height: 1.25;
+          color: #222;
+        }        
 
         .intro-purpose {
           margin: 0 0 12px 0;
@@ -216,7 +224,7 @@
           color: #222;
         }
 
-        .intro-subtitle {
+        .intro-instruc {
           margin: 0 0 12px 0;
           font-family: Arial, sans-serif;
           font-size: 14px;
@@ -285,16 +293,21 @@
 <!-- Intro overlay -->
 <div id="introOverlay">
   <div class="intro-card">
-    <h1>CROPLAND COVER and<span> <br> <br> POPULATION CHANGE</span><br></h1>
+    <h1>LAND PRESSURE UNDER<span> <br> <br> POPULATION GROWTH</span><br></h1>
+
+    <p class="intro-subtitle">
+      Exploring cropland dynamics at the global scale
+
+    </p>
 
     <p class="intro-purpose">
       Population growth is reshaping the planet at an unprecedented scale. 
       As the number of people increases, the land and resources required to sustain life are placed under growing pressure.
-      The purpose of this interactive map is to explore the dinamics between global population growth and changes in cropland cover betwwen the year 1990 and 2023, enabling users to examine how demographic dynamics and agricultural land use evolve
+      The purpose of this interactive map is to explore the dinamics between global population growth and changes in cropland cover betwwen the years 1990 and 2023, enabling users to examine how demographic dynamics and agricultural land use evolve
       across different regions of the world.
     </p>
 
-    <p class="intro-subtitle">
+    <p class="intro-instruc">
       Instructions:
     </p>
 
@@ -314,15 +327,15 @@
 <div id="leftColumn">
 <!-- ID Info box -->
 <div id="infoBox">
-  <div class="info-title1">CROPLAND COVER and</div>
-  <div class="info-title2">POPULATION CHANGE</div>
-  <div class="info-subtitle">How have cropland cover and population changed across countries over time?</div>
+  <div class="info-title1">LAND PRESSURE UNDER</div>
+  <div class="info-title2">POPULATION GROWTH</div>
+  <div class="info-subtitle">Exploring cropland dynamics at the global scale</div>
 
   <div class="info-meta">
     <div>Cropland by year per country: <a href="https://www.fao.org/faostat/en/#data/RL" target="_blank">FAOSTAT</a></div>
     <div>Population by year per country: <a href="https://data.worldbank.org/indicator/SP.POP.TOTL" target="_blank">World Bank - Population</a></div>
     <div>Countries official boundaries: <a href=" https://datacatalog.worldbank.org/search/dataset/0038272/world-bank-official-boundaries" target="_blank">World Bank - Boundaries</a></div>
-    <div>World Cropland cover and urba areas: Copernicus satellite</div>
+    <div>World Cropland cover and urba areas: Copernicus Global Land Cover (Sentinel-based)</div>
   </div>
 
   <div class="info-legend">
@@ -623,7 +636,7 @@ style: 'mapbox://styles/tbtaaa/cml1h8rbt001t01sg0gp4fuy6', // location of the st
 center: [-75, -8], // starting position [lng, lat]
 zoom: 4.1, // starting zoom
 minZoom: 2, 
-maxZoom: 6,
+maxZoom: 5.5,
 projection: 'equirectangular'
 });
 
