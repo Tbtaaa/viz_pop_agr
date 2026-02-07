@@ -130,11 +130,15 @@ countries_world_rename <- countries_world_filt %>%
     Country_Code == "REU" ~ "Réunion",
     TRUE ~ Country_Name))
 
+colnames(countries_world_rename)
+
 # combine ######################################################################
 
-world_pop <- countries_world_rename %>%
+world_pop_wi <- countries_world_rename %>%
   left_join(pop_world,
-            by = c("Country_Code" = "Country Code")) %>% 
+            by = c("Country_Code" = "Country Code"))
+
+world_pop <- world_pop_wi %>%
   pivot_longer(cols = matches("^[0-9]{4}$"),
                names_to = "year",
                values_to = "Pop_value") %>%
@@ -146,8 +150,6 @@ colnames(world_pop)
 
 #-------------------------------------------------------------------------------
 
-year_cols <- names(agr_world)[grepl("^[0-9]{4}$", names(agr_world))]
-
 # join sets
 world_agr_1 <- countries_world_rename %>%
   left_join(agr_world,
@@ -157,10 +159,30 @@ world_agr_1 <- countries_world_rename %>%
 
 colnames(world_agr_1)
 
-# calculate percentage
-world_agr_2 <- world_agr_1 %>% 
-  mutate(across(all_of(year_cols),
-                ~ (.x * 1e7 / .area) * 100))
+# calculate per cropland capita
+# year columns (from cropland table)
+year_cols <- names(world_agr_1)[grepl("^[0-9]{4}$", names(world_agr_1))]
+
+# make population table unique by Country_Code
+pop_unique <- world_pop_wi %>%
+  sf::st_drop_geometry() %>%
+  dplyr::select(Country_Code, dplyr::all_of(year_cols)) %>%
+  dplyr::distinct(Country_Code, .keep_all = TRUE)
+
+# cropland per capita
+world_agr_2 <- world_agr_1 %>%
+  dplyr::left_join(pop_unique, by = "Country_Code", suffix = c("_crop", "_pop")) %>%
+  dplyr::mutate(dplyr::across(
+    paste0(year_cols, "_crop"),
+    ~ {
+      yr <- sub("_crop$", "", dplyr::cur_column())
+      pop_colname <- paste0(yr, "_pop")
+      pop <- get(pop_colname)  # <<< FIX
+      ifelse(is.na(pop) | pop == 0, NA_real_, .x / pop)
+    },
+    .names = "{sub('_crop$','',.col)}"
+  )) %>%
+  dplyr::select(Country_Code, Country_Name, .area, Country, dplyr::all_of(year_cols))
 
 colnames(world_agr_2)
 
