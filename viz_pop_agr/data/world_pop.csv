@@ -101,6 +101,40 @@ KOR,Republic of Korea,2020,51836239
 KOR,Republic of Korea,2021,51769539
 KOR,Republic of Korea,2022,51672569
 KOR,Republic of Korea,2023,51712619
+PRK,D. P. R. of Korea,1990,21112137
+PRK,D. P. R. of Korea,1991,21428638
+PRK,D. P. R. of Korea,1992,21750911
+PRK,D. P. R. of Korea,1993,22073352
+PRK,D. P. R. of Korea,1994,22393975
+PRK,D. P. R. of Korea,1995,22669304
+PRK,D. P. R. of Korea,1996,22895746
+PRK,D. P. R. of Korea,1997,23110830
+PRK,D. P. R. of Korea,1998,23311564
+PRK,D. P. R. of Korea,1999,23497599
+PRK,D. P. R. of Korea,2000,23665910
+PRK,D. P. R. of Korea,2001,23815358
+PRK,D. P. R. of Korea,2002,23943973
+PRK,D. P. R. of Korea,2003,24090380
+PRK,D. P. R. of Korea,2004,24254943
+PRK,D. P. R. of Korea,2005,24396433
+PRK,D. P. R. of Korea,2006,24524507
+PRK,D. P. R. of Korea,2007,24646383
+PRK,D. P. R. of Korea,2008,24764618
+PRK,D. P. R. of Korea,2009,24878332
+PRK,D. P. R. of Korea,2010,24987258
+PRK,D. P. R. of Korea,2011,25097874
+PRK,D. P. R. of Korea,2012,25211728
+PRK,D. P. R. of Korea,2013,25329451
+PRK,D. P. R. of Korea,2014,25451262
+PRK,D. P. R. of Korea,2015,25575350
+PRK,D. P. R. of Korea,2016,25698326
+PRK,D. P. R. of Korea,2017,25817709
+PRK,D. P. R. of Korea,2018,25931147
+PRK,D. P. R. of Korea,2019,26037632
+PRK,D. P. R. of Korea,2020,26136312
+PRK,D. P. R. of Korea,2021,26232534
+PRK,D. P. R. of Korea,2022,26328845
+PRK,D. P. R. of Korea,2023,26418204
 RUS,Russian Federation,1990,147969406
 RUS,Russian Federation,1991,148394216
 RUS,Russian Federation,1992,148538197
@@ -849,74 +883,40 @@ TKM,Turkmenistan,2020,6949912
 TKM,Turkmenistan,2021,7092043
 TKM,Turkmenistan,2022,7230193
 TKM,Turkmenistan,2023,7364438
-TUR,TÃ¼rkiye,1990,56015628
-TUR,TÃ¼rkiye,1991,57009887
-TUR,TÃ¼rkiye,1992,57990118
-TUR,TÃ¼rkiye,1993,58999167
-TUR,TÃ¼rkiye,1994,60033836
-TUR,TÃ¼rkiye,1995,61024503
-TUR,TÃ¼rkiye,1996,61951134
-TUR,TÃ¼rkiye,1997,62852966
-TUR,TÃ¼rkiye,1998,63734383
-TUR,TÃ¼rkiye,1999,64591923
-TUR,TÃ¼rkiye,2000,65425961
-TUR,TÃ¼rkiye,2001,66245128
-TUR,TÃ¼rkiye,2002,67048795
-TUR,TÃ¼rkiye,2003,67831730
-TUR,TÃ¼rkiye,2004,68592617
-TUR,TÃ¼rkiye,2005,69329557
-TUR,TÃ¼rkiye,2006,70045349
-TUR,TÃ¼rkiye,2007,70158112
-TUR,TÃ¼rkiye,2008,71051678
-TUR,TÃ¼rkiye,2009,72039206
-TUR,TÃ¼rkiye,2010,73142150
-TUR,TÃ¼rkiye,2011,74223629
-TUR,TÃ¼rkiye,2012,75175827
-TUR,TÃ¼rkiye,2013,76147624
-TUR,TÃ¼rkiye,2014,77181884
-TUR,TÃ¼rkiye,2015,78218479
-TUR,TÃ¼rkiye,2016,79277962
-TUR,TÃ¼rkiye,2017,80312698
-TUR,TÃ¼rkiye,2018,81407204
-TUR,TÃ¼rkiye,2019,82579440
-TUR,TÃ¼rkiye,2020,83384680
-TUR,TÃ¼rkiye,2021,84147318
-TUR,TÃ¼rkiye,2022,84979913
-TUR,TÃ¼rkiye,2023,85325965
-UKR,Ukraine,1990,52054092
-UKR,Ukraine,1991,52170961
-UKR,Ukraine,1992,52323671
-UKR,Ukraine,1993,52350126
-UKR,Ukraine,1994,52075998
-UKR,Ukraine,1995,51665539
-UKR,Ukraine,1996,51226109
-UKR,Ukraine,1997,50786885
-UKR,Ukraine,1998,50379731
-UKR,Ukraine,1999,49976446
-UKR,Ukraine,2000,49556660
-UKR,Ukraine,2001,49106855
-UKR,Ukraine,2002,48677281
-UKR,Ukraine,2003,48315136
-UKR,Ukraine,2004,47979507
-UKR,Ukraine,2005,47585556
-UKR,Ukraine,2006,47278694
-UKR,Ukraine,2007,47062798
-UKR,Ukraine,2008,46819175
-UKR,Ukraine,2009,46623731
-UKR,Ukraine,2010,46456003
-UKR,Ukraine,2011,46307853
-UKR,Ukraine,2012,46210056
-UKR,Ukraine,2013,46126770
-UKR,Ukraine,2014,45972380
-UKR,Ukraine,2015,45784896
-UKR,Ukraine,2016,45616832
-UKR,Ukraine,2017,45436041
-UKR,Ukraine,2018,45208907
-UKR,Ukraine,2019,44957458
-UKR,Ukraine,2020,44680014
-UKR,Ukraine,2021,44298640
-UKR,Ukraine,2022,41048766
-UKR,Ukraine,2023,37732836
+TUR,Turkey,1990,56015628
+TUR,Turkey,1991,57009887
+TUR,Turkey,1992,57990118
+TUR,Turkey,1993,58999167
+TUR,Turkey,1994,60033836
+TUR,Turkey,1995,61024503
+TUR,Turkey,1996,61951134
+TUR,Turkey,1997,62852966
+TUR,Turkey,1998,63734383
+TUR,Turkey,1999,64591923
+TUR,Turkey,2000,65425961
+TUR,Turkey,2001,66245128
+TUR,Turkey,2002,67048795
+TUR,Turkey,2003,67831730
+TUR,Turkey,2004,68592617
+TUR,Turkey,2005,69329557
+TUR,Turkey,2006,70045349
+TUR,Turkey,2007,70158112
+TUR,Turkey,2008,71051678
+TUR,Turkey,2009,72039206
+TUR,Turkey,2010,73142150
+TUR,Turkey,2011,74223629
+TUR,Turkey,2012,75175827
+TUR,Turkey,2013,76147624
+TUR,Turkey,2014,77181884
+TUR,Turkey,2015,78218479
+TUR,Turkey,2016,79277962
+TUR,Turkey,2017,80312698
+TUR,Turkey,2018,81407204
+TUR,Turkey,2019,82579440
+TUR,Turkey,2020,83384680
+TUR,Turkey,2021,84147318
+TUR,Turkey,2022,84979913
+TUR,Turkey,2023,85325965
 UZB,Uzbekistan,1990,20464956
 UZB,Uzbekistan,1991,20962910
 UZB,Uzbekistan,1992,21485090
@@ -1461,6 +1461,40 @@ NOR,Norway,2020,5379475
 NOR,Norway,2021,5408320
 NOR,Norway,2022,5457127
 NOR,Norway,2023,5519601
+PSE,West Bank and Gaza,1990,1978248
+PSE,West Bank and Gaza,1991,2068845
+PSE,West Bank and Gaza,1992,2163591
+PSE,West Bank and Gaza,1993,2262676
+PSE,West Bank and Gaza,1994,2366298
+PSE,West Bank and Gaza,1995,2474666
+PSE,West Bank and Gaza,1996,2587997
+PSE,West Bank and Gaza,1997,2706518
+PSE,West Bank and Gaza,1998,2776568
+PSE,West Bank and Gaza,1999,2848431
+PSE,West Bank and Gaza,2000,2922153
+PSE,West Bank and Gaza,2001,2997784
+PSE,West Bank and Gaza,2002,3075373
+PSE,West Bank and Gaza,2003,3154969
+PSE,West Bank and Gaza,2004,3236626
+PSE,West Bank and Gaza,2005,3320396
+PSE,West Bank and Gaza,2006,3406334
+PSE,West Bank and Gaza,2007,3494496
+PSE,West Bank and Gaza,2008,3591977
+PSE,West Bank and Gaza,2009,3689099
+PSE,West Bank and Gaza,2010,3786161
+PSE,West Bank and Gaza,2011,3882986
+PSE,West Bank and Gaza,2012,3979998
+PSE,West Bank and Gaza,2013,4076708
+PSE,West Bank and Gaza,2014,4173398
+PSE,West Bank and Gaza,2015,4270092
+PSE,West Bank and Gaza,2016,4367088
+PSE,West Bank and Gaza,2017,4454805
+PSE,West Bank and Gaza,2018,4569087
+PSE,West Bank and Gaza,2019,4685306
+PSE,West Bank and Gaza,2020,4803269
+PSE,West Bank and Gaza,2021,4922749
+PSE,West Bank and Gaza,2022,5043612
+PSE,West Bank and Gaza,2023,5165775
 QAT,Qatar,1990,440175
 QAT,Qatar,1991,454853
 QAT,Qatar,1992,469657
@@ -1699,40 +1733,6 @@ UGA,Uganda,2020,44457152
 UGA,Uganda,2021,45910930
 UGA,Uganda,2022,47312719
 UGA,Uganda,2023,48656601
-UKR,Ukraine,1990,52054092
-UKR,Ukraine,1991,52170961
-UKR,Ukraine,1992,52323671
-UKR,Ukraine,1993,52350126
-UKR,Ukraine,1994,52075998
-UKR,Ukraine,1995,51665539
-UKR,Ukraine,1996,51226109
-UKR,Ukraine,1997,50786885
-UKR,Ukraine,1998,50379731
-UKR,Ukraine,1999,49976446
-UKR,Ukraine,2000,49556660
-UKR,Ukraine,2001,49106855
-UKR,Ukraine,2002,48677281
-UKR,Ukraine,2003,48315136
-UKR,Ukraine,2004,47979507
-UKR,Ukraine,2005,47585556
-UKR,Ukraine,2006,47278694
-UKR,Ukraine,2007,47062798
-UKR,Ukraine,2008,46819175
-UKR,Ukraine,2009,46623731
-UKR,Ukraine,2010,46456003
-UKR,Ukraine,2011,46307853
-UKR,Ukraine,2012,46210056
-UKR,Ukraine,2013,46126770
-UKR,Ukraine,2014,45972380
-UKR,Ukraine,2015,45784896
-UKR,Ukraine,2016,45616832
-UKR,Ukraine,2017,45436041
-UKR,Ukraine,2018,45208907
-UKR,Ukraine,2019,44957458
-UKR,Ukraine,2020,44680014
-UKR,Ukraine,2021,44298640
-UKR,Ukraine,2022,41048766
-UKR,Ukraine,2023,37732836
 YEM,Republic of Yemen,1990,13887862
 YEM,Republic of Yemen,1991,14430201
 YEM,Republic of Yemen,1992,14989494
@@ -1767,6 +1767,40 @@ YEM,Republic of Yemen,2020,36134863
 YEM,Republic of Yemen,2021,37140230
 YEM,Republic of Yemen,2022,38222876
 YEM,Republic of Yemen,2023,39390799
+ATF,French Southern and Antarctic Lands (Fr.),1990,
+ATF,French Southern and Antarctic Lands (Fr.),1991,
+ATF,French Southern and Antarctic Lands (Fr.),1992,
+ATF,French Southern and Antarctic Lands (Fr.),1993,
+ATF,French Southern and Antarctic Lands (Fr.),1994,
+ATF,French Southern and Antarctic Lands (Fr.),1995,
+ATF,French Southern and Antarctic Lands (Fr.),1996,
+ATF,French Southern and Antarctic Lands (Fr.),1997,
+ATF,French Southern and Antarctic Lands (Fr.),1998,
+ATF,French Southern and Antarctic Lands (Fr.),1999,
+ATF,French Southern and Antarctic Lands (Fr.),2000,
+ATF,French Southern and Antarctic Lands (Fr.),2001,
+ATF,French Southern and Antarctic Lands (Fr.),2002,
+ATF,French Southern and Antarctic Lands (Fr.),2003,
+ATF,French Southern and Antarctic Lands (Fr.),2004,
+ATF,French Southern and Antarctic Lands (Fr.),2005,
+ATF,French Southern and Antarctic Lands (Fr.),2006,
+ATF,French Southern and Antarctic Lands (Fr.),2007,
+ATF,French Southern and Antarctic Lands (Fr.),2008,
+ATF,French Southern and Antarctic Lands (Fr.),2009,
+ATF,French Southern and Antarctic Lands (Fr.),2010,
+ATF,French Southern and Antarctic Lands (Fr.),2011,
+ATF,French Southern and Antarctic Lands (Fr.),2012,
+ATF,French Southern and Antarctic Lands (Fr.),2013,
+ATF,French Southern and Antarctic Lands (Fr.),2014,
+ATF,French Southern and Antarctic Lands (Fr.),2015,
+ATF,French Southern and Antarctic Lands (Fr.),2016,
+ATF,French Southern and Antarctic Lands (Fr.),2017,
+ATF,French Southern and Antarctic Lands (Fr.),2018,
+ATF,French Southern and Antarctic Lands (Fr.),2019,
+ATF,French Southern and Antarctic Lands (Fr.),2020,
+ATF,French Southern and Antarctic Lands (Fr.),2021,
+ATF,French Southern and Antarctic Lands (Fr.),2022,
+ATF,French Southern and Antarctic Lands (Fr.),2023,
 BDI,Burundi,1990,5587052
 BDI,Burundi,1991,5703857
 BDI,Burundi,1992,5858407
@@ -1971,6 +2005,40 @@ GRC,Greece,2020,10698599
 GRC,Greece,2021,10569207
 GRC,Greece,2022,10436882
 GRC,Greece,2023,10407351
+HMD,Heard Island and McDonald Islands (Aus.),1990,
+HMD,Heard Island and McDonald Islands (Aus.),1991,
+HMD,Heard Island and McDonald Islands (Aus.),1992,
+HMD,Heard Island and McDonald Islands (Aus.),1993,
+HMD,Heard Island and McDonald Islands (Aus.),1994,
+HMD,Heard Island and McDonald Islands (Aus.),1995,
+HMD,Heard Island and McDonald Islands (Aus.),1996,
+HMD,Heard Island and McDonald Islands (Aus.),1997,
+HMD,Heard Island and McDonald Islands (Aus.),1998,
+HMD,Heard Island and McDonald Islands (Aus.),1999,
+HMD,Heard Island and McDonald Islands (Aus.),2000,
+HMD,Heard Island and McDonald Islands (Aus.),2001,
+HMD,Heard Island and McDonald Islands (Aus.),2002,
+HMD,Heard Island and McDonald Islands (Aus.),2003,
+HMD,Heard Island and McDonald Islands (Aus.),2004,
+HMD,Heard Island and McDonald Islands (Aus.),2005,
+HMD,Heard Island and McDonald Islands (Aus.),2006,
+HMD,Heard Island and McDonald Islands (Aus.),2007,
+HMD,Heard Island and McDonald Islands (Aus.),2008,
+HMD,Heard Island and McDonald Islands (Aus.),2009,
+HMD,Heard Island and McDonald Islands (Aus.),2010,
+HMD,Heard Island and McDonald Islands (Aus.),2011,
+HMD,Heard Island and McDonald Islands (Aus.),2012,
+HMD,Heard Island and McDonald Islands (Aus.),2013,
+HMD,Heard Island and McDonald Islands (Aus.),2014,
+HMD,Heard Island and McDonald Islands (Aus.),2015,
+HMD,Heard Island and McDonald Islands (Aus.),2016,
+HMD,Heard Island and McDonald Islands (Aus.),2017,
+HMD,Heard Island and McDonald Islands (Aus.),2018,
+HMD,Heard Island and McDonald Islands (Aus.),2019,
+HMD,Heard Island and McDonald Islands (Aus.),2020,
+HMD,Heard Island and McDonald Islands (Aus.),2021,
+HMD,Heard Island and McDonald Islands (Aus.),2022,
+HMD,Heard Island and McDonald Islands (Aus.),2023,
 LKA,Sri Lanka,1990,16352458
 LKA,Sri Lanka,1991,16475354
 LKA,Sri Lanka,1992,16739284
@@ -2209,6 +2277,40 @@ MWI,Malawi,2020,19533888
 MWI,Malawi,2021,20047258
 MWI,Malawi,2022,20568728
 MWI,Malawi,2023,21104482
+REU,Eéunion,1990,
+REU,Eéunion,1991,
+REU,Eéunion,1992,
+REU,Eéunion,1993,
+REU,Eéunion,1994,
+REU,Eéunion,1995,
+REU,Eéunion,1996,
+REU,Eéunion,1997,
+REU,Eéunion,1998,
+REU,Eéunion,1999,
+REU,Eéunion,2000,
+REU,Eéunion,2001,
+REU,Eéunion,2002,
+REU,Eéunion,2003,
+REU,Eéunion,2004,
+REU,Eéunion,2005,
+REU,Eéunion,2006,
+REU,Eéunion,2007,
+REU,Eéunion,2008,
+REU,Eéunion,2009,
+REU,Eéunion,2010,
+REU,Eéunion,2011,
+REU,Eéunion,2012,
+REU,Eéunion,2013,
+REU,Eéunion,2014,
+REU,Eéunion,2015,
+REU,Eéunion,2016,
+REU,Eéunion,2017,
+REU,Eéunion,2018,
+REU,Eéunion,2019,
+REU,Eéunion,2020,
+REU,Eéunion,2021,
+REU,Eéunion,2022,
+REU,Eéunion,2023,
 RWA,Rwanda,1990,7375307
 RWA,Rwanda,1991,7526966
 RWA,Rwanda,1992,7683266
@@ -2447,40 +2549,40 @@ ZMB,Zambia,2020,19059395
 ZMB,Zambia,2021,19603607
 ZMB,Zambia,2022,20152938
 ZMB,Zambia,2023,20723965
-ZWE,Zimbabwe,1990,10137281
-ZWE,Zimbabwe,1991,10404816
-ZWE,Zimbabwe,1992,10702700
-ZWE,Zimbabwe,1993,10860288
-ZWE,Zimbabwe,1994,10873148
-ZWE,Zimbabwe,1995,10974599
-ZWE,Zimbabwe,1996,11158360
-ZWE,Zimbabwe,1997,11369827
-ZWE,Zimbabwe,1998,11594297
-ZWE,Zimbabwe,1999,11783458
-ZWE,Zimbabwe,2000,11892055
-ZWE,Zimbabwe,2001,11971901
-ZWE,Zimbabwe,2002,12087653
-ZWE,Zimbabwe,2003,12232323
-ZWE,Zimbabwe,2004,12365896
-ZWE,Zimbabwe,2005,12483432
-ZWE,Zimbabwe,2006,12636445
-ZWE,Zimbabwe,2007,12804058
-ZWE,Zimbabwe,2008,12959149
-ZWE,Zimbabwe,2009,13142790
-ZWE,Zimbabwe,2010,13356548
-ZWE,Zimbabwe,2011,13595424
-ZWE,Zimbabwe,2012,13817887
-ZWE,Zimbabwe,2013,14013808
-ZWE,Zimbabwe,2014,14207359
-ZWE,Zimbabwe,2015,14399013
-ZWE,Zimbabwe,2016,14600294
-ZWE,Zimbabwe,2017,14812482
-ZWE,Zimbabwe,2018,15034452
-ZWE,Zimbabwe,2019,15271368
-ZWE,Zimbabwe,2020,15526888
-ZWE,Zimbabwe,2021,15797210
-ZWE,Zimbabwe,2022,16069056
-ZWE,Zimbabwe,2023,16340822
+ALA,Aaland (Fin.),1990,
+ALA,Aaland (Fin.),1991,
+ALA,Aaland (Fin.),1992,
+ALA,Aaland (Fin.),1993,
+ALA,Aaland (Fin.),1994,
+ALA,Aaland (Fin.),1995,
+ALA,Aaland (Fin.),1996,
+ALA,Aaland (Fin.),1997,
+ALA,Aaland (Fin.),1998,
+ALA,Aaland (Fin.),1999,
+ALA,Aaland (Fin.),2000,
+ALA,Aaland (Fin.),2001,
+ALA,Aaland (Fin.),2002,
+ALA,Aaland (Fin.),2003,
+ALA,Aaland (Fin.),2004,
+ALA,Aaland (Fin.),2005,
+ALA,Aaland (Fin.),2006,
+ALA,Aaland (Fin.),2007,
+ALA,Aaland (Fin.),2008,
+ALA,Aaland (Fin.),2009,
+ALA,Aaland (Fin.),2010,
+ALA,Aaland (Fin.),2011,
+ALA,Aaland (Fin.),2012,
+ALA,Aaland (Fin.),2013,
+ALA,Aaland (Fin.),2014,
+ALA,Aaland (Fin.),2015,
+ALA,Aaland (Fin.),2016,
+ALA,Aaland (Fin.),2017,
+ALA,Aaland (Fin.),2018,
+ALA,Aaland (Fin.),2019,
+ALA,Aaland (Fin.),2020,
+ALA,Aaland (Fin.),2021,
+ALA,Aaland (Fin.),2022,
+ALA,Aaland (Fin.),2023,
 BGR,Bulgaria,1990,8718289
 BGR,Bulgaria,1991,8632367
 BGR,Bulgaria,1992,8540164
@@ -2583,6 +2685,40 @@ LTU,Lithuania,2020,2810369
 LTU,Lithuania,2021,2808380
 LTU,Lithuania,2022,2831639
 LTU,Lithuania,2023,2871585
+MYT,Mayotte,1990,
+MYT,Mayotte,1991,
+MYT,Mayotte,1992,
+MYT,Mayotte,1993,
+MYT,Mayotte,1994,
+MYT,Mayotte,1995,
+MYT,Mayotte,1996,
+MYT,Mayotte,1997,
+MYT,Mayotte,1998,
+MYT,Mayotte,1999,
+MYT,Mayotte,2000,
+MYT,Mayotte,2001,
+MYT,Mayotte,2002,
+MYT,Mayotte,2003,
+MYT,Mayotte,2004,
+MYT,Mayotte,2005,
+MYT,Mayotte,2006,
+MYT,Mayotte,2007,
+MYT,Mayotte,2008,
+MYT,Mayotte,2009,
+MYT,Mayotte,2010,
+MYT,Mayotte,2011,
+MYT,Mayotte,2012,
+MYT,Mayotte,2013,
+MYT,Mayotte,2014,
+MYT,Mayotte,2015,
+MYT,Mayotte,2016,
+MYT,Mayotte,2017,
+MYT,Mayotte,2018,
+MYT,Mayotte,2019,
+MYT,Mayotte,2020,
+MYT,Mayotte,2021,
+MYT,Mayotte,2022,
+MYT,Mayotte,2023,
 POL,Poland,1990,38110782
 POL,Poland,1991,38246193
 POL,Poland,1992,38363667
@@ -2617,6 +2753,40 @@ POL,Poland,2020,37515748
 POL,Poland,2021,36981559
 POL,Poland,2022,36821749
 POL,Poland,2023,36687353
+SJM,Svalbard and Jan Mayen (Nor.),1990,
+SJM,Svalbard and Jan Mayen (Nor.),1991,
+SJM,Svalbard and Jan Mayen (Nor.),1992,
+SJM,Svalbard and Jan Mayen (Nor.),1993,
+SJM,Svalbard and Jan Mayen (Nor.),1994,
+SJM,Svalbard and Jan Mayen (Nor.),1995,
+SJM,Svalbard and Jan Mayen (Nor.),1996,
+SJM,Svalbard and Jan Mayen (Nor.),1997,
+SJM,Svalbard and Jan Mayen (Nor.),1998,
+SJM,Svalbard and Jan Mayen (Nor.),1999,
+SJM,Svalbard and Jan Mayen (Nor.),2000,
+SJM,Svalbard and Jan Mayen (Nor.),2001,
+SJM,Svalbard and Jan Mayen (Nor.),2002,
+SJM,Svalbard and Jan Mayen (Nor.),2003,
+SJM,Svalbard and Jan Mayen (Nor.),2004,
+SJM,Svalbard and Jan Mayen (Nor.),2005,
+SJM,Svalbard and Jan Mayen (Nor.),2006,
+SJM,Svalbard and Jan Mayen (Nor.),2007,
+SJM,Svalbard and Jan Mayen (Nor.),2008,
+SJM,Svalbard and Jan Mayen (Nor.),2009,
+SJM,Svalbard and Jan Mayen (Nor.),2010,
+SJM,Svalbard and Jan Mayen (Nor.),2011,
+SJM,Svalbard and Jan Mayen (Nor.),2012,
+SJM,Svalbard and Jan Mayen (Nor.),2013,
+SJM,Svalbard and Jan Mayen (Nor.),2014,
+SJM,Svalbard and Jan Mayen (Nor.),2015,
+SJM,Svalbard and Jan Mayen (Nor.),2016,
+SJM,Svalbard and Jan Mayen (Nor.),2017,
+SJM,Svalbard and Jan Mayen (Nor.),2018,
+SJM,Svalbard and Jan Mayen (Nor.),2019,
+SJM,Svalbard and Jan Mayen (Nor.),2020,
+SJM,Svalbard and Jan Mayen (Nor.),2021,
+SJM,Svalbard and Jan Mayen (Nor.),2022,
+SJM,Svalbard and Jan Mayen (Nor.),2023,
 SVK,Slovak Republic,1990,5299187
 SVK,Slovak Republic,1991,5303294
 SVK,Slovak Republic,1992,5305016
@@ -2821,74 +2991,40 @@ DEU,Germany,2020,83160871
 DEU,Germany,2021,83196078
 DEU,Germany,2022,83177813
 DEU,Germany,2023,83287273
-FRA,France,1990,58261012
-FRA,France,1991,58554242
-FRA,France,1992,58846584
-FRA,France,1993,59103094
-FRA,France,1994,59324863
-FRA,France,1995,59541294
-FRA,France,1996,59754504
-FRA,France,1997,59968066
-FRA,France,1998,60190684
-FRA,France,1999,60501986
-FRA,France,2000,60918661
-FRA,France,2001,61364377
-FRA,France,2002,61812142
-FRA,France,2003,62249855
-FRA,France,2004,62707588
-FRA,France,2005,63180854
-FRA,France,2006,63622342
-FRA,France,2007,64016890
-FRA,France,2008,64375116
-FRA,France,2009,64706436
-FRA,France,2010,65026211
-FRA,France,2011,65340830
-FRA,France,2012,65657659
-FRA,France,2013,65997932
-FRA,France,2014,66312067
-FRA,France,2015,66548272
-FRA,France,2016,66724104
-FRA,France,2017,66918020
-FRA,France,2018,67158348
-FRA,France,2019,67382061
-FRA,France,2020,67601110
-FRA,France,2021,67842811
-FRA,France,2022,68184457
-FRA,France,2023,68372286
-GBR,United Kingdom,1990,57247586
-GBR,United Kingdom,1991,57424897
-GBR,United Kingdom,1992,57580402
-GBR,United Kingdom,1993,57718614
-GBR,United Kingdom,1994,57865745
-GBR,United Kingdom,1995,58019030
-GBR,United Kingdom,1996,58166950
-GBR,United Kingdom,1997,58316954
-GBR,United Kingdom,1998,58487141
-GBR,United Kingdom,1999,58682466
-GBR,United Kingdom,2000,58892514
-GBR,United Kingdom,2001,59119673
-GBR,United Kingdom,2002,59370479
-GBR,United Kingdom,2003,59647577
-GBR,United Kingdom,2004,59987905
-GBR,United Kingdom,2005,60401206
-GBR,United Kingdom,2006,60846820
-GBR,United Kingdom,2007,61322463
-GBR,United Kingdom,2008,61806995
-GBR,United Kingdom,2009,62276270
-GBR,United Kingdom,2010,62766365
-GBR,United Kingdom,2011,63258810
-GBR,United Kingdom,2012,63711000
-GBR,United Kingdom,2013,64139000
-GBR,United Kingdom,2014,64620000
-GBR,United Kingdom,2015,65088000
-GBR,United Kingdom,2016,65607000
-GBR,United Kingdom,2017,65966000
-GBR,United Kingdom,2018,66289000
-GBR,United Kingdom,2019,66631000
-GBR,United Kingdom,2020,66744000
-GBR,United Kingdom,2021,66984000
-GBR,United Kingdom,2022,67604000
-GBR,United Kingdom,2023,68492000
+GGY,Guernsey (U.K.),1990,
+GGY,Guernsey (U.K.),1991,
+GGY,Guernsey (U.K.),1992,
+GGY,Guernsey (U.K.),1993,
+GGY,Guernsey (U.K.),1994,
+GGY,Guernsey (U.K.),1995,
+GGY,Guernsey (U.K.),1996,
+GGY,Guernsey (U.K.),1997,
+GGY,Guernsey (U.K.),1998,
+GGY,Guernsey (U.K.),1999,
+GGY,Guernsey (U.K.),2000,
+GGY,Guernsey (U.K.),2001,
+GGY,Guernsey (U.K.),2002,
+GGY,Guernsey (U.K.),2003,
+GGY,Guernsey (U.K.),2004,
+GGY,Guernsey (U.K.),2005,
+GGY,Guernsey (U.K.),2006,
+GGY,Guernsey (U.K.),2007,
+GGY,Guernsey (U.K.),2008,
+GGY,Guernsey (U.K.),2009,
+GGY,Guernsey (U.K.),2010,
+GGY,Guernsey (U.K.),2011,
+GGY,Guernsey (U.K.),2012,
+GGY,Guernsey (U.K.),2013,
+GGY,Guernsey (U.K.),2014,
+GGY,Guernsey (U.K.),2015,
+GGY,Guernsey (U.K.),2016,
+GGY,Guernsey (U.K.),2017,
+GGY,Guernsey (U.K.),2018,
+GGY,Guernsey (U.K.),2019,
+GGY,Guernsey (U.K.),2020,
+GGY,Guernsey (U.K.),2021,
+GGY,Guernsey (U.K.),2022,
+GGY,Guernsey (U.K.),2023,
 HRV,Croatia,1990,4777368
 HRV,Croatia,1991,4689022
 HRV,Croatia,1992,4575818
@@ -2957,6 +3093,40 @@ HUN,Hungary,2020,9670419
 HUN,Hungary,2021,9630932
 HUN,Hungary,2022,9605074
 HUN,Hungary,2023,9592186
+IMN,Isle of Man (U.K.),1990,68916
+IMN,Isle of Man (U.K.),1991,69808
+IMN,Isle of Man (U.K.),1992,70353
+IMN,Isle of Man (U.K.),1993,70772
+IMN,Isle of Man (U.K.),1994,71168
+IMN,Isle of Man (U.K.),1995,71513
+IMN,Isle of Man (U.K.),1996,72047
+IMN,Isle of Man (U.K.),1997,72909
+IMN,Isle of Man (U.K.),1998,73861
+IMN,Isle of Man (U.K.),1999,74790
+IMN,Isle of Man (U.K.),2000,75659
+IMN,Isle of Man (U.K.),2001,76476
+IMN,Isle of Man (U.K.),2002,77275
+IMN,Isle of Man (U.K.),2003,78049
+IMN,Isle of Man (U.K.),2004,78792
+IMN,Isle of Man (U.K.),2005,79516
+IMN,Isle of Man (U.K.),2006,80294
+IMN,Isle of Man (U.K.),2007,81147
+IMN,Isle of Man (U.K.),2008,82029
+IMN,Isle of Man (U.K.),2009,82939
+IMN,Isle of Man (U.K.),2010,83873
+IMN,Isle of Man (U.K.),2011,84382
+IMN,Isle of Man (U.K.),2012,84335
+IMN,Isle of Man (U.K.),2013,84141
+IMN,Isle of Man (U.K.),2014,83892
+IMN,Isle of Man (U.K.),2015,83593
+IMN,Isle of Man (U.K.),2016,83466
+IMN,Isle of Man (U.K.),2017,83609
+IMN,Isle of Man (U.K.),2018,83805
+IMN,Isle of Man (U.K.),2019,83957
+IMN,Isle of Man (U.K.),2020,84064
+IMN,Isle of Man (U.K.),2021,84106
+IMN,Isle of Man (U.K.),2022,84132
+IMN,Isle of Man (U.K.),2023,84165
 IRL,Ireland,1990,3513974
 IRL,Ireland,1991,3534235
 IRL,Ireland,1992,3558430
@@ -3025,6 +3195,40 @@ ITA,Italy,2020,59438851
 ITA,Italy,2021,59133173
 ITA,Italy,2022,59013667
 ITA,Italy,2023,58984216
+JEY,Jersey (U.K.),1990,
+JEY,Jersey (U.K.),1991,
+JEY,Jersey (U.K.),1992,
+JEY,Jersey (U.K.),1993,
+JEY,Jersey (U.K.),1994,
+JEY,Jersey (U.K.),1995,
+JEY,Jersey (U.K.),1996,
+JEY,Jersey (U.K.),1997,
+JEY,Jersey (U.K.),1998,
+JEY,Jersey (U.K.),1999,
+JEY,Jersey (U.K.),2000,
+JEY,Jersey (U.K.),2001,
+JEY,Jersey (U.K.),2002,
+JEY,Jersey (U.K.),2003,
+JEY,Jersey (U.K.),2004,
+JEY,Jersey (U.K.),2005,
+JEY,Jersey (U.K.),2006,
+JEY,Jersey (U.K.),2007,
+JEY,Jersey (U.K.),2008,
+JEY,Jersey (U.K.),2009,
+JEY,Jersey (U.K.),2010,
+JEY,Jersey (U.K.),2011,
+JEY,Jersey (U.K.),2012,
+JEY,Jersey (U.K.),2013,
+JEY,Jersey (U.K.),2014,
+JEY,Jersey (U.K.),2015,
+JEY,Jersey (U.K.),2016,
+JEY,Jersey (U.K.),2017,
+JEY,Jersey (U.K.),2018,
+JEY,Jersey (U.K.),2019,
+JEY,Jersey (U.K.),2020,
+JEY,Jersey (U.K.),2021,
+JEY,Jersey (U.K.),2022,
+JEY,Jersey (U.K.),2023,
 LUX,Luxembourg,1990,381850
 LUX,Luxembourg,1991,387000
 LUX,Luxembourg,1992,392175
@@ -3365,40 +3569,74 @@ DZA,Algeria,2020,44042091
 DZA,Algeria,2021,44761099
 DZA,Algeria,2022,45477389
 DZA,Algeria,2023,46164219
-ESP,Spain,1990,38867322
-ESP,Spain,1991,38966376
-ESP,Spain,1992,39157685
-ESP,Spain,1993,39361262
-ESP,Spain,1994,39549108
-ESP,Spain,1995,39724050
-ESP,Spain,1996,39889852
-ESP,Spain,1997,40057389
-ESP,Spain,1998,40223509
-ESP,Spain,1999,40386875
-ESP,Spain,2000,40567864
-ESP,Spain,2001,40850412
-ESP,Spain,2002,41431558
-ESP,Spain,2003,42187645
-ESP,Spain,2004,42921895
-ESP,Spain,2005,43653155
-ESP,Spain,2006,44397319
-ESP,Spain,2007,45226803
-ESP,Spain,2008,45954106
-ESP,Spain,2009,46362946
-ESP,Spain,2010,46576897
-ESP,Spain,2011,46742697
-ESP,Spain,2012,46773055
-ESP,Spain,2013,46604197
-ESP,Spain,2014,46460733
-ESP,Spain,2015,46422303
-ESP,Spain,2016,46458139
-ESP,Spain,2017,46571232
-ESP,Spain,2018,46782011
-ESP,Spain,2019,47118501
-ESP,Spain,2020,47359424
-ESP,Spain,2021,47443821
-ESP,Spain,2022,47786102
-ESP,Spain,2023,48352528
+FRO,Faroe Islands (Den.),1990,47740
+FRO,Faroe Islands (Den.),1991,47447
+FRO,Faroe Islands (Den.),1992,47287
+FRO,Faroe Islands (Den.),1993,46474
+FRO,Faroe Islands (Den.),1994,44695
+FRO,Faroe Islands (Den.),1995,43611
+FRO,Faroe Islands (Den.),1996,43581
+FRO,Faroe Islands (Den.),1997,44132
+FRO,Faroe Islands (Den.),1998,44674
+FRO,Faroe Islands (Den.),1999,45146
+FRO,Faroe Islands (Den.),2000,45754
+FRO,Faroe Islands (Den.),2001,46635
+FRO,Faroe Islands (Den.),2002,47335
+FRO,Faroe Islands (Den.),2003,48032
+FRO,Faroe Islands (Den.),2004,48384
+FRO,Faroe Islands (Den.),2005,48359
+FRO,Faroe Islands (Den.),2006,48335
+FRO,Faroe Islands (Den.),2007,48378
+FRO,Faroe Islands (Den.),2008,48547
+FRO,Faroe Islands (Den.),2009,48791
+FRO,Faroe Islands (Den.),2010,48657
+FRO,Faroe Islands (Den.),2011,48543
+FRO,Faroe Islands (Den.),2012,48291
+FRO,Faroe Islands (Den.),2013,48246
+FRO,Faroe Islands (Den.),2014,48428
+FRO,Faroe Islands (Den.),2015,48899
+FRO,Faroe Islands (Den.),2016,49464
+FRO,Faroe Islands (Den.),2017,50180
+FRO,Faroe Islands (Den.),2018,50996
+FRO,Faroe Islands (Den.),2019,51792
+FRO,Faroe Islands (Den.),2020,52565
+FRO,Faroe Islands (Den.),2021,53296
+FRO,Faroe Islands (Den.),2022,53912
+FRO,Faroe Islands (Den.),2023,54414
+GIB,Gibraltar (U.K.),1990,27200
+GIB,Gibraltar (U.K.),1991,26898
+GIB,Gibraltar (U.K.),1992,26878
+GIB,Gibraltar (U.K.),1993,27070
+GIB,Gibraltar (U.K.),1994,27239
+GIB,Gibraltar (U.K.),1995,27377
+GIB,Gibraltar (U.K.),1996,27487
+GIB,Gibraltar (U.K.),1997,27582
+GIB,Gibraltar (U.K.),1998,27650
+GIB,Gibraltar (U.K.),1999,27692
+GIB,Gibraltar (U.K.),2000,27709
+GIB,Gibraltar (U.K.),2001,27657
+GIB,Gibraltar (U.K.),2002,27831
+GIB,Gibraltar (U.K.),2003,28274
+GIB,Gibraltar (U.K.),2004,28715
+GIB,Gibraltar (U.K.),2005,29163
+GIB,Gibraltar (U.K.),2006,29594
+GIB,Gibraltar (U.K.),2007,30006
+GIB,Gibraltar (U.K.),2008,30413
+GIB,Gibraltar (U.K.),2009,30823
+GIB,Gibraltar (U.K.),2010,31248
+GIB,Gibraltar (U.K.),2011,31660
+GIB,Gibraltar (U.K.),2012,32029
+GIB,Gibraltar (U.K.),2013,32407
+GIB,Gibraltar (U.K.),2014,32813
+GIB,Gibraltar (U.K.),2015,33193
+GIB,Gibraltar (U.K.),2016,33658
+GIB,Gibraltar (U.K.),2017,34245
+GIB,Gibraltar (U.K.),2018,34854
+GIB,Gibraltar (U.K.),2019,35494
+GIB,Gibraltar (U.K.),2020,36173
+GIB,Gibraltar (U.K.),2021,36858
+GIB,Gibraltar (U.K.),2022,37609
+GIB,Gibraltar (U.K.),2023,38471
 LBY,Libya,1990,4445239
 LBY,Libya,1991,4544400
 LBY,Libya,1992,4640352
@@ -3433,6 +3671,40 @@ LBY,Libya,2020,7045399
 LBY,Libya,2021,7135175
 LBY,Libya,2022,7223805
 LBY,Libya,2023,7305659
+LIE,Liechtenstein,1990,28742
+LIE,Liechtenstein,1991,29209
+LIE,Liechtenstein,1992,29627
+LIE,Liechtenstein,1993,30089
+LIE,Liechtenstein,1994,30470
+LIE,Liechtenstein,1995,30776
+LIE,Liechtenstein,1996,31033
+LIE,Liechtenstein,1997,31232
+LIE,Liechtenstein,1998,31668
+LIE,Liechtenstein,1999,32221
+LIE,Liechtenstein,2000,32645
+LIE,Liechtenstein,2001,33194
+LIE,Liechtenstein,2002,33694
+LIE,Liechtenstein,2003,34079
+LIE,Liechtenstein,2004,34447
+LIE,Liechtenstein,2005,34753
+LIE,Liechtenstein,2006,35037
+LIE,Liechtenstein,2007,35262
+LIE,Liechtenstein,2008,35473
+LIE,Liechtenstein,2009,35742
+LIE,Liechtenstein,2010,36022
+LIE,Liechtenstein,2011,36312
+LIE,Liechtenstein,2012,36657
+LIE,Liechtenstein,2013,36984
+LIE,Liechtenstein,2014,37248
+LIE,Liechtenstein,2015,37494
+LIE,Liechtenstein,2016,37716
+LIE,Liechtenstein,2017,37962
+LIE,Liechtenstein,2018,38246
+LIE,Liechtenstein,2019,38563
+LIE,Liechtenstein,2020,38901
+LIE,Liechtenstein,2021,39182
+LIE,Liechtenstein,2022,39493
+LIE,Liechtenstein,2023,39846
 MAR,Morocco,1990,24375551
 MAR,Morocco,1991,24799014
 MAR,Morocco,1992,25212468
@@ -3467,6 +3739,40 @@ MAR,Morocco,2020,36584208
 MAR,Morocco,2021,36954442
 MAR,Morocco,2022,37329064
 MAR,Morocco,2023,37712505
+MCO,Monaco,1990,30358
+MCO,Monaco,1991,30625
+MCO,Monaco,1992,30887
+MCO,Monaco,1993,31136
+MCO,Monaco,1994,31375
+MCO,Monaco,1995,31609
+MCO,Monaco,1996,31837
+MCO,Monaco,1997,32063
+MCO,Monaco,1998,32267
+MCO,Monaco,1999,32410
+MCO,Monaco,2000,32455
+MCO,Monaco,2001,32447
+MCO,Monaco,2002,32422
+MCO,Monaco,2003,32374
+MCO,Monaco,2004,32307
+MCO,Monaco,2005,32210
+MCO,Monaco,2006,32057
+MCO,Monaco,2007,31837
+MCO,Monaco,2008,31836
+MCO,Monaco,2009,32364
+MCO,Monaco,2010,33163
+MCO,Monaco,2011,33946
+MCO,Monaco,2012,34711
+MCO,Monaco,2013,35447
+MCO,Monaco,2014,36128
+MCO,Monaco,2015,36757
+MCO,Monaco,2016,37276
+MCO,Monaco,2017,37678
+MCO,Monaco,2018,38154
+MCO,Monaco,2019,38109
+MCO,Monaco,2020,38050
+MCO,Monaco,2021,38527
+MCO,Monaco,2022,38931
+MCO,Monaco,2023,38956
 MLT,Malta,1990,354170
 MLT,Malta,1991,363845
 MLT,Malta,1992,367618
@@ -3501,108 +3807,6 @@ MLT,Malta,2020,515490
 MLT,Malta,2021,518150
 MLT,Malta,2022,531113
 MLT,Malta,2023,552747
-PRT,Portugal,1990,9983218
-PRT,Portugal,1991,9960235
-PRT,Portugal,1992,9952494
-PRT,Portugal,1993,9964675
-PRT,Portugal,1994,9991525
-PRT,Portugal,1995,10026176
-PRT,Portugal,1996,10063945
-PRT,Portugal,1997,10108977
-PRT,Portugal,1998,10160196
-PRT,Portugal,1999,10217828
-PRT,Portugal,2000,10289898
-PRT,Portugal,2001,10362722
-PRT,Portugal,2002,10419631
-PRT,Portugal,2003,10458821
-PRT,Portugal,2004,10483861
-PRT,Portugal,2005,10503330
-PRT,Portugal,2006,10522288
-PRT,Portugal,2007,10542964
-PRT,Portugal,2008,10558177
-PRT,Portugal,2009,10568247
-PRT,Portugal,2010,10573100
-PRT,Portugal,2011,10557560
-PRT,Portugal,2012,10514844
-PRT,Portugal,2013,10457295
-PRT,Portugal,2014,10401062
-PRT,Portugal,2015,10358076
-PRT,Portugal,2016,10325452
-PRT,Portugal,2017,10300300
-PRT,Portugal,2018,10283822
-PRT,Portugal,2019,10286263
-PRT,Portugal,2020,10297081
-PRT,Portugal,2021,10361831
-PRT,Portugal,2022,10434332
-PRT,Portugal,2023,10578174
-PRT,Portugal,1990,9983218
-PRT,Portugal,1991,9960235
-PRT,Portugal,1992,9952494
-PRT,Portugal,1993,9964675
-PRT,Portugal,1994,9991525
-PRT,Portugal,1995,10026176
-PRT,Portugal,1996,10063945
-PRT,Portugal,1997,10108977
-PRT,Portugal,1998,10160196
-PRT,Portugal,1999,10217828
-PRT,Portugal,2000,10289898
-PRT,Portugal,2001,10362722
-PRT,Portugal,2002,10419631
-PRT,Portugal,2003,10458821
-PRT,Portugal,2004,10483861
-PRT,Portugal,2005,10503330
-PRT,Portugal,2006,10522288
-PRT,Portugal,2007,10542964
-PRT,Portugal,2008,10558177
-PRT,Portugal,2009,10568247
-PRT,Portugal,2010,10573100
-PRT,Portugal,2011,10557560
-PRT,Portugal,2012,10514844
-PRT,Portugal,2013,10457295
-PRT,Portugal,2014,10401062
-PRT,Portugal,2015,10358076
-PRT,Portugal,2016,10325452
-PRT,Portugal,2017,10300300
-PRT,Portugal,2018,10283822
-PRT,Portugal,2019,10286263
-PRT,Portugal,2020,10297081
-PRT,Portugal,2021,10361831
-PRT,Portugal,2022,10434332
-PRT,Portugal,2023,10578174
-PRT,Portugal,1990,9983218
-PRT,Portugal,1991,9960235
-PRT,Portugal,1992,9952494
-PRT,Portugal,1993,9964675
-PRT,Portugal,1994,9991525
-PRT,Portugal,1995,10026176
-PRT,Portugal,1996,10063945
-PRT,Portugal,1997,10108977
-PRT,Portugal,1998,10160196
-PRT,Portugal,1999,10217828
-PRT,Portugal,2000,10289898
-PRT,Portugal,2001,10362722
-PRT,Portugal,2002,10419631
-PRT,Portugal,2003,10458821
-PRT,Portugal,2004,10483861
-PRT,Portugal,2005,10503330
-PRT,Portugal,2006,10522288
-PRT,Portugal,2007,10542964
-PRT,Portugal,2008,10558177
-PRT,Portugal,2009,10568247
-PRT,Portugal,2010,10573100
-PRT,Portugal,2011,10557560
-PRT,Portugal,2012,10514844
-PRT,Portugal,2013,10457295
-PRT,Portugal,2014,10401062
-PRT,Portugal,2015,10358076
-PRT,Portugal,2016,10325452
-PRT,Portugal,2017,10300300
-PRT,Portugal,2018,10283822
-PRT,Portugal,2019,10286263
-PRT,Portugal,2020,10297081
-PRT,Portugal,2021,10361831
-PRT,Portugal,2022,10434332
-PRT,Portugal,2023,10578174
 SMR,San Marino,1990,23475
 SMR,San Marino,1991,23797
 SMR,San Marino,1992,24125
@@ -3671,6 +3875,40 @@ TUN,Tunisia,2020,11974057
 TUN,Tunisia,2021,12048622
 TUN,Tunisia,2022,12119334
 TUN,Tunisia,2023,12200431
+VAT,Vatican City,1990,
+VAT,Vatican City,1991,
+VAT,Vatican City,1992,
+VAT,Vatican City,1993,
+VAT,Vatican City,1994,
+VAT,Vatican City,1995,
+VAT,Vatican City,1996,
+VAT,Vatican City,1997,
+VAT,Vatican City,1998,
+VAT,Vatican City,1999,
+VAT,Vatican City,2000,
+VAT,Vatican City,2001,
+VAT,Vatican City,2002,
+VAT,Vatican City,2003,
+VAT,Vatican City,2004,
+VAT,Vatican City,2005,
+VAT,Vatican City,2006,
+VAT,Vatican City,2007,
+VAT,Vatican City,2008,
+VAT,Vatican City,2009,
+VAT,Vatican City,2010,
+VAT,Vatican City,2011,
+VAT,Vatican City,2012,
+VAT,Vatican City,2013,
+VAT,Vatican City,2014,
+VAT,Vatican City,2015,
+VAT,Vatican City,2016,
+VAT,Vatican City,2017,
+VAT,Vatican City,2018,
+VAT,Vatican City,2019,
+VAT,Vatican City,2020,
+VAT,Vatican City,2021,
+VAT,Vatican City,2022,
+VAT,Vatican City,2023,
 BEN,Benin,1990,5281479
 BEN,Benin,1991,5446932
 BEN,Benin,1992,5617844
@@ -3773,40 +4011,40 @@ CAF,Central African Republic,2020,5026628
 CAF,Central African Republic,2021,5112100
 CAF,Central African Republic,2022,5098039
 CAF,Central African Republic,2023,5152421
-CIV,CÃ´te d'Ivoire,1990,12189778
-CIV,CÃ´te d'Ivoire,1991,12683870
-CIV,CÃ´te d'Ivoire,1992,13200310
-CIV,CÃ´te d'Ivoire,1993,13735951
-CIV,CÃ´te d'Ivoire,1994,14287201
-CIV,CÃ´te d'Ivoire,1995,14855565
-CIV,CÃ´te d'Ivoire,1996,15442312
-CIV,CÃ´te d'Ivoire,1997,16047170
-CIV,CÃ´te d'Ivoire,1998,16663948
-CIV,CÃ´te d'Ivoire,1999,17215935
-CIV,CÃ´te d'Ivoire,2000,17699004
-CIV,CÃ´te d'Ivoire,2001,18178913
-CIV,CÃ´te d'Ivoire,2002,18654771
-CIV,CÃ´te d'Ivoire,2003,19125542
-CIV,CÃ´te d'Ivoire,2004,19595000
-CIV,CÃ´te d'Ivoire,2005,20068458
-CIV,CÃ´te d'Ivoire,2006,20546802
-CIV,CÃ´te d'Ivoire,2007,21030558
-CIV,CÃ´te d'Ivoire,2008,21514439
-CIV,CÃ´te d'Ivoire,2009,21997940
-CIV,CÃ´te d'Ivoire,2010,22488065
-CIV,CÃ´te d'Ivoire,2011,22982000
-CIV,CÃ´te d'Ivoire,2012,23467078
-CIV,CÃ´te d'Ivoire,2013,23939775
-CIV,CÃ´te d'Ivoire,2014,24527395
-CIV,CÃ´te d'Ivoire,2015,25246342
-CIV,CÃ´te d'Ivoire,2016,25989405
-CIV,CÃ´te d'Ivoire,2017,26733372
-CIV,CÃ´te d'Ivoire,2018,27464173
-CIV,CÃ´te d'Ivoire,2019,28193009
-CIV,CÃ´te d'Ivoire,2020,28915449
-CIV,CÃ´te d'Ivoire,2021,29639736
-CIV,CÃ´te d'Ivoire,2022,30395002
-CIV,CÃ´te d'Ivoire,2023,31165654
+CIV,Côte d’Ivoire,1990,12189778
+CIV,Côte d’Ivoire,1991,12683870
+CIV,Côte d’Ivoire,1992,13200310
+CIV,Côte d’Ivoire,1993,13735951
+CIV,Côte d’Ivoire,1994,14287201
+CIV,Côte d’Ivoire,1995,14855565
+CIV,Côte d’Ivoire,1996,15442312
+CIV,Côte d’Ivoire,1997,16047170
+CIV,Côte d’Ivoire,1998,16663948
+CIV,Côte d’Ivoire,1999,17215935
+CIV,Côte d’Ivoire,2000,17699004
+CIV,Côte d’Ivoire,2001,18178913
+CIV,Côte d’Ivoire,2002,18654771
+CIV,Côte d’Ivoire,2003,19125542
+CIV,Côte d’Ivoire,2004,19595000
+CIV,Côte d’Ivoire,2005,20068458
+CIV,Côte d’Ivoire,2006,20546802
+CIV,Côte d’Ivoire,2007,21030558
+CIV,Côte d’Ivoire,2008,21514439
+CIV,Côte d’Ivoire,2009,21997940
+CIV,Côte d’Ivoire,2010,22488065
+CIV,Côte d’Ivoire,2011,22982000
+CIV,Côte d’Ivoire,2012,23467078
+CIV,Côte d’Ivoire,2013,23939775
+CIV,Côte d’Ivoire,2014,24527395
+CIV,Côte d’Ivoire,2015,25246342
+CIV,Côte d’Ivoire,2016,25989405
+CIV,Côte d’Ivoire,2017,26733372
+CIV,Côte d’Ivoire,2018,27464173
+CIV,Côte d’Ivoire,2019,28193009
+CIV,Côte d’Ivoire,2020,28915449
+CIV,Côte d’Ivoire,2021,29639736
+CIV,Côte d’Ivoire,2022,30395002
+CIV,Côte d’Ivoire,2023,31165654
 CMR,Cameroon,1990,11331821
 CMR,Cameroon,1991,11667180
 CMR,Cameroon,1992,12006353
@@ -4283,6 +4521,40 @@ GNQ,Equatorial Guinea,2020,1716468
 GNQ,Equatorial Guinea,2021,1758786
 GNQ,Equatorial Guinea,2022,1803545
 GNQ,Equatorial Guinea,2023,1847549
+GRL,Greenland (Den.),1990,55600
+GRL,Greenland (Den.),1991,55500
+GRL,Greenland (Den.),1992,55300
+GRL,Greenland (Den.),1993,55200
+GRL,Greenland (Den.),1994,55500
+GRL,Greenland (Den.),1995,55800
+GRL,Greenland (Den.),1996,55900
+GRL,Greenland (Den.),1997,56000
+GRL,Greenland (Den.),1998,56100
+GRL,Greenland (Den.),1999,56100
+GRL,Greenland (Den.),2000,56185
+GRL,Greenland (Den.),2001,56379
+GRL,Greenland (Den.),2002,56595
+GRL,Greenland (Den.),2003,56751
+GRL,Greenland (Den.),2004,56898
+GRL,Greenland (Den.),2005,56935
+GRL,Greenland (Den.),2006,56775
+GRL,Greenland (Den.),2007,56555
+GRL,Greenland (Den.),2008,56328
+GRL,Greenland (Den.),2009,56323
+GRL,Greenland (Den.),2010,56534
+GRL,Greenland (Den.),2011,56890
+GRL,Greenland (Den.),2012,56810
+GRL,Greenland (Den.),2013,56483
+GRL,Greenland (Den.),2014,56295
+GRL,Greenland (Den.),2015,56114
+GRL,Greenland (Den.),2016,56186
+GRL,Greenland (Den.),2017,56172
+GRL,Greenland (Den.),2018,56023
+GRL,Greenland (Den.),2019,56225
+GRL,Greenland (Den.),2020,56367
+GRL,Greenland (Den.),2021,56653
+GRL,Greenland (Den.),2022,56661
+GRL,Greenland (Den.),2023,56865
 LBR,Liberia,1990,2223667
 LBR,Liberia,1991,1956518
 LBR,Liberia,1992,2072461
@@ -4351,40 +4623,6 @@ NAM,Namibia,2020,2728762
 NAM,Namibia,2021,2810548
 NAM,Namibia,2022,2889662
 NAM,Namibia,2023,2963095
-ZWE,Zimbabwe,1990,10137281
-ZWE,Zimbabwe,1991,10404816
-ZWE,Zimbabwe,1992,10702700
-ZWE,Zimbabwe,1993,10860288
-ZWE,Zimbabwe,1994,10873148
-ZWE,Zimbabwe,1995,10974599
-ZWE,Zimbabwe,1996,11158360
-ZWE,Zimbabwe,1997,11369827
-ZWE,Zimbabwe,1998,11594297
-ZWE,Zimbabwe,1999,11783458
-ZWE,Zimbabwe,2000,11892055
-ZWE,Zimbabwe,2001,11971901
-ZWE,Zimbabwe,2002,12087653
-ZWE,Zimbabwe,2003,12232323
-ZWE,Zimbabwe,2004,12365896
-ZWE,Zimbabwe,2005,12483432
-ZWE,Zimbabwe,2006,12636445
-ZWE,Zimbabwe,2007,12804058
-ZWE,Zimbabwe,2008,12959149
-ZWE,Zimbabwe,2009,13142790
-ZWE,Zimbabwe,2010,13356548
-ZWE,Zimbabwe,2011,13595424
-ZWE,Zimbabwe,2012,13817887
-ZWE,Zimbabwe,2013,14013808
-ZWE,Zimbabwe,2014,14207359
-ZWE,Zimbabwe,2015,14399013
-ZWE,Zimbabwe,2016,14600294
-ZWE,Zimbabwe,2017,14812482
-ZWE,Zimbabwe,2018,15034452
-ZWE,Zimbabwe,2019,15271368
-ZWE,Zimbabwe,2020,15526888
-ZWE,Zimbabwe,2021,15797210
-ZWE,Zimbabwe,2022,16069056
-ZWE,Zimbabwe,2023,16340822
 BRA,Brazil,1990,149143223
 BRA,Brazil,1991,151724256
 BRA,Brazil,1992,154275079
@@ -4419,6 +4657,40 @@ BRA,Brazil,2020,208660842
 BRA,Brazil,2021,209550294
 BRA,Brazil,2022,210306415
 BRA,Brazil,2023,211140729
+BVT,Bouvet Island (Nor.),1990,
+BVT,Bouvet Island (Nor.),1991,
+BVT,Bouvet Island (Nor.),1992,
+BVT,Bouvet Island (Nor.),1993,
+BVT,Bouvet Island (Nor.),1994,
+BVT,Bouvet Island (Nor.),1995,
+BVT,Bouvet Island (Nor.),1996,
+BVT,Bouvet Island (Nor.),1997,
+BVT,Bouvet Island (Nor.),1998,
+BVT,Bouvet Island (Nor.),1999,
+BVT,Bouvet Island (Nor.),2000,
+BVT,Bouvet Island (Nor.),2001,
+BVT,Bouvet Island (Nor.),2002,
+BVT,Bouvet Island (Nor.),2003,
+BVT,Bouvet Island (Nor.),2004,
+BVT,Bouvet Island (Nor.),2005,
+BVT,Bouvet Island (Nor.),2006,
+BVT,Bouvet Island (Nor.),2007,
+BVT,Bouvet Island (Nor.),2008,
+BVT,Bouvet Island (Nor.),2009,
+BVT,Bouvet Island (Nor.),2010,
+BVT,Bouvet Island (Nor.),2011,
+BVT,Bouvet Island (Nor.),2012,
+BVT,Bouvet Island (Nor.),2013,
+BVT,Bouvet Island (Nor.),2014,
+BVT,Bouvet Island (Nor.),2015,
+BVT,Bouvet Island (Nor.),2016,
+BVT,Bouvet Island (Nor.),2017,
+BVT,Bouvet Island (Nor.),2018,
+BVT,Bouvet Island (Nor.),2019,
+BVT,Bouvet Island (Nor.),2020,
+BVT,Bouvet Island (Nor.),2021,
+BVT,Bouvet Island (Nor.),2022,
+BVT,Bouvet Island (Nor.),2023,
 CPV,Cabo Verde,1990,375428
 CPV,Cabo Verde,1991,384586
 CPV,Cabo Verde,1992,393415
@@ -4555,40 +4827,74 @@ MRT,Mauritania,2020,4600131
 MRT,Mauritania,2021,4734874
 MRT,Mauritania,2022,4875637
 MRT,Mauritania,2023,5022441
-STP,SÃ£o TomÃ© and PrÃ­ncipe,1990,122980
-STP,SÃ£o TomÃ© and PrÃ­ncipe,1991,125697
-STP,SÃ£o TomÃ© and PrÃ­ncipe,1992,128110
-STP,SÃ£o TomÃ© and PrÃ­ncipe,1993,130467
-STP,SÃ£o TomÃ© and PrÃ­ncipe,1994,132732
-STP,SÃ£o TomÃ© and PrÃ­ncipe,1995,134895
-STP,SÃ£o TomÃ© and PrÃ­ncipe,1996,136962
-STP,SÃ£o TomÃ© and PrÃ­ncipe,1997,138922
-STP,SÃ£o TomÃ© and PrÃ­ncipe,1998,140751
-STP,SÃ£o TomÃ© and PrÃ­ncipe,1999,142442
-STP,SÃ£o TomÃ© and PrÃ­ncipe,2000,144018
-STP,SÃ£o TomÃ© and PrÃ­ncipe,2001,146375
-STP,SÃ£o TomÃ© and PrÃ­ncipe,2002,149922
-STP,SÃ£o TomÃ© and PrÃ­ncipe,2003,153814
-STP,SÃ£o TomÃ© and PrÃ­ncipe,2004,157705
-STP,SÃ£o TomÃ© and PrÃ­ncipe,2005,161639
-STP,SÃ£o TomÃ© and PrÃ­ncipe,2006,165638
-STP,SÃ£o TomÃ© and PrÃ­ncipe,2007,169700
-STP,SÃ£o TomÃ© and PrÃ­ncipe,2008,173793
-STP,SÃ£o TomÃ© and PrÃ­ncipe,2009,177853
-STP,SÃ£o TomÃ© and PrÃ­ncipe,2010,181802
-STP,SÃ£o TomÃ© and PrÃ­ncipe,2011,185649
-STP,SÃ£o TomÃ© and PrÃ­ncipe,2012,189439
-STP,SÃ£o TomÃ© and PrÃ­ncipe,2013,193148
-STP,SÃ£o TomÃ© and PrÃ­ncipe,2014,196767
-STP,SÃ£o TomÃ© and PrÃ­ncipe,2015,200291
-STP,SÃ£o TomÃ© and PrÃ­ncipe,2016,203689
-STP,SÃ£o TomÃ© and PrÃ­ncipe,2017,206970
-STP,SÃ£o TomÃ© and PrÃ­ncipe,2018,210187
-STP,SÃ£o TomÃ© and PrÃ­ncipe,2019,213392
-STP,SÃ£o TomÃ© and PrÃ­ncipe,2020,217435
-STP,SÃ£o TomÃ© and PrÃ­ncipe,2021,221961
-STP,SÃ£o TomÃ© and PrÃ­ncipe,2022,226305
-STP,SÃ£o TomÃ© and PrÃ­ncipe,2023,230871
+SHN,"Saint Helena, Ascension and Tristan da Cunha (U.K.)",1990,
+SHN,"Saint Helena, Ascension and Tristan da Cunha (U.K.)",1991,
+SHN,"Saint Helena, Ascension and Tristan da Cunha (U.K.)",1992,
+SHN,"Saint Helena, Ascension and Tristan da Cunha (U.K.)",1993,
+SHN,"Saint Helena, Ascension and Tristan da Cunha (U.K.)",1994,
+SHN,"Saint Helena, Ascension and Tristan da Cunha (U.K.)",1995,
+SHN,"Saint Helena, Ascension and Tristan da Cunha (U.K.)",1996,
+SHN,"Saint Helena, Ascension and Tristan da Cunha (U.K.)",1997,
+SHN,"Saint Helena, Ascension and Tristan da Cunha (U.K.)",1998,
+SHN,"Saint Helena, Ascension and Tristan da Cunha (U.K.)",1999,
+SHN,"Saint Helena, Ascension and Tristan da Cunha (U.K.)",2000,
+SHN,"Saint Helena, Ascension and Tristan da Cunha (U.K.)",2001,
+SHN,"Saint Helena, Ascension and Tristan da Cunha (U.K.)",2002,
+SHN,"Saint Helena, Ascension and Tristan da Cunha (U.K.)",2003,
+SHN,"Saint Helena, Ascension and Tristan da Cunha (U.K.)",2004,
+SHN,"Saint Helena, Ascension and Tristan da Cunha (U.K.)",2005,
+SHN,"Saint Helena, Ascension and Tristan da Cunha (U.K.)",2006,
+SHN,"Saint Helena, Ascension and Tristan da Cunha (U.K.)",2007,
+SHN,"Saint Helena, Ascension and Tristan da Cunha (U.K.)",2008,
+SHN,"Saint Helena, Ascension and Tristan da Cunha (U.K.)",2009,
+SHN,"Saint Helena, Ascension and Tristan da Cunha (U.K.)",2010,
+SHN,"Saint Helena, Ascension and Tristan da Cunha (U.K.)",2011,
+SHN,"Saint Helena, Ascension and Tristan da Cunha (U.K.)",2012,
+SHN,"Saint Helena, Ascension and Tristan da Cunha (U.K.)",2013,
+SHN,"Saint Helena, Ascension and Tristan da Cunha (U.K.)",2014,
+SHN,"Saint Helena, Ascension and Tristan da Cunha (U.K.)",2015,
+SHN,"Saint Helena, Ascension and Tristan da Cunha (U.K.)",2016,
+SHN,"Saint Helena, Ascension and Tristan da Cunha (U.K.)",2017,
+SHN,"Saint Helena, Ascension and Tristan da Cunha (U.K.)",2018,
+SHN,"Saint Helena, Ascension and Tristan da Cunha (U.K.)",2019,
+SHN,"Saint Helena, Ascension and Tristan da Cunha (U.K.)",2020,
+SHN,"Saint Helena, Ascension and Tristan da Cunha (U.K.)",2021,
+SHN,"Saint Helena, Ascension and Tristan da Cunha (U.K.)",2022,
+SHN,"Saint Helena, Ascension and Tristan da Cunha (U.K.)",2023,
+STP,São Tomé and Príncipe,1990,122980
+STP,São Tomé and Príncipe,1991,125697
+STP,São Tomé and Príncipe,1992,128110
+STP,São Tomé and Príncipe,1993,130467
+STP,São Tomé and Príncipe,1994,132732
+STP,São Tomé and Príncipe,1995,134895
+STP,São Tomé and Príncipe,1996,136962
+STP,São Tomé and Príncipe,1997,138922
+STP,São Tomé and Príncipe,1998,140751
+STP,São Tomé and Príncipe,1999,142442
+STP,São Tomé and Príncipe,2000,144018
+STP,São Tomé and Príncipe,2001,146375
+STP,São Tomé and Príncipe,2002,149922
+STP,São Tomé and Príncipe,2003,153814
+STP,São Tomé and Príncipe,2004,157705
+STP,São Tomé and Príncipe,2005,161639
+STP,São Tomé and Príncipe,2006,165638
+STP,São Tomé and Príncipe,2007,169700
+STP,São Tomé and Príncipe,2008,173793
+STP,São Tomé and Príncipe,2009,177853
+STP,São Tomé and Príncipe,2010,181802
+STP,São Tomé and Príncipe,2011,185649
+STP,São Tomé and Príncipe,2012,189439
+STP,São Tomé and Príncipe,2013,193148
+STP,São Tomé and Príncipe,2014,196767
+STP,São Tomé and Príncipe,2015,200291
+STP,São Tomé and Príncipe,2016,203689
+STP,São Tomé and Príncipe,2017,206970
+STP,São Tomé and Príncipe,2018,210187
+STP,São Tomé and Príncipe,2019,213392
+STP,São Tomé and Príncipe,2020,217435
+STP,São Tomé and Príncipe,2021,221961
+STP,São Tomé and Príncipe,2022,226305
+STP,São Tomé and Príncipe,2023,230871
 GMB,The Gambia,1990,1054696
 GMB,The Gambia,1991,1099959
 GMB,The Gambia,1992,1145582
@@ -4657,6 +4963,74 @@ GNB,Guinea-Bissau,2020,2013255
 GNB,Guinea-Bissau,2021,2058841
 GNB,Guinea-Bissau,2022,2105529
 GNB,Guinea-Bissau,2023,2153339
+GUM,Guam (U.S.),1990,138610
+GUM,Guam (U.S.),1991,141073
+GUM,Guam (U.S.),1992,143393
+GUM,Guam (U.S.),1993,145654
+GUM,Guam (U.S.),1994,147868
+GUM,Guam (U.S.),1995,150054
+GUM,Guam (U.S.),1996,152169
+GUM,Guam (U.S.),1997,154215
+GUM,Guam (U.S.),1998,156237
+GUM,Guam (U.S.),1999,158289
+GUM,Guam (U.S.),2000,160065
+GUM,Guam (U.S.),2001,161329
+GUM,Guam (U.S.),2002,162315
+GUM,Guam (U.S.),2003,163137
+GUM,Guam (U.S.),2004,163810
+GUM,Guam (U.S.),2005,164365
+GUM,Guam (U.S.),2006,164839
+GUM,Guam (U.S.),2007,165267
+GUM,Guam (U.S.),2008,165693
+GUM,Guam (U.S.),2009,166173
+GUM,Guam (U.S.),2010,166522
+GUM,Guam (U.S.),2011,166543
+GUM,Guam (U.S.),2012,166331
+GUM,Guam (U.S.),2013,165966
+GUM,Guam (U.S.),2014,165486
+GUM,Guam (U.S.),2015,164905
+GUM,Guam (U.S.),2016,164233
+GUM,Guam (U.S.),2017,163490
+GUM,Guam (U.S.),2018,162679
+GUM,Guam (U.S.),2019,161808
+GUM,Guam (U.S.),2020,162158
+GUM,Guam (U.S.),2021,163730
+GUM,Guam (U.S.),2022,165180
+GUM,Guam (U.S.),2023,166506
+MNP,Northern Mariana Islands (U.S.),1990,43342
+MNP,Northern Mariana Islands (U.S.),1991,44393
+MNP,Northern Mariana Islands (U.S.),1992,45181
+MNP,Northern Mariana Islands (U.S.),1993,45952
+MNP,Northern Mariana Islands (U.S.),1994,46730
+MNP,Northern Mariana Islands (U.S.),1995,48176
+MNP,Northern Mariana Islands (U.S.),1996,51706
+MNP,Northern Mariana Islands (U.S.),1997,56596
+MNP,Northern Mariana Islands (U.S.),1998,61337
+MNP,Northern Mariana Islands (U.S.),1999,65916
+MNP,Northern Mariana Islands (U.S.),2000,68356
+MNP,Northern Mariana Islands (U.S.),2001,67984
+MNP,Northern Mariana Islands (U.S.),2002,66778
+MNP,Northern Mariana Islands (U.S.),2003,65421
+MNP,Northern Mariana Islands (U.S.),2004,63938
+MNP,Northern Mariana Islands (U.S.),2005,62354
+MNP,Northern Mariana Islands (U.S.),2006,60682
+MNP,Northern Mariana Islands (U.S.),2007,58941
+MNP,Northern Mariana Islands (U.S.),2008,57150
+MNP,Northern Mariana Islands (U.S.),2009,55325
+MNP,Northern Mariana Islands (U.S.),2010,54091
+MNP,Northern Mariana Islands (U.S.),2011,53608
+MNP,Northern Mariana Islands (U.S.),2012,53234
+MNP,Northern Mariana Islands (U.S.),2013,52758
+MNP,Northern Mariana Islands (U.S.),2014,52178
+MNP,Northern Mariana Islands (U.S.),2015,51514
+MNP,Northern Mariana Islands (U.S.),2016,50773
+MNP,Northern Mariana Islands (U.S.),2017,49959
+MNP,Northern Mariana Islands (U.S.),2018,49077
+MNP,Northern Mariana Islands (U.S.),2019,48129
+MNP,Northern Mariana Islands (U.S.),2020,47528
+MNP,Northern Mariana Islands (U.S.),2021,46979
+MNP,Northern Mariana Islands (U.S.),2022,46078
+MNP,Northern Mariana Islands (U.S.),2023,45143
 PHL,Philippines,1990,62854666
 PHL,Philippines,1991,64382249
 PHL,Philippines,1992,65926125
@@ -4827,6 +5201,40 @@ BRN,Brunei Darussalam,2020,447404
 BRN,Brunei Darussalam,2021,451721
 BRN,Brunei Darussalam,2022,455370
 BRN,Brunei Darussalam,2023,458949
+HKG,"Hong Kong SAR, China",1990,5704500
+HKG,"Hong Kong SAR, China",1991,5752000
+HKG,"Hong Kong SAR, China",1992,5800500
+HKG,"Hong Kong SAR, China",1993,5901000
+HKG,"Hong Kong SAR, China",1994,6035400
+HKG,"Hong Kong SAR, China",1995,6156100
+HKG,"Hong Kong SAR, China",1996,6435500
+HKG,"Hong Kong SAR, China",1997,6489300
+HKG,"Hong Kong SAR, China",1998,6543700
+HKG,"Hong Kong SAR, China",1999,6606500
+HKG,"Hong Kong SAR, China",2000,6665000
+HKG,"Hong Kong SAR, China",2001,6714300
+HKG,"Hong Kong SAR, China",2002,6744100
+HKG,"Hong Kong SAR, China",2003,6730800
+HKG,"Hong Kong SAR, China",2004,6783500
+HKG,"Hong Kong SAR, China",2005,6813200
+HKG,"Hong Kong SAR, China",2006,6857100
+HKG,"Hong Kong SAR, China",2007,6916300
+HKG,"Hong Kong SAR, China",2008,6957800
+HKG,"Hong Kong SAR, China",2009,6972800
+HKG,"Hong Kong SAR, China",2010,7024200
+HKG,"Hong Kong SAR, China",2011,7071600
+HKG,"Hong Kong SAR, China",2012,7150100
+HKG,"Hong Kong SAR, China",2013,7178900
+HKG,"Hong Kong SAR, China",2014,7229500
+HKG,"Hong Kong SAR, China",2015,7291300
+HKG,"Hong Kong SAR, China",2016,7336600
+HKG,"Hong Kong SAR, China",2017,7393200
+HKG,"Hong Kong SAR, China",2018,7452600
+HKG,"Hong Kong SAR, China",2019,7507900
+HKG,"Hong Kong SAR, China",2020,7481000
+HKG,"Hong Kong SAR, China",2021,7413100
+HKG,"Hong Kong SAR, China",2022,7346100
+HKG,"Hong Kong SAR, China",2023,7536100
 IDN,Indonesia,1990,183501098
 IDN,Indonesia,1991,186778238
 IDN,Indonesia,1992,190043744
@@ -4929,6 +5337,40 @@ LAO,Lao People's Democratic Republic,2020,7346533
 LAO,Lao People's Democratic Republic,2021,7453194
 LAO,Lao People's Democratic Republic,2022,7559007
 LAO,Lao People's Democratic Republic,2023,7664993
+MAC,"Macau SAR, China",1990,334950
+MAC,"Macau SAR, China",1991,351650
+MAC,"Macau SAR, China",1992,370900
+MAC,"Macau SAR, China",1993,384000
+MAC,"Macau SAR, China",1994,396800
+MAC,"Macau SAR, China",1995,409300
+MAC,"Macau SAR, China",1996,415100
+MAC,"Macau SAR, China",1997,417300
+MAC,"Macau SAR, China",1998,422300
+MAC,"Macau SAR, China",1999,427400
+MAC,"Macau SAR, China",2000,430600
+MAC,"Macau SAR, China",2001,433900
+MAC,"Macau SAR, China",2002,438400
+MAC,"Macau SAR, China",2003,443600
+MAC,"Macau SAR, China",2004,454700
+MAC,"Macau SAR, China",2005,473500
+MAC,"Macau SAR, China",2006,498900
+MAC,"Macau SAR, China",2007,520900
+MAC,"Macau SAR, China",2008,540700
+MAC,"Macau SAR, China",2009,535000
+MAC,"Macau SAR, China",2010,537000
+MAC,"Macau SAR, China",2011,549600
+MAC,"Macau SAR, China",2012,567900
+MAC,"Macau SAR, China",2013,591900
+MAC,"Macau SAR, China",2014,621700
+MAC,"Macau SAR, China",2015,642900
+MAC,"Macau SAR, China",2016,652500
+MAC,"Macau SAR, China",2017,648400
+MAC,"Macau SAR, China",2018,658900
+MAC,"Macau SAR, China",2019,672000
+MAC,"Macau SAR, China",2020,685400
+MAC,"Macau SAR, China",2021,682500
+MAC,"Macau SAR, China",2022,677300
+MAC,"Macau SAR, China",2023,678800
 MYS,Malaysia,1990,17833171
 MYS,Malaysia,1991,18342464
 MYS,Malaysia,1992,18834572
@@ -5065,40 +5507,40 @@ TLS,Timor-Leste,2020,1326053
 TLS,Timor-Leste,2021,1350139
 TLS,Timor-Leste,2022,1369295
 TLS,Timor-Leste,2023,1384286
-AUS,Australia,1990,17065128
-AUS,Australia,1991,17284036
-AUS,Australia,1992,17478635
-AUS,Australia,1993,17634808
-AUS,Australia,1994,17805468
-AUS,Australia,1995,18004882
-AUS,Australia,1996,18224767
-AUS,Australia,1997,18423037
-AUS,Australia,1998,18607584
-AUS,Australia,1999,18812264
-AUS,Australia,2000,19028802
-AUS,Australia,2001,19274701
-AUS,Australia,2002,19495210
-AUS,Australia,2003,19720737
-AUS,Australia,2004,19932722
-AUS,Australia,2005,20176844
-AUS,Australia,2006,20450966
-AUS,Australia,2007,20827622
-AUS,Australia,2008,21249199
-AUS,Australia,2009,21691653
-AUS,Australia,2010,22031750
-AUS,Australia,2011,22340024
-AUS,Australia,2012,22733465
-AUS,Australia,2013,23128129
-AUS,Australia,2014,23475686
-AUS,Australia,2015,23815995
-AUS,Australia,2016,24190907
-AUS,Australia,2017,24592588
-AUS,Australia,2018,24963258
-AUS,Australia,2019,25334826
-AUS,Australia,2020,25649248
-AUS,Australia,2021,25685412
-AUS,Australia,2022,26018721
-AUS,Australia,2023,26659922
+NFK,Norfolk Island (Aus.),1990,
+NFK,Norfolk Island (Aus.),1991,
+NFK,Norfolk Island (Aus.),1992,
+NFK,Norfolk Island (Aus.),1993,
+NFK,Norfolk Island (Aus.),1994,
+NFK,Norfolk Island (Aus.),1995,
+NFK,Norfolk Island (Aus.),1996,
+NFK,Norfolk Island (Aus.),1997,
+NFK,Norfolk Island (Aus.),1998,
+NFK,Norfolk Island (Aus.),1999,
+NFK,Norfolk Island (Aus.),2000,
+NFK,Norfolk Island (Aus.),2001,
+NFK,Norfolk Island (Aus.),2002,
+NFK,Norfolk Island (Aus.),2003,
+NFK,Norfolk Island (Aus.),2004,
+NFK,Norfolk Island (Aus.),2005,
+NFK,Norfolk Island (Aus.),2006,
+NFK,Norfolk Island (Aus.),2007,
+NFK,Norfolk Island (Aus.),2008,
+NFK,Norfolk Island (Aus.),2009,
+NFK,Norfolk Island (Aus.),2010,
+NFK,Norfolk Island (Aus.),2011,
+NFK,Norfolk Island (Aus.),2012,
+NFK,Norfolk Island (Aus.),2013,
+NFK,Norfolk Island (Aus.),2014,
+NFK,Norfolk Island (Aus.),2015,
+NFK,Norfolk Island (Aus.),2016,
+NFK,Norfolk Island (Aus.),2017,
+NFK,Norfolk Island (Aus.),2018,
+NFK,Norfolk Island (Aus.),2019,
+NFK,Norfolk Island (Aus.),2020,
+NFK,Norfolk Island (Aus.),2021,
+NFK,Norfolk Island (Aus.),2022,
+NFK,Norfolk Island (Aus.),2023,
 NZL,New Zealand,1990,3329800
 NZL,New Zealand,1991,3495100
 NZL,New Zealand,1992,3531700
@@ -5269,6 +5711,40 @@ VUT,Vanuatu,2020,298858
 VUT,Vanuatu,2021,305868
 VUT,Vanuatu,2022,313046
 VUT,Vanuatu,2023,320409
+AIA,Anguilla (U.K.),1990,
+AIA,Anguilla (U.K.),1991,
+AIA,Anguilla (U.K.),1992,
+AIA,Anguilla (U.K.),1993,
+AIA,Anguilla (U.K.),1994,
+AIA,Anguilla (U.K.),1995,
+AIA,Anguilla (U.K.),1996,
+AIA,Anguilla (U.K.),1997,
+AIA,Anguilla (U.K.),1998,
+AIA,Anguilla (U.K.),1999,
+AIA,Anguilla (U.K.),2000,
+AIA,Anguilla (U.K.),2001,
+AIA,Anguilla (U.K.),2002,
+AIA,Anguilla (U.K.),2003,
+AIA,Anguilla (U.K.),2004,
+AIA,Anguilla (U.K.),2005,
+AIA,Anguilla (U.K.),2006,
+AIA,Anguilla (U.K.),2007,
+AIA,Anguilla (U.K.),2008,
+AIA,Anguilla (U.K.),2009,
+AIA,Anguilla (U.K.),2010,
+AIA,Anguilla (U.K.),2011,
+AIA,Anguilla (U.K.),2012,
+AIA,Anguilla (U.K.),2013,
+AIA,Anguilla (U.K.),2014,
+AIA,Anguilla (U.K.),2015,
+AIA,Anguilla (U.K.),2016,
+AIA,Anguilla (U.K.),2017,
+AIA,Anguilla (U.K.),2018,
+AIA,Anguilla (U.K.),2019,
+AIA,Anguilla (U.K.),2020,
+AIA,Anguilla (U.K.),2021,
+AIA,Anguilla (U.K.),2022,
+AIA,Anguilla (U.K.),2023,
 ATG,Antigua and Barbuda,1990,63066
 ATG,Antigua and Barbuda,1991,63387
 ATG,Antigua and Barbuda,1992,64404
@@ -5303,6 +5779,74 @@ ATG,Antigua and Barbuda,2020,91846
 ATG,Antigua and Barbuda,2021,92349
 ATG,Antigua and Barbuda,2022,92840
 ATG,Antigua and Barbuda,2023,93316
+BLM,San Bartolomé,1990,
+BLM,San Bartolomé,1991,
+BLM,San Bartolomé,1992,
+BLM,San Bartolomé,1993,
+BLM,San Bartolomé,1994,
+BLM,San Bartolomé,1995,
+BLM,San Bartolomé,1996,
+BLM,San Bartolomé,1997,
+BLM,San Bartolomé,1998,
+BLM,San Bartolomé,1999,
+BLM,San Bartolomé,2000,
+BLM,San Bartolomé,2001,
+BLM,San Bartolomé,2002,
+BLM,San Bartolomé,2003,
+BLM,San Bartolomé,2004,
+BLM,San Bartolomé,2005,
+BLM,San Bartolomé,2006,
+BLM,San Bartolomé,2007,
+BLM,San Bartolomé,2008,
+BLM,San Bartolomé,2009,
+BLM,San Bartolomé,2010,
+BLM,San Bartolomé,2011,
+BLM,San Bartolomé,2012,
+BLM,San Bartolomé,2013,
+BLM,San Bartolomé,2014,
+BLM,San Bartolomé,2015,
+BLM,San Bartolomé,2016,
+BLM,San Bartolomé,2017,
+BLM,San Bartolomé,2018,
+BLM,San Bartolomé,2019,
+BLM,San Bartolomé,2020,
+BLM,San Bartolomé,2021,
+BLM,San Bartolomé,2022,
+BLM,San Bartolomé,2023,
+BMU,Bermuda (U.K.),1990,57559
+BMU,Bermuda (U.K.),1991,57984
+BMU,Bermuda (U.K.),1992,58407
+BMU,Bermuda (U.K.),1993,58816
+BMU,Bermuda (U.K.),1994,59194
+BMU,Bermuda (U.K.),1995,59526
+BMU,Bermuda (U.K.),1996,59813
+BMU,Bermuda (U.K.),1997,60177
+BMU,Bermuda (U.K.),1998,60639
+BMU,Bermuda (U.K.),1999,61124
+BMU,Bermuda (U.K.),2000,61550
+BMU,Bermuda (U.K.),2001,61867
+BMU,Bermuda (U.K.),2002,62142
+BMU,Bermuda (U.K.),2003,62386
+BMU,Bermuda (U.K.),2004,62555
+BMU,Bermuda (U.K.),2005,62711
+BMU,Bermuda (U.K.),2006,62834
+BMU,Bermuda (U.K.),2007,63010
+BMU,Bermuda (U.K.),2008,63300
+BMU,Bermuda (U.K.),2009,63565
+BMU,Bermuda (U.K.),2010,63725
+BMU,Bermuda (U.K.),2011,63733
+BMU,Bermuda (U.K.),2012,63646
+BMU,Bermuda (U.K.),2013,63574
+BMU,Bermuda (U.K.),2014,63529
+BMU,Bermuda (U.K.),2015,63464
+BMU,Bermuda (U.K.),2016,63449
+BMU,Bermuda (U.K.),2017,63578
+BMU,Bermuda (U.K.),2018,63831
+BMU,Bermuda (U.K.),2019,64107
+BMU,Bermuda (U.K.),2020,64382
+BMU,Bermuda (U.K.),2021,64648
+BMU,Bermuda (U.K.),2022,64749
+BMU,Bermuda (U.K.),2023,64698
 BRB,Barbados,1990,258582
 BRB,Barbados,1991,259373
 BRB,Barbados,1992,260267
@@ -5371,6 +5915,74 @@ CAN,Canada,2020,38028638
 CAN,Canada,2021,38239864
 CAN,Canada,2022,38935934
 CAN,Canada,2023,40083484
+CCK,Cocos (Keeling) Islands (Aus.),1990,
+CCK,Cocos (Keeling) Islands (Aus.),1991,
+CCK,Cocos (Keeling) Islands (Aus.),1992,
+CCK,Cocos (Keeling) Islands (Aus.),1993,
+CCK,Cocos (Keeling) Islands (Aus.),1994,
+CCK,Cocos (Keeling) Islands (Aus.),1995,
+CCK,Cocos (Keeling) Islands (Aus.),1996,
+CCK,Cocos (Keeling) Islands (Aus.),1997,
+CCK,Cocos (Keeling) Islands (Aus.),1998,
+CCK,Cocos (Keeling) Islands (Aus.),1999,
+CCK,Cocos (Keeling) Islands (Aus.),2000,
+CCK,Cocos (Keeling) Islands (Aus.),2001,
+CCK,Cocos (Keeling) Islands (Aus.),2002,
+CCK,Cocos (Keeling) Islands (Aus.),2003,
+CCK,Cocos (Keeling) Islands (Aus.),2004,
+CCK,Cocos (Keeling) Islands (Aus.),2005,
+CCK,Cocos (Keeling) Islands (Aus.),2006,
+CCK,Cocos (Keeling) Islands (Aus.),2007,
+CCK,Cocos (Keeling) Islands (Aus.),2008,
+CCK,Cocos (Keeling) Islands (Aus.),2009,
+CCK,Cocos (Keeling) Islands (Aus.),2010,
+CCK,Cocos (Keeling) Islands (Aus.),2011,
+CCK,Cocos (Keeling) Islands (Aus.),2012,
+CCK,Cocos (Keeling) Islands (Aus.),2013,
+CCK,Cocos (Keeling) Islands (Aus.),2014,
+CCK,Cocos (Keeling) Islands (Aus.),2015,
+CCK,Cocos (Keeling) Islands (Aus.),2016,
+CCK,Cocos (Keeling) Islands (Aus.),2017,
+CCK,Cocos (Keeling) Islands (Aus.),2018,
+CCK,Cocos (Keeling) Islands (Aus.),2019,
+CCK,Cocos (Keeling) Islands (Aus.),2020,
+CCK,Cocos (Keeling) Islands (Aus.),2021,
+CCK,Cocos (Keeling) Islands (Aus.),2022,
+CCK,Cocos (Keeling) Islands (Aus.),2023,
+CXR,Christmas Island (Aus.),1990,
+CXR,Christmas Island (Aus.),1991,
+CXR,Christmas Island (Aus.),1992,
+CXR,Christmas Island (Aus.),1993,
+CXR,Christmas Island (Aus.),1994,
+CXR,Christmas Island (Aus.),1995,
+CXR,Christmas Island (Aus.),1996,
+CXR,Christmas Island (Aus.),1997,
+CXR,Christmas Island (Aus.),1998,
+CXR,Christmas Island (Aus.),1999,
+CXR,Christmas Island (Aus.),2000,
+CXR,Christmas Island (Aus.),2001,
+CXR,Christmas Island (Aus.),2002,
+CXR,Christmas Island (Aus.),2003,
+CXR,Christmas Island (Aus.),2004,
+CXR,Christmas Island (Aus.),2005,
+CXR,Christmas Island (Aus.),2006,
+CXR,Christmas Island (Aus.),2007,
+CXR,Christmas Island (Aus.),2008,
+CXR,Christmas Island (Aus.),2009,
+CXR,Christmas Island (Aus.),2010,
+CXR,Christmas Island (Aus.),2011,
+CXR,Christmas Island (Aus.),2012,
+CXR,Christmas Island (Aus.),2013,
+CXR,Christmas Island (Aus.),2014,
+CXR,Christmas Island (Aus.),2015,
+CXR,Christmas Island (Aus.),2016,
+CXR,Christmas Island (Aus.),2017,
+CXR,Christmas Island (Aus.),2018,
+CXR,Christmas Island (Aus.),2019,
+CXR,Christmas Island (Aus.),2020,
+CXR,Christmas Island (Aus.),2021,
+CXR,Christmas Island (Aus.),2022,
+CXR,Christmas Island (Aus.),2023,
 DMA,Dominica,1990,69627
 DMA,Dominica,1991,69296
 DMA,Dominica,1992,69325
@@ -5473,6 +6085,40 @@ FSM,Federated States of Micronesia,2020,110916
 FSM,Federated States of Micronesia,2021,111624
 FSM,Federated States of Micronesia,2022,112114
 FSM,Federated States of Micronesia,2023,112630
+GLP,Guadeloupe,1990,
+GLP,Guadeloupe,1991,
+GLP,Guadeloupe,1992,
+GLP,Guadeloupe,1993,
+GLP,Guadeloupe,1994,
+GLP,Guadeloupe,1995,
+GLP,Guadeloupe,1996,
+GLP,Guadeloupe,1997,
+GLP,Guadeloupe,1998,
+GLP,Guadeloupe,1999,
+GLP,Guadeloupe,2000,
+GLP,Guadeloupe,2001,
+GLP,Guadeloupe,2002,
+GLP,Guadeloupe,2003,
+GLP,Guadeloupe,2004,
+GLP,Guadeloupe,2005,
+GLP,Guadeloupe,2006,
+GLP,Guadeloupe,2007,
+GLP,Guadeloupe,2008,
+GLP,Guadeloupe,2009,
+GLP,Guadeloupe,2010,
+GLP,Guadeloupe,2011,
+GLP,Guadeloupe,2012,
+GLP,Guadeloupe,2013,
+GLP,Guadeloupe,2014,
+GLP,Guadeloupe,2015,
+GLP,Guadeloupe,2016,
+GLP,Guadeloupe,2017,
+GLP,Guadeloupe,2018,
+GLP,Guadeloupe,2019,
+GLP,Guadeloupe,2020,
+GLP,Guadeloupe,2021,
+GLP,Guadeloupe,2022,
+GLP,Guadeloupe,2023,
 GRD,Grenada,1990,99957
 GRD,Grenada,1991,100793
 GRD,Grenada,1992,101602
@@ -5507,6 +6153,40 @@ GRD,Grenada,2020,116341
 GRD,Grenada,2021,116688
 GRD,Grenada,2022,116913
 GRD,Grenada,2023,117081
+GUF,French Guiana,1990,
+GUF,French Guiana,1991,
+GUF,French Guiana,1992,
+GUF,French Guiana,1993,
+GUF,French Guiana,1994,
+GUF,French Guiana,1995,
+GUF,French Guiana,1996,
+GUF,French Guiana,1997,
+GUF,French Guiana,1998,
+GUF,French Guiana,1999,
+GUF,French Guiana,2000,
+GUF,French Guiana,2001,
+GUF,French Guiana,2002,
+GUF,French Guiana,2003,
+GUF,French Guiana,2004,
+GUF,French Guiana,2005,
+GUF,French Guiana,2006,
+GUF,French Guiana,2007,
+GUF,French Guiana,2008,
+GUF,French Guiana,2009,
+GUF,French Guiana,2010,
+GUF,French Guiana,2011,
+GUF,French Guiana,2012,
+GUF,French Guiana,2013,
+GUF,French Guiana,2014,
+GUF,French Guiana,2015,
+GUF,French Guiana,2016,
+GUF,French Guiana,2017,
+GUF,French Guiana,2018,
+GUF,French Guiana,2019,
+GUF,French Guiana,2020,
+GUF,French Guiana,2021,
+GUF,French Guiana,2022,
+GUF,French Guiana,2023,
 GUY,Guyana,1990,749894
 GUY,Guyana,1991,747861
 GUY,Guyana,1992,749911
@@ -5609,6 +6289,40 @@ LCA,Saint Lucia,2020,178250
 LCA,Saint Lucia,2021,178522
 LCA,Saint Lucia,2022,178781
 LCA,Saint Lucia,2023,179285
+MAF,Saint-Martin (Fr.),1990,28224
+MAF,Saint-Martin (Fr.),1991,28800
+MAF,Saint-Martin (Fr.),1992,29081
+MAF,Saint-Martin (Fr.),1993,29282
+MAF,Saint-Martin (Fr.),1994,29413
+MAF,Saint-Martin (Fr.),1995,29470
+MAF,Saint-Martin (Fr.),1996,29443
+MAF,Saint-Martin (Fr.),1997,29323
+MAF,Saint-Martin (Fr.),1998,29107
+MAF,Saint-Martin (Fr.),1999,29284
+MAF,Saint-Martin (Fr.),2000,29996
+MAF,Saint-Martin (Fr.),2001,30803
+MAF,Saint-Martin (Fr.),2002,31604
+MAF,Saint-Martin (Fr.),2003,32395
+MAF,Saint-Martin (Fr.),2004,33171
+MAF,Saint-Martin (Fr.),2005,33928
+MAF,Saint-Martin (Fr.),2006,34658
+MAF,Saint-Martin (Fr.),2007,35337
+MAF,Saint-Martin (Fr.),2008,35958
+MAF,Saint-Martin (Fr.),2009,36502
+MAF,Saint-Martin (Fr.),2010,36856
+MAF,Saint-Martin (Fr.),2011,37069
+MAF,Saint-Martin (Fr.),2012,37276
+MAF,Saint-Martin (Fr.),2013,37419
+MAF,Saint-Martin (Fr.),2014,37450
+MAF,Saint-Martin (Fr.),2015,37369
+MAF,Saint-Martin (Fr.),2016,37175
+MAF,Saint-Martin (Fr.),2017,36837
+MAF,Saint-Martin (Fr.),2018,36012
+MAF,Saint-Martin (Fr.),2019,34267
+MAF,Saint-Martin (Fr.),2020,31786
+MAF,Saint-Martin (Fr.),2021,29961
+MAF,Saint-Martin (Fr.),2022,28870
+MAF,Saint-Martin (Fr.),2023,27515
 MHL,Marshall Islands,1990,44629
 MHL,Marshall Islands,1991,45568
 MHL,Marshall Islands,1992,46388
@@ -5643,6 +6357,108 @@ MHL,Marshall Islands,2020,42706
 MHL,Marshall Islands,2021,41367
 MHL,Marshall Islands,2022,40077
 MHL,Marshall Islands,2023,38827
+MSR,Montserrat (U.K.),1990,
+MSR,Montserrat (U.K.),1991,
+MSR,Montserrat (U.K.),1992,
+MSR,Montserrat (U.K.),1993,
+MSR,Montserrat (U.K.),1994,
+MSR,Montserrat (U.K.),1995,
+MSR,Montserrat (U.K.),1996,
+MSR,Montserrat (U.K.),1997,
+MSR,Montserrat (U.K.),1998,
+MSR,Montserrat (U.K.),1999,
+MSR,Montserrat (U.K.),2000,
+MSR,Montserrat (U.K.),2001,
+MSR,Montserrat (U.K.),2002,
+MSR,Montserrat (U.K.),2003,
+MSR,Montserrat (U.K.),2004,
+MSR,Montserrat (U.K.),2005,
+MSR,Montserrat (U.K.),2006,
+MSR,Montserrat (U.K.),2007,
+MSR,Montserrat (U.K.),2008,
+MSR,Montserrat (U.K.),2009,
+MSR,Montserrat (U.K.),2010,
+MSR,Montserrat (U.K.),2011,
+MSR,Montserrat (U.K.),2012,
+MSR,Montserrat (U.K.),2013,
+MSR,Montserrat (U.K.),2014,
+MSR,Montserrat (U.K.),2015,
+MSR,Montserrat (U.K.),2016,
+MSR,Montserrat (U.K.),2017,
+MSR,Montserrat (U.K.),2018,
+MSR,Montserrat (U.K.),2019,
+MSR,Montserrat (U.K.),2020,
+MSR,Montserrat (U.K.),2021,
+MSR,Montserrat (U.K.),2022,
+MSR,Montserrat (U.K.),2023,
+MTQ,Martinique,1990,
+MTQ,Martinique,1991,
+MTQ,Martinique,1992,
+MTQ,Martinique,1993,
+MTQ,Martinique,1994,
+MTQ,Martinique,1995,
+MTQ,Martinique,1996,
+MTQ,Martinique,1997,
+MTQ,Martinique,1998,
+MTQ,Martinique,1999,
+MTQ,Martinique,2000,
+MTQ,Martinique,2001,
+MTQ,Martinique,2002,
+MTQ,Martinique,2003,
+MTQ,Martinique,2004,
+MTQ,Martinique,2005,
+MTQ,Martinique,2006,
+MTQ,Martinique,2007,
+MTQ,Martinique,2008,
+MTQ,Martinique,2009,
+MTQ,Martinique,2010,
+MTQ,Martinique,2011,
+MTQ,Martinique,2012,
+MTQ,Martinique,2013,
+MTQ,Martinique,2014,
+MTQ,Martinique,2015,
+MTQ,Martinique,2016,
+MTQ,Martinique,2017,
+MTQ,Martinique,2018,
+MTQ,Martinique,2019,
+MTQ,Martinique,2020,
+MTQ,Martinique,2021,
+MTQ,Martinique,2022,
+MTQ,Martinique,2023,
+NCL,New Caledonia (Fr.),1990,176456
+NCL,New Caledonia (Fr.),1991,181238
+NCL,New Caledonia (Fr.),1992,186072
+NCL,New Caledonia (Fr.),1993,190857
+NCL,New Caledonia (Fr.),1994,195614
+NCL,New Caledonia (Fr.),1995,200379
+NCL,New Caledonia (Fr.),1996,205034
+NCL,New Caledonia (Fr.),1997,209560
+NCL,New Caledonia (Fr.),1998,214047
+NCL,New Caledonia (Fr.),1999,218527
+NCL,New Caledonia (Fr.),2000,223098
+NCL,New Caledonia (Fr.),2001,227707
+NCL,New Caledonia (Fr.),2002,232236
+NCL,New Caledonia (Fr.),2003,236678
+NCL,New Caledonia (Fr.),2004,240852
+NCL,New Caledonia (Fr.),2005,244381
+NCL,New Caledonia (Fr.),2006,247547
+NCL,New Caledonia (Fr.),2007,250725
+NCL,New Caledonia (Fr.),2008,253825
+NCL,New Caledonia (Fr.),2009,257250
+NCL,New Caledonia (Fr.),2010,261582
+NCL,New Caledonia (Fr.),2011,266543
+NCL,New Caledonia (Fr.),2012,271633
+NCL,New Caledonia (Fr.),2013,276822
+NCL,New Caledonia (Fr.),2014,281224
+NCL,New Caledonia (Fr.),2015,283168
+NCL,New Caledonia (Fr.),2016,283423
+NCL,New Caledonia (Fr.),2017,283546
+NCL,New Caledonia (Fr.),2018,283541
+NCL,New Caledonia (Fr.),2019,283606
+NCL,New Caledonia (Fr.),2020,284176
+NCL,New Caledonia (Fr.),2021,285214
+NCL,New Caledonia (Fr.),2022,287123
+NCL,New Caledonia (Fr.),2023,289870
 NRU,Nauru,1990,9622
 NRU,Nauru,1991,9850
 NRU,Nauru,1992,10021
@@ -5677,6 +6493,40 @@ NRU,Nauru,2020,11643
 NRU,Nauru,2021,11709
 NRU,Nauru,2022,11801
 NRU,Nauru,2023,11875
+PRI,Puerto Rico (U.S.),1990,3537000
+PRI,Puerto Rico (U.S.),1991,3562110
+PRI,Puerto Rico (U.S.),1992,3585176
+PRI,Puerto Rico (U.S.),1993,3615497
+PRI,Puerto Rico (U.S.),1994,3649237
+PRI,Puerto Rico (U.S.),1995,3683103
+PRI,Puerto Rico (U.S.),1996,3724655
+PRI,Puerto Rico (U.S.),1997,3759430
+PRI,Puerto Rico (U.S.),1998,3781101
+PRI,Puerto Rico (U.S.),1999,3800081
+PRI,Puerto Rico (U.S.),2000,3810605
+PRI,Puerto Rico (U.S.),2001,3818774
+PRI,Puerto Rico (U.S.),2002,3823701
+PRI,Puerto Rico (U.S.),2003,3826095
+PRI,Puerto Rico (U.S.),2004,3826878
+PRI,Puerto Rico (U.S.),2005,3821362
+PRI,Puerto Rico (U.S.),2006,3805214
+PRI,Puerto Rico (U.S.),2007,3782995
+PRI,Puerto Rico (U.S.),2008,3760866
+PRI,Puerto Rico (U.S.),2009,3740410
+PRI,Puerto Rico (U.S.),2010,3724465
+PRI,Puerto Rico (U.S.),2011,3693464
+PRI,Puerto Rico (U.S.),2012,3661045
+PRI,Puerto Rico (U.S.),2013,3631427
+PRI,Puerto Rico (U.S.),2014,3585017
+PRI,Puerto Rico (U.S.),2015,3535167
+PRI,Puerto Rico (U.S.),2016,3480432
+PRI,Puerto Rico (U.S.),2017,3410837
+PRI,Puerto Rico (U.S.),2018,3290690
+PRI,Puerto Rico (U.S.),2019,3302691
+PRI,Puerto Rico (U.S.),2020,3281590
+PRI,Puerto Rico (U.S.),2021,3262711
+PRI,Puerto Rico (U.S.),2022,3220137
+PRI,Puerto Rico (U.S.),2023,3203792
 SLB,Solomon Islands,1990,331435
 SLB,Solomon Islands,1991,341738
 SLB,Solomon Islands,1992,352205
@@ -5711,6 +6561,40 @@ SLB,Solomon Islands,2020,744498
 SLB,Solomon Islands,2021,762591
 SLB,Solomon Islands,2022,781066
 SLB,Solomon Islands,2023,800005
+SPM,Saint-Pierre-et-Miquelon (Fr.),1990,
+SPM,Saint-Pierre-et-Miquelon (Fr.),1991,
+SPM,Saint-Pierre-et-Miquelon (Fr.),1992,
+SPM,Saint-Pierre-et-Miquelon (Fr.),1993,
+SPM,Saint-Pierre-et-Miquelon (Fr.),1994,
+SPM,Saint-Pierre-et-Miquelon (Fr.),1995,
+SPM,Saint-Pierre-et-Miquelon (Fr.),1996,
+SPM,Saint-Pierre-et-Miquelon (Fr.),1997,
+SPM,Saint-Pierre-et-Miquelon (Fr.),1998,
+SPM,Saint-Pierre-et-Miquelon (Fr.),1999,
+SPM,Saint-Pierre-et-Miquelon (Fr.),2000,
+SPM,Saint-Pierre-et-Miquelon (Fr.),2001,
+SPM,Saint-Pierre-et-Miquelon (Fr.),2002,
+SPM,Saint-Pierre-et-Miquelon (Fr.),2003,
+SPM,Saint-Pierre-et-Miquelon (Fr.),2004,
+SPM,Saint-Pierre-et-Miquelon (Fr.),2005,
+SPM,Saint-Pierre-et-Miquelon (Fr.),2006,
+SPM,Saint-Pierre-et-Miquelon (Fr.),2007,
+SPM,Saint-Pierre-et-Miquelon (Fr.),2008,
+SPM,Saint-Pierre-et-Miquelon (Fr.),2009,
+SPM,Saint-Pierre-et-Miquelon (Fr.),2010,
+SPM,Saint-Pierre-et-Miquelon (Fr.),2011,
+SPM,Saint-Pierre-et-Miquelon (Fr.),2012,
+SPM,Saint-Pierre-et-Miquelon (Fr.),2013,
+SPM,Saint-Pierre-et-Miquelon (Fr.),2014,
+SPM,Saint-Pierre-et-Miquelon (Fr.),2015,
+SPM,Saint-Pierre-et-Miquelon (Fr.),2016,
+SPM,Saint-Pierre-et-Miquelon (Fr.),2017,
+SPM,Saint-Pierre-et-Miquelon (Fr.),2018,
+SPM,Saint-Pierre-et-Miquelon (Fr.),2019,
+SPM,Saint-Pierre-et-Miquelon (Fr.),2020,
+SPM,Saint-Pierre-et-Miquelon (Fr.),2021,
+SPM,Saint-Pierre-et-Miquelon (Fr.),2022,
+SPM,Saint-Pierre-et-Miquelon (Fr.),2023,
 SUR,Suriname,1990,412493
 SUR,Suriname,1991,415013
 SUR,Suriname,1992,417589
@@ -5745,6 +6629,40 @@ SUR,Suriname,2020,612317
 SUR,Suriname,2021,617896
 SUR,Suriname,2022,623164
 SUR,Suriname,2023,628886
+SXM,Sint Maarten (Neth.),1990,28061
+SXM,Sint Maarten (Neth.),1991,30046
+SXM,Sint Maarten (Neth.),1992,31567
+SXM,Sint Maarten (Neth.),1993,32026
+SXM,Sint Maarten (Neth.),1994,31917
+SXM,Sint Maarten (Neth.),1995,31772
+SXM,Sint Maarten (Neth.),1996,31598
+SXM,Sint Maarten (Neth.),1997,31404
+SXM,Sint Maarten (Neth.),1998,31193
+SXM,Sint Maarten (Neth.),1999,30977
+SXM,Sint Maarten (Neth.),2000,30773
+SXM,Sint Maarten (Neth.),2001,30726
+SXM,Sint Maarten (Neth.),2002,30960
+SXM,Sint Maarten (Neth.),2003,31327
+SXM,Sint Maarten (Neth.),2004,31690
+SXM,Sint Maarten (Neth.),2005,32057
+SXM,Sint Maarten (Neth.),2006,32428
+SXM,Sint Maarten (Neth.),2007,32791
+SXM,Sint Maarten (Neth.),2008,33145
+SXM,Sint Maarten (Neth.),2009,33491
+SXM,Sint Maarten (Neth.),2010,33794
+SXM,Sint Maarten (Neth.),2011,34267
+SXM,Sint Maarten (Neth.),2012,35023
+SXM,Sint Maarten (Neth.),2013,35854
+SXM,Sint Maarten (Neth.),2014,36672
+SXM,Sint Maarten (Neth.),2015,37471
+SXM,Sint Maarten (Neth.),2016,38249
+SXM,Sint Maarten (Neth.),2017,38996
+SXM,Sint Maarten (Neth.),2018,39712
+SXM,Sint Maarten (Neth.),2019,40385
+SXM,Sint Maarten (Neth.),2020,41008
+SXM,Sint Maarten (Neth.),2021,41571
+SXM,Sint Maarten (Neth.),2022,42139
+SXM,Sint Maarten (Neth.),2023,42749
 TTO,Trinidad and Tobago,1990,1252208
 TTO,Trinidad and Tobago,1991,1262171
 TTO,Trinidad and Tobago,1992,1271674
@@ -5847,6 +6765,108 @@ VEN,Republica Bolivariana de Venezuela,2020,28444077
 VEN,Republica Bolivariana de Venezuela,2021,28237826
 VEN,Republica Bolivariana de Venezuela,2022,28213017
 VEN,Republica Bolivariana de Venezuela,2023,28300854
+VGB,British Virgin Islands (U.K.),1990,15704
+VGB,British Virgin Islands (U.K.),1991,16187
+VGB,British Virgin Islands (U.K.),1992,16593
+VGB,British Virgin Islands (U.K.),1993,16989
+VGB,British Virgin Islands (U.K.),1994,17406
+VGB,British Virgin Islands (U.K.),1995,17840
+VGB,British Virgin Islands (U.K.),1996,18287
+VGB,British Virgin Islands (U.K.),1997,18756
+VGB,British Virgin Islands (U.K.),1998,19238
+VGB,British Virgin Islands (U.K.),1999,19730
+VGB,British Virgin Islands (U.K.),2000,20241
+VGB,British Virgin Islands (U.K.),2001,20796
+VGB,British Virgin Islands (U.K.),2002,21430
+VGB,British Virgin Islands (U.K.),2003,22134
+VGB,British Virgin Islands (U.K.),2004,22881
+VGB,British Virgin Islands (U.K.),2005,23665
+VGB,British Virgin Islands (U.K.),2006,24493
+VGB,British Virgin Islands (U.K.),2007,25366
+VGB,British Virgin Islands (U.K.),2008,26288
+VGB,British Virgin Islands (U.K.),2009,27218
+VGB,British Virgin Islands (U.K.),2010,27675
+VGB,British Virgin Islands (U.K.),2011,28710
+VGB,British Virgin Islands (U.K.),2012,30345
+VGB,British Virgin Islands (U.K.),2013,31703
+VGB,British Virgin Islands (U.K.),2014,32962
+VGB,British Virgin Islands (U.K.),2015,34498
+VGB,British Virgin Islands (U.K.),2016,33878
+VGB,British Virgin Islands (U.K.),2017,32699
+VGB,British Virgin Islands (U.K.),2018,34657
+VGB,British Virgin Islands (U.K.),2019,36395
+VGB,British Virgin Islands (U.K.),2020,37135
+VGB,British Virgin Islands (U.K.),2021,37809
+VGB,British Virgin Islands (U.K.),2022,38319
+VGB,British Virgin Islands (U.K.),2023,38985
+VIR,United States Virgin Islands (U.S.),1990,103963
+VIR,United States Virgin Islands (U.S.),1991,104807
+VIR,United States Virgin Islands (U.S.),1992,105712
+VIR,United States Virgin Islands (U.S.),1993,106578
+VIR,United States Virgin Islands (U.S.),1994,107318
+VIR,United States Virgin Islands (U.S.),1995,107818
+VIR,United States Virgin Islands (U.S.),1996,108095
+VIR,United States Virgin Islands (U.S.),1997,108357
+VIR,United States Virgin Islands (U.S.),1998,108537
+VIR,United States Virgin Islands (U.S.),1999,108599
+VIR,United States Virgin Islands (U.S.),2000,108642
+VIR,United States Virgin Islands (U.S.),2001,108549
+VIR,United States Virgin Islands (U.S.),2002,108509
+VIR,United States Virgin Islands (U.S.),2003,108505
+VIR,United States Virgin Islands (U.S.),2004,108466
+VIR,United States Virgin Islands (U.S.),2005,108453
+VIR,United States Virgin Islands (U.S.),2006,108369
+VIR,United States Virgin Islands (U.S.),2007,108337
+VIR,United States Virgin Islands (U.S.),2008,108397
+VIR,United States Virgin Islands (U.S.),2009,108404
+VIR,United States Virgin Islands (U.S.),2010,108357
+VIR,United States Virgin Islands (U.S.),2011,108290
+VIR,United States Virgin Islands (U.S.),2012,108188
+VIR,United States Virgin Islands (U.S.),2013,108041
+VIR,United States Virgin Islands (U.S.),2014,107882
+VIR,United States Virgin Islands (U.S.),2015,107712
+VIR,United States Virgin Islands (U.S.),2016,107516
+VIR,United States Virgin Islands (U.S.),2017,107281
+VIR,United States Virgin Islands (U.S.),2018,107001
+VIR,United States Virgin Islands (U.S.),2019,106669
+VIR,United States Virgin Islands (U.S.),2020,106290
+VIR,United States Virgin Islands (U.S.),2021,105870
+VIR,United States Virgin Islands (U.S.),2022,105413
+VIR,United States Virgin Islands (U.S.),2023,104917
+ABW,Aruba (Neth.),1990,62753
+ABW,Aruba (Neth.),1991,65896
+ABW,Aruba (Neth.),1992,69005
+ABW,Aruba (Neth.),1993,73685
+ABW,Aruba (Neth.),1994,77595
+ABW,Aruba (Neth.),1995,79805
+ABW,Aruba (Neth.),1996,83021
+ABW,Aruba (Neth.),1997,86301
+ABW,Aruba (Neth.),1998,88451
+ABW,Aruba (Neth.),1999,89659
+ABW,Aruba (Neth.),2000,90588
+ABW,Aruba (Neth.),2001,91439
+ABW,Aruba (Neth.),2002,92074
+ABW,Aruba (Neth.),2003,93128
+ABW,Aruba (Neth.),2004,95138
+ABW,Aruba (Neth.),2005,97635
+ABW,Aruba (Neth.),2006,99405
+ABW,Aruba (Neth.),2007,100150
+ABW,Aruba (Neth.),2008,100917
+ABW,Aruba (Neth.),2009,101604
+ABW,Aruba (Neth.),2010,101838
+ABW,Aruba (Neth.),2011,102591
+ABW,Aruba (Neth.),2012,104110
+ABW,Aruba (Neth.),2013,105675
+ABW,Aruba (Neth.),2014,106807
+ABW,Aruba (Neth.),2015,107906
+ABW,Aruba (Neth.),2016,108727
+ABW,Aruba (Neth.),2017,108735
+ABW,Aruba (Neth.),2018,108908
+ABW,Aruba (Neth.),2019,109203
+ABW,Aruba (Neth.),2020,108587
+ABW,Aruba (Neth.),2021,107700
+ABW,Aruba (Neth.),2022,107310
+ABW,Aruba (Neth.),2023,107359
 BHS,The Bahamas,1990,275945
 BHS,The Bahamas,1991,280731
 BHS,The Bahamas,1992,285927
@@ -5915,6 +6935,108 @@ COL,Colombia,2020,50629997
 COL,Colombia,2021,51188173
 COL,Colombia,2022,51737944
 COL,Colombia,2023,52321152
+CUB,Cuba,1990,10631799
+CUB,Cuba,1991,10717640
+CUB,Cuba,1992,10785801
+CUB,Cuba,1993,10841031
+CUB,Cuba,1994,10886021
+CUB,Cuba,1995,10925362
+CUB,Cuba,1996,10962010
+CUB,Cuba,1997,10997934
+CUB,Cuba,1998,11034712
+CUB,Cuba,1999,11072230
+CUB,Cuba,2000,11109109
+CUB,Cuba,2001,11144132
+CUB,Cuba,2002,11177418
+CUB,Cuba,2003,11209383
+CUB,Cuba,2004,11238756
+CUB,Cuba,2005,11262554
+CUB,Cuba,2006,11278550
+CUB,Cuba,2007,11287272
+CUB,Cuba,2008,11291762
+CUB,Cuba,2009,11294719
+CUB,Cuba,2010,11297409
+CUB,Cuba,2011,11301571
+CUB,Cuba,2012,11303175
+CUB,Cuba,2013,11298167
+CUB,Cuba,2014,11285775
+CUB,Cuba,2015,11275065
+CUB,Cuba,2016,11265612
+CUB,Cuba,2017,11247829
+CUB,Cuba,2018,11227118
+CUB,Cuba,2019,11202846
+CUB,Cuba,2020,11176354
+CUB,Cuba,2021,11122168
+CUB,Cuba,2022,11059820
+CUB,Cuba,2023,11019931
+CUW,Curazao,1990,145400
+CUW,Curazao,1991,144403
+CUW,Curazao,1992,143912
+CUW,Curazao,1993,144299
+CUW,Curazao,1994,144630
+CUW,Curazao,1995,145139
+CUW,Curazao,1996,146306
+CUW,Curazao,1997,146956
+CUW,Curazao,1998,144472
+CUW,Curazao,1999,139428
+CUW,Curazao,2000,133860
+CUW,Curazao,2001,129047
+CUW,Curazao,2002,129205
+CUW,Curazao,2003,131897
+CUW,Curazao,2004,134192
+CUW,Curazao,2005,137658
+CUW,Curazao,2006,141239
+CUW,Curazao,2007,144056
+CUW,Curazao,2008,145880
+CUW,Curazao,2009,146833
+CUW,Curazao,2010,148703
+CUW,Curazao,2011,150831
+CUW,Curazao,2012,152088
+CUW,Curazao,2013,153822
+CUW,Curazao,2014,155909
+CUW,Curazao,2015,157980
+CUW,Curazao,2016,159664
+CUW,Curazao,2017,160175
+CUW,Curazao,2018,159336
+CUW,Curazao,2019,157441
+CUW,Curazao,2020,155482
+CUW,Curazao,2021,153948
+CUW,Curazao,2022,153321
+CUW,Curazao,2023,154654
+CYM,Cayman Islands (U.K.),1990,25999
+CYM,Cayman Islands (U.K.),1991,27294
+CYM,Cayman Islands (U.K.),1992,28621
+CYM,Cayman Islands (U.K.),1993,29976
+CYM,Cayman Islands (U.K.),1994,31352
+CYM,Cayman Islands (U.K.),1995,32743
+CYM,Cayman Islands (U.K.),1996,34143
+CYM,Cayman Islands (U.K.),1997,35543
+CYM,Cayman Islands (U.K.),1998,36922
+CYM,Cayman Islands (U.K.),1999,38284
+CYM,Cayman Islands (U.K.),2000,39674
+CYM,Cayman Islands (U.K.),2001,41089
+CYM,Cayman Islands (U.K.),2002,42514
+CYM,Cayman Islands (U.K.),2003,43934
+CYM,Cayman Islands (U.K.),2004,45352
+CYM,Cayman Islands (U.K.),2005,46788
+CYM,Cayman Islands (U.K.),2006,48232
+CYM,Cayman Islands (U.K.),2007,49687
+CYM,Cayman Islands (U.K.),2008,51151
+CYM,Cayman Islands (U.K.),2009,52618
+CYM,Cayman Islands (U.K.),2010,54099
+CYM,Cayman Islands (U.K.),2011,55606
+CYM,Cayman Islands (U.K.),2012,57136
+CYM,Cayman Islands (U.K.),2013,58655
+CYM,Cayman Islands (U.K.),2014,60160
+CYM,Cayman Islands (U.K.),2015,61642
+CYM,Cayman Islands (U.K.),2016,63100
+CYM,Cayman Islands (U.K.),2017,64535
+CYM,Cayman Islands (U.K.),2018,65941
+CYM,Cayman Islands (U.K.),2019,67327
+CYM,Cayman Islands (U.K.),2020,68684
+CYM,Cayman Islands (U.K.),2021,70108
+CYM,Cayman Islands (U.K.),2022,71591
+CYM,Cayman Islands (U.K.),2023,73038
 HND,Honduras,1990,4980488
 HND,Honduras,1991,5123792
 HND,Honduras,1992,5271431
@@ -6085,6 +7207,40 @@ SLV,El Salvador,2020,6234673
 SLV,El Salvador,2021,6255782
 SLV,El Salvador,2022,6280319
 SLV,El Salvador,2023,6309624
+TCA,Turks and Caicos Islands (U.K.),1990,11688
+TCA,Turks and Caicos Islands (U.K.),1991,12305
+TCA,Turks and Caicos Islands (U.K.),1992,12970
+TCA,Turks and Caicos Islands (U.K.),1993,13648
+TCA,Turks and Caicos Islands (U.K.),1994,14344
+TCA,Turks and Caicos Islands (U.K.),1995,15052
+TCA,Turks and Caicos Islands (U.K.),1996,15765
+TCA,Turks and Caicos Islands (U.K.),1997,16482
+TCA,Turks and Caicos Islands (U.K.),1998,17212
+TCA,Turks and Caicos Islands (U.K.),1999,17959
+TCA,Turks and Caicos Islands (U.K.),2000,18730
+TCA,Turks and Caicos Islands (U.K.),2001,19576
+TCA,Turks and Caicos Islands (U.K.),2002,20597
+TCA,Turks and Caicos Islands (U.K.),2003,21727
+TCA,Turks and Caicos Islands (U.K.),2004,22856
+TCA,Turks and Caicos Islands (U.K.),2005,23988
+TCA,Turks and Caicos Islands (U.K.),2006,25123
+TCA,Turks and Caicos Islands (U.K.),2007,26270
+TCA,Turks and Caicos Islands (U.K.),2008,27427
+TCA,Turks and Caicos Islands (U.K.),2009,28588
+TCA,Turks and Caicos Islands (U.K.),2010,29739
+TCA,Turks and Caicos Islands (U.K.),2011,30846
+TCA,Turks and Caicos Islands (U.K.),2012,32127
+TCA,Turks and Caicos Islands (U.K.),2013,33653
+TCA,Turks and Caicos Islands (U.K.),2014,35050
+TCA,Turks and Caicos Islands (U.K.),2015,36605
+TCA,Turks and Caicos Islands (U.K.),2016,38315
+TCA,Turks and Caicos Islands (U.K.),2017,39913
+TCA,Turks and Caicos Islands (U.K.),2018,41559
+TCA,Turks and Caicos Islands (U.K.),2019,43166
+TCA,Turks and Caicos Islands (U.K.),2020,44386
+TCA,Turks and Caicos Islands (U.K.),2021,45243
+TCA,Turks and Caicos Islands (U.K.),2022,45847
+TCA,Turks and Caicos Islands (U.K.),2023,46198
 BOL,Bolivia,1990,7130142
 BOL,Bolivia,1991,7280289
 BOL,Bolivia,1992,7430336
@@ -6425,6 +7581,40 @@ PRY,Paraguay,2020,6603739
 PRY,Paraguay,2021,6684182
 PRY,Paraguay,2022,6760464
 PRY,Paraguay,2023,6844146
+ASM,American Samoa (U.S.),1990,46640
+ASM,American Samoa (U.S.),1991,47882
+ASM,American Samoa (U.S.),1992,49038
+ASM,American Samoa (U.S.),1993,50159
+ASM,American Samoa (U.S.),1994,51251
+ASM,American Samoa (U.S.),1995,52316
+ASM,American Samoa (U.S.),1996,53353
+ASM,American Samoa (U.S.),1997,54362
+ASM,American Samoa (U.S.),1998,55334
+ASM,American Samoa (U.S.),1999,56248
+ASM,American Samoa (U.S.),2000,56855
+ASM,American Samoa (U.S.),2001,57053
+ASM,American Samoa (U.S.),2002,57062
+ASM,American Samoa (U.S.),2003,56971
+ASM,American Samoa (U.S.),2004,56818
+ASM,American Samoa (U.S.),2005,56617
+ASM,American Samoa (U.S.),2006,56374
+ASM,American Samoa (U.S.),2007,56113
+ASM,American Samoa (U.S.),2008,55828
+ASM,American Samoa (U.S.),2009,55528
+ASM,American Samoa (U.S.),2010,55228
+ASM,American Samoa (U.S.),2011,54895
+ASM,American Samoa (U.S.),2012,54489
+ASM,American Samoa (U.S.),2013,54006
+ASM,American Samoa (U.S.),2014,53466
+ASM,American Samoa (U.S.),2015,52878
+ASM,American Samoa (U.S.),2016,52245
+ASM,American Samoa (U.S.),2017,51586
+ASM,American Samoa (U.S.),2018,50908
+ASM,American Samoa (U.S.),2019,50209
+ASM,American Samoa (U.S.),2020,49761
+ASM,American Samoa (U.S.),2021,49225
+ASM,American Samoa (U.S.),2022,48342
+ASM,American Samoa (U.S.),2023,47521
 CHL,Chile,1990,13437176
 CHL,Chile,1991,13662491
 CHL,Chile,1992,13884577
@@ -6459,6 +7649,40 @@ CHL,Chile,2020,19370624
 CHL,Chile,2021,19456334
 CHL,Chile,2022,19553036
 CHL,Chile,2023,19658835
+COK,Cook Islands (N.Z.),1990,
+COK,Cook Islands (N.Z.),1991,
+COK,Cook Islands (N.Z.),1992,
+COK,Cook Islands (N.Z.),1993,
+COK,Cook Islands (N.Z.),1994,
+COK,Cook Islands (N.Z.),1995,
+COK,Cook Islands (N.Z.),1996,
+COK,Cook Islands (N.Z.),1997,
+COK,Cook Islands (N.Z.),1998,
+COK,Cook Islands (N.Z.),1999,
+COK,Cook Islands (N.Z.),2000,
+COK,Cook Islands (N.Z.),2001,
+COK,Cook Islands (N.Z.),2002,
+COK,Cook Islands (N.Z.),2003,
+COK,Cook Islands (N.Z.),2004,
+COK,Cook Islands (N.Z.),2005,
+COK,Cook Islands (N.Z.),2006,
+COK,Cook Islands (N.Z.),2007,
+COK,Cook Islands (N.Z.),2008,
+COK,Cook Islands (N.Z.),2009,
+COK,Cook Islands (N.Z.),2010,
+COK,Cook Islands (N.Z.),2011,
+COK,Cook Islands (N.Z.),2012,
+COK,Cook Islands (N.Z.),2013,
+COK,Cook Islands (N.Z.),2014,
+COK,Cook Islands (N.Z.),2015,
+COK,Cook Islands (N.Z.),2016,
+COK,Cook Islands (N.Z.),2017,
+COK,Cook Islands (N.Z.),2018,
+COK,Cook Islands (N.Z.),2019,
+COK,Cook Islands (N.Z.),2020,
+COK,Cook Islands (N.Z.),2021,
+COK,Cook Islands (N.Z.),2022,
+COK,Cook Islands (N.Z.),2023,
 KIR,Kiribati,1990,74855
 KIR,Kiribati,1991,76367
 KIR,Kiribati,1992,77641
@@ -6493,6 +7717,142 @@ KIR,Kiribati,2020,126099
 KIR,Kiribati,2021,128377
 KIR,Kiribati,2022,130469
 KIR,Kiribati,2023,132530
+NIU,Niue (N.Z.),1990,
+NIU,Niue (N.Z.),1991,
+NIU,Niue (N.Z.),1992,
+NIU,Niue (N.Z.),1993,
+NIU,Niue (N.Z.),1994,
+NIU,Niue (N.Z.),1995,
+NIU,Niue (N.Z.),1996,
+NIU,Niue (N.Z.),1997,
+NIU,Niue (N.Z.),1998,
+NIU,Niue (N.Z.),1999,
+NIU,Niue (N.Z.),2000,
+NIU,Niue (N.Z.),2001,
+NIU,Niue (N.Z.),2002,
+NIU,Niue (N.Z.),2003,
+NIU,Niue (N.Z.),2004,
+NIU,Niue (N.Z.),2005,
+NIU,Niue (N.Z.),2006,
+NIU,Niue (N.Z.),2007,
+NIU,Niue (N.Z.),2008,
+NIU,Niue (N.Z.),2009,
+NIU,Niue (N.Z.),2010,
+NIU,Niue (N.Z.),2011,
+NIU,Niue (N.Z.),2012,
+NIU,Niue (N.Z.),2013,
+NIU,Niue (N.Z.),2014,
+NIU,Niue (N.Z.),2015,
+NIU,Niue (N.Z.),2016,
+NIU,Niue (N.Z.),2017,
+NIU,Niue (N.Z.),2018,
+NIU,Niue (N.Z.),2019,
+NIU,Niue (N.Z.),2020,
+NIU,Niue (N.Z.),2021,
+NIU,Niue (N.Z.),2022,
+NIU,Niue (N.Z.),2023,
+PCN,Pitcairn Islands (U.K.),1990,
+PCN,Pitcairn Islands (U.K.),1991,
+PCN,Pitcairn Islands (U.K.),1992,
+PCN,Pitcairn Islands (U.K.),1993,
+PCN,Pitcairn Islands (U.K.),1994,
+PCN,Pitcairn Islands (U.K.),1995,
+PCN,Pitcairn Islands (U.K.),1996,
+PCN,Pitcairn Islands (U.K.),1997,
+PCN,Pitcairn Islands (U.K.),1998,
+PCN,Pitcairn Islands (U.K.),1999,
+PCN,Pitcairn Islands (U.K.),2000,
+PCN,Pitcairn Islands (U.K.),2001,
+PCN,Pitcairn Islands (U.K.),2002,
+PCN,Pitcairn Islands (U.K.),2003,
+PCN,Pitcairn Islands (U.K.),2004,
+PCN,Pitcairn Islands (U.K.),2005,
+PCN,Pitcairn Islands (U.K.),2006,
+PCN,Pitcairn Islands (U.K.),2007,
+PCN,Pitcairn Islands (U.K.),2008,
+PCN,Pitcairn Islands (U.K.),2009,
+PCN,Pitcairn Islands (U.K.),2010,
+PCN,Pitcairn Islands (U.K.),2011,
+PCN,Pitcairn Islands (U.K.),2012,
+PCN,Pitcairn Islands (U.K.),2013,
+PCN,Pitcairn Islands (U.K.),2014,
+PCN,Pitcairn Islands (U.K.),2015,
+PCN,Pitcairn Islands (U.K.),2016,
+PCN,Pitcairn Islands (U.K.),2017,
+PCN,Pitcairn Islands (U.K.),2018,
+PCN,Pitcairn Islands (U.K.),2019,
+PCN,Pitcairn Islands (U.K.),2020,
+PCN,Pitcairn Islands (U.K.),2021,
+PCN,Pitcairn Islands (U.K.),2022,
+PCN,Pitcairn Islands (U.K.),2023,
+PYF,French Polynesia (Fr.),1990,203776
+PYF,French Polynesia (Fr.),1991,207744
+PYF,French Polynesia (Fr.),1992,211559
+PYF,French Polynesia (Fr.),1993,215219
+PYF,French Polynesia (Fr.),1994,218738
+PYF,French Polynesia (Fr.),1995,222118
+PYF,French Polynesia (Fr.),1996,225489
+PYF,French Polynesia (Fr.),1997,229121
+PYF,French Polynesia (Fr.),1998,232891
+PYF,French Polynesia (Fr.),1999,236595
+PYF,French Polynesia (Fr.),2000,240337
+PYF,French Polynesia (Fr.),2001,244097
+PYF,French Polynesia (Fr.),2002,247775
+PYF,French Polynesia (Fr.),2003,251637
+PYF,French Polynesia (Fr.),2004,255654
+PYF,French Polynesia (Fr.),2005,259507
+PYF,French Polynesia (Fr.),2006,263223
+PYF,French Polynesia (Fr.),2007,266438
+PYF,French Polynesia (Fr.),2008,268379
+PYF,French Polynesia (Fr.),2009,269481
+PYF,French Polynesia (Fr.),2010,270580
+PYF,French Polynesia (Fr.),2011,271727
+PYF,French Polynesia (Fr.),2012,273084
+PYF,French Polynesia (Fr.),2013,274728
+PYF,French Polynesia (Fr.),2014,276387
+PYF,French Polynesia (Fr.),2015,277866
+PYF,French Polynesia (Fr.),2016,279178
+PYF,French Polynesia (Fr.),2017,280087
+PYF,French Polynesia (Fr.),2018,279815
+PYF,French Polynesia (Fr.),2019,279034
+PYF,French Polynesia (Fr.),2020,279209
+PYF,French Polynesia (Fr.),2021,279792
+PYF,French Polynesia (Fr.),2022,280378
+PYF,French Polynesia (Fr.),2023,281118
+TKL,Tokelau (N.Z.),1990,
+TKL,Tokelau (N.Z.),1991,
+TKL,Tokelau (N.Z.),1992,
+TKL,Tokelau (N.Z.),1993,
+TKL,Tokelau (N.Z.),1994,
+TKL,Tokelau (N.Z.),1995,
+TKL,Tokelau (N.Z.),1996,
+TKL,Tokelau (N.Z.),1997,
+TKL,Tokelau (N.Z.),1998,
+TKL,Tokelau (N.Z.),1999,
+TKL,Tokelau (N.Z.),2000,
+TKL,Tokelau (N.Z.),2001,
+TKL,Tokelau (N.Z.),2002,
+TKL,Tokelau (N.Z.),2003,
+TKL,Tokelau (N.Z.),2004,
+TKL,Tokelau (N.Z.),2005,
+TKL,Tokelau (N.Z.),2006,
+TKL,Tokelau (N.Z.),2007,
+TKL,Tokelau (N.Z.),2008,
+TKL,Tokelau (N.Z.),2009,
+TKL,Tokelau (N.Z.),2010,
+TKL,Tokelau (N.Z.),2011,
+TKL,Tokelau (N.Z.),2012,
+TKL,Tokelau (N.Z.),2013,
+TKL,Tokelau (N.Z.),2014,
+TKL,Tokelau (N.Z.),2015,
+TKL,Tokelau (N.Z.),2016,
+TKL,Tokelau (N.Z.),2017,
+TKL,Tokelau (N.Z.),2018,
+TKL,Tokelau (N.Z.),2019,
+TKL,Tokelau (N.Z.),2020,
+TKL,Tokelau (N.Z.),2021,
+TKL,Tokelau (N.Z.),2022,
+TKL,Tokelau (N.Z.),2023,
 TON,Tonga,1990,99700
 TON,Tonga,1991,99895
 TON,Tonga,1992,100022
@@ -6561,6 +7921,40 @@ URY,Uruguay,2020,3398968
 URY,Uruguay,2021,3396695
 URY,Uruguay,2022,3390913
 URY,Uruguay,2023,3388081
+WLF,Wallis and Futuna (Fr.),1990,
+WLF,Wallis and Futuna (Fr.),1991,
+WLF,Wallis and Futuna (Fr.),1992,
+WLF,Wallis and Futuna (Fr.),1993,
+WLF,Wallis and Futuna (Fr.),1994,
+WLF,Wallis and Futuna (Fr.),1995,
+WLF,Wallis and Futuna (Fr.),1996,
+WLF,Wallis and Futuna (Fr.),1997,
+WLF,Wallis and Futuna (Fr.),1998,
+WLF,Wallis and Futuna (Fr.),1999,
+WLF,Wallis and Futuna (Fr.),2000,
+WLF,Wallis and Futuna (Fr.),2001,
+WLF,Wallis and Futuna (Fr.),2002,
+WLF,Wallis and Futuna (Fr.),2003,
+WLF,Wallis and Futuna (Fr.),2004,
+WLF,Wallis and Futuna (Fr.),2005,
+WLF,Wallis and Futuna (Fr.),2006,
+WLF,Wallis and Futuna (Fr.),2007,
+WLF,Wallis and Futuna (Fr.),2008,
+WLF,Wallis and Futuna (Fr.),2009,
+WLF,Wallis and Futuna (Fr.),2010,
+WLF,Wallis and Futuna (Fr.),2011,
+WLF,Wallis and Futuna (Fr.),2012,
+WLF,Wallis and Futuna (Fr.),2013,
+WLF,Wallis and Futuna (Fr.),2014,
+WLF,Wallis and Futuna (Fr.),2015,
+WLF,Wallis and Futuna (Fr.),2016,
+WLF,Wallis and Futuna (Fr.),2017,
+WLF,Wallis and Futuna (Fr.),2018,
+WLF,Wallis and Futuna (Fr.),2019,
+WLF,Wallis and Futuna (Fr.),2020,
+WLF,Wallis and Futuna (Fr.),2021,
+WLF,Wallis and Futuna (Fr.),2022,
+WLF,Wallis and Futuna (Fr.),2023,
 WSM,Samoa,1990,169042
 WSM,Samoa,1991,169368
 WSM,Samoa,1992,170331
@@ -6595,3 +7989,1159 @@ WSM,Samoa,2020,211944
 WSM,Samoa,2021,213779
 WSM,Samoa,2022,215261
 WSM,Samoa,2023,216663
+,Aksai Chin,1990,
+,Aksai Chin,1991,
+,Aksai Chin,1992,
+,Aksai Chin,1993,
+,Aksai Chin,1994,
+,Aksai Chin,1995,
+,Aksai Chin,1996,
+,Aksai Chin,1997,
+,Aksai Chin,1998,
+,Aksai Chin,1999,
+,Aksai Chin,2000,
+,Aksai Chin,2001,
+,Aksai Chin,2002,
+,Aksai Chin,2003,
+,Aksai Chin,2004,
+,Aksai Chin,2005,
+,Aksai Chin,2006,
+,Aksai Chin,2007,
+,Aksai Chin,2008,
+,Aksai Chin,2009,
+,Aksai Chin,2010,
+,Aksai Chin,2011,
+,Aksai Chin,2012,
+,Aksai Chin,2013,
+,Aksai Chin,2014,
+,Aksai Chin,2015,
+,Aksai Chin,2016,
+,Aksai Chin,2017,
+,Aksai Chin,2018,
+,Aksai Chin,2019,
+,Aksai Chin,2020,
+,Aksai Chin,2021,
+,Aksai Chin,2022,
+,Aksai Chin,2023,
+,Chumar East,1990,
+,Chumar East,1991,
+,Chumar East,1992,
+,Chumar East,1993,
+,Chumar East,1994,
+,Chumar East,1995,
+,Chumar East,1996,
+,Chumar East,1997,
+,Chumar East,1998,
+,Chumar East,1999,
+,Chumar East,2000,
+,Chumar East,2001,
+,Chumar East,2002,
+,Chumar East,2003,
+,Chumar East,2004,
+,Chumar East,2005,
+,Chumar East,2006,
+,Chumar East,2007,
+,Chumar East,2008,
+,Chumar East,2009,
+,Chumar East,2010,
+,Chumar East,2011,
+,Chumar East,2012,
+,Chumar East,2013,
+,Chumar East,2014,
+,Chumar East,2015,
+,Chumar East,2016,
+,Chumar East,2017,
+,Chumar East,2018,
+,Chumar East,2019,
+,Chumar East,2020,
+,Chumar East,2021,
+,Chumar East,2022,
+,Chumar East,2023,
+,Chumar West,1990,
+,Chumar West,1991,
+,Chumar West,1992,
+,Chumar West,1993,
+,Chumar West,1994,
+,Chumar West,1995,
+,Chumar West,1996,
+,Chumar West,1997,
+,Chumar West,1998,
+,Chumar West,1999,
+,Chumar West,2000,
+,Chumar West,2001,
+,Chumar West,2002,
+,Chumar West,2003,
+,Chumar West,2004,
+,Chumar West,2005,
+,Chumar West,2006,
+,Chumar West,2007,
+,Chumar West,2008,
+,Chumar West,2009,
+,Chumar West,2010,
+,Chumar West,2011,
+,Chumar West,2012,
+,Chumar West,2013,
+,Chumar West,2014,
+,Chumar West,2015,
+,Chumar West,2016,
+,Chumar West,2017,
+,Chumar West,2018,
+,Chumar West,2019,
+,Chumar West,2020,
+,Chumar West,2021,
+,Chumar West,2022,
+,Chumar West,2023,
+,Demchok,1990,
+,Demchok,1991,
+,Demchok,1992,
+,Demchok,1993,
+,Demchok,1994,
+,Demchok,1995,
+,Demchok,1996,
+,Demchok,1997,
+,Demchok,1998,
+,Demchok,1999,
+,Demchok,2000,
+,Demchok,2001,
+,Demchok,2002,
+,Demchok,2003,
+,Demchok,2004,
+,Demchok,2005,
+,Demchok,2006,
+,Demchok,2007,
+,Demchok,2008,
+,Demchok,2009,
+,Demchok,2010,
+,Demchok,2011,
+,Demchok,2012,
+,Demchok,2013,
+,Demchok,2014,
+,Demchok,2015,
+,Demchok,2016,
+,Demchok,2017,
+,Demchok,2018,
+,Demchok,2019,
+,Demchok,2020,
+,Demchok,2021,
+,Demchok,2022,
+,Demchok,2023,
+,Jadh Ganga Valley,1990,
+,Jadh Ganga Valley,1991,
+,Jadh Ganga Valley,1992,
+,Jadh Ganga Valley,1993,
+,Jadh Ganga Valley,1994,
+,Jadh Ganga Valley,1995,
+,Jadh Ganga Valley,1996,
+,Jadh Ganga Valley,1997,
+,Jadh Ganga Valley,1998,
+,Jadh Ganga Valley,1999,
+,Jadh Ganga Valley,2000,
+,Jadh Ganga Valley,2001,
+,Jadh Ganga Valley,2002,
+,Jadh Ganga Valley,2003,
+,Jadh Ganga Valley,2004,
+,Jadh Ganga Valley,2005,
+,Jadh Ganga Valley,2006,
+,Jadh Ganga Valley,2007,
+,Jadh Ganga Valley,2008,
+,Jadh Ganga Valley,2009,
+,Jadh Ganga Valley,2010,
+,Jadh Ganga Valley,2011,
+,Jadh Ganga Valley,2012,
+,Jadh Ganga Valley,2013,
+,Jadh Ganga Valley,2014,
+,Jadh Ganga Valley,2015,
+,Jadh Ganga Valley,2016,
+,Jadh Ganga Valley,2017,
+,Jadh Ganga Valley,2018,
+,Jadh Ganga Valley,2019,
+,Jadh Ganga Valley,2020,
+,Jadh Ganga Valley,2021,
+,Jadh Ganga Valley,2022,
+,Jadh Ganga Valley,2023,
+,"Kauirik
+",1990,
+,"Kauirik
+",1991,
+,"Kauirik
+",1992,
+,"Kauirik
+",1993,
+,"Kauirik
+",1994,
+,"Kauirik
+",1995,
+,"Kauirik
+",1996,
+,"Kauirik
+",1997,
+,"Kauirik
+",1998,
+,"Kauirik
+",1999,
+,"Kauirik
+",2000,
+,"Kauirik
+",2001,
+,"Kauirik
+",2002,
+,"Kauirik
+",2003,
+,"Kauirik
+",2004,
+,"Kauirik
+",2005,
+,"Kauirik
+",2006,
+,"Kauirik
+",2007,
+,"Kauirik
+",2008,
+,"Kauirik
+",2009,
+,"Kauirik
+",2010,
+,"Kauirik
+",2011,
+,"Kauirik
+",2012,
+,"Kauirik
+",2013,
+,"Kauirik
+",2014,
+,"Kauirik
+",2015,
+,"Kauirik
+",2016,
+,"Kauirik
+",2017,
+,"Kauirik
+",2018,
+,"Kauirik
+",2019,
+,"Kauirik
+",2020,
+,"Kauirik
+",2021,
+,"Kauirik
+",2022,
+,"Kauirik
+",2023,
+,Lapthal,1990,
+,Lapthal,1991,
+,Lapthal,1992,
+,Lapthal,1993,
+,Lapthal,1994,
+,Lapthal,1995,
+,Lapthal,1996,
+,Lapthal,1997,
+,Lapthal,1998,
+,Lapthal,1999,
+,Lapthal,2000,
+,Lapthal,2001,
+,Lapthal,2002,
+,Lapthal,2003,
+,Lapthal,2004,
+,Lapthal,2005,
+,Lapthal,2006,
+,Lapthal,2007,
+,Lapthal,2008,
+,Lapthal,2009,
+,Lapthal,2010,
+,Lapthal,2011,
+,Lapthal,2012,
+,Lapthal,2013,
+,Lapthal,2014,
+,Lapthal,2015,
+,Lapthal,2016,
+,Lapthal,2017,
+,Lapthal,2018,
+,Lapthal,2019,
+,Lapthal,2020,
+,Lapthal,2021,
+,Lapthal,2022,
+,Lapthal,2023,
+,Shipki Pass,1990,
+,Shipki Pass,1991,
+,Shipki Pass,1992,
+,Shipki Pass,1993,
+,Shipki Pass,1994,
+,Shipki Pass,1995,
+,Shipki Pass,1996,
+,Shipki Pass,1997,
+,Shipki Pass,1998,
+,Shipki Pass,1999,
+,Shipki Pass,2000,
+,Shipki Pass,2001,
+,Shipki Pass,2002,
+,Shipki Pass,2003,
+,Shipki Pass,2004,
+,Shipki Pass,2005,
+,Shipki Pass,2006,
+,Shipki Pass,2007,
+,Shipki Pass,2008,
+,Shipki Pass,2009,
+,Shipki Pass,2010,
+,Shipki Pass,2011,
+,Shipki Pass,2012,
+,Shipki Pass,2013,
+,Shipki Pass,2014,
+,Shipki Pass,2015,
+,Shipki Pass,2016,
+,Shipki Pass,2017,
+,Shipki Pass,2018,
+,Shipki Pass,2019,
+,Shipki Pass,2020,
+,Shipki Pass,2021,
+,Shipki Pass,2022,
+,Shipki Pass,2023,
+,Arunachal Pradesh,1990,
+,Arunachal Pradesh,1991,
+,Arunachal Pradesh,1992,
+,Arunachal Pradesh,1993,
+,Arunachal Pradesh,1994,
+,Arunachal Pradesh,1995,
+,Arunachal Pradesh,1996,
+,Arunachal Pradesh,1997,
+,Arunachal Pradesh,1998,
+,Arunachal Pradesh,1999,
+,Arunachal Pradesh,2000,
+,Arunachal Pradesh,2001,
+,Arunachal Pradesh,2002,
+,Arunachal Pradesh,2003,
+,Arunachal Pradesh,2004,
+,Arunachal Pradesh,2005,
+,Arunachal Pradesh,2006,
+,Arunachal Pradesh,2007,
+,Arunachal Pradesh,2008,
+,Arunachal Pradesh,2009,
+,Arunachal Pradesh,2010,
+,Arunachal Pradesh,2011,
+,Arunachal Pradesh,2012,
+,Arunachal Pradesh,2013,
+,Arunachal Pradesh,2014,
+,Arunachal Pradesh,2015,
+,Arunachal Pradesh,2016,
+,Arunachal Pradesh,2017,
+,Arunachal Pradesh,2018,
+,Arunachal Pradesh,2019,
+,Arunachal Pradesh,2020,
+,Arunachal Pradesh,2021,
+,Arunachal Pradesh,2022,
+,Arunachal Pradesh,2023,
+,Gilgit Baltistan,1990,
+,Gilgit Baltistan,1991,
+,Gilgit Baltistan,1992,
+,Gilgit Baltistan,1993,
+,Gilgit Baltistan,1994,
+,Gilgit Baltistan,1995,
+,Gilgit Baltistan,1996,
+,Gilgit Baltistan,1997,
+,Gilgit Baltistan,1998,
+,Gilgit Baltistan,1999,
+,Gilgit Baltistan,2000,
+,Gilgit Baltistan,2001,
+,Gilgit Baltistan,2002,
+,Gilgit Baltistan,2003,
+,Gilgit Baltistan,2004,
+,Gilgit Baltistan,2005,
+,Gilgit Baltistan,2006,
+,Gilgit Baltistan,2007,
+,Gilgit Baltistan,2008,
+,Gilgit Baltistan,2009,
+,Gilgit Baltistan,2010,
+,Gilgit Baltistan,2011,
+,Gilgit Baltistan,2012,
+,Gilgit Baltistan,2013,
+,Gilgit Baltistan,2014,
+,Gilgit Baltistan,2015,
+,Gilgit Baltistan,2016,
+,Gilgit Baltistan,2017,
+,Gilgit Baltistan,2018,
+,Gilgit Baltistan,2019,
+,Gilgit Baltistan,2020,
+,Gilgit Baltistan,2021,
+,Gilgit Baltistan,2022,
+,Gilgit Baltistan,2023,
+,Jammu and Kashmir,1990,
+,Jammu and Kashmir,1991,
+,Jammu and Kashmir,1992,
+,Jammu and Kashmir,1993,
+,Jammu and Kashmir,1994,
+,Jammu and Kashmir,1995,
+,Jammu and Kashmir,1996,
+,Jammu and Kashmir,1997,
+,Jammu and Kashmir,1998,
+,Jammu and Kashmir,1999,
+,Jammu and Kashmir,2000,
+,Jammu and Kashmir,2001,
+,Jammu and Kashmir,2002,
+,Jammu and Kashmir,2003,
+,Jammu and Kashmir,2004,
+,Jammu and Kashmir,2005,
+,Jammu and Kashmir,2006,
+,Jammu and Kashmir,2007,
+,Jammu and Kashmir,2008,
+,Jammu and Kashmir,2009,
+,Jammu and Kashmir,2010,
+,Jammu and Kashmir,2011,
+,Jammu and Kashmir,2012,
+,Jammu and Kashmir,2013,
+,Jammu and Kashmir,2014,
+,Jammu and Kashmir,2015,
+,Jammu and Kashmir,2016,
+,Jammu and Kashmir,2017,
+,Jammu and Kashmir,2018,
+,Jammu and Kashmir,2019,
+,Jammu and Kashmir,2020,
+,Jammu and Kashmir,2021,
+,Jammu and Kashmir,2022,
+,Jammu and Kashmir,2023,
+,Kalapani,1990,
+,Kalapani,1991,
+,Kalapani,1992,
+,Kalapani,1993,
+,Kalapani,1994,
+,Kalapani,1995,
+,Kalapani,1996,
+,Kalapani,1997,
+,Kalapani,1998,
+,Kalapani,1999,
+,Kalapani,2000,
+,Kalapani,2001,
+,Kalapani,2002,
+,Kalapani,2003,
+,Kalapani,2004,
+,Kalapani,2005,
+,Kalapani,2006,
+,Kalapani,2007,
+,Kalapani,2008,
+,Kalapani,2009,
+,Kalapani,2010,
+,Kalapani,2011,
+,Kalapani,2012,
+,Kalapani,2013,
+,Kalapani,2014,
+,Kalapani,2015,
+,Kalapani,2016,
+,Kalapani,2017,
+,Kalapani,2018,
+,Kalapani,2019,
+,Kalapani,2020,
+,Kalapani,2021,
+,Kalapani,2022,
+,Kalapani,2023,
+,Karakoram Range,1990,
+,Karakoram Range,1991,
+,Karakoram Range,1992,
+,Karakoram Range,1993,
+,Karakoram Range,1994,
+,Karakoram Range,1995,
+,Karakoram Range,1996,
+,Karakoram Range,1997,
+,Karakoram Range,1998,
+,Karakoram Range,1999,
+,Karakoram Range,2000,
+,Karakoram Range,2001,
+,Karakoram Range,2002,
+,Karakoram Range,2003,
+,Karakoram Range,2004,
+,Karakoram Range,2005,
+,Karakoram Range,2006,
+,Karakoram Range,2007,
+,Karakoram Range,2008,
+,Karakoram Range,2009,
+,Karakoram Range,2010,
+,Karakoram Range,2011,
+,Karakoram Range,2012,
+,Karakoram Range,2013,
+,Karakoram Range,2014,
+,Karakoram Range,2015,
+,Karakoram Range,2016,
+,Karakoram Range,2017,
+,Karakoram Range,2018,
+,Karakoram Range,2019,
+,Karakoram Range,2020,
+,Karakoram Range,2021,
+,Karakoram Range,2022,
+,Karakoram Range,2023,
+,Golan Heights,1990,
+,Golan Heights,1991,
+,Golan Heights,1992,
+,Golan Heights,1993,
+,Golan Heights,1994,
+,Golan Heights,1995,
+,Golan Heights,1996,
+,Golan Heights,1997,
+,Golan Heights,1998,
+,Golan Heights,1999,
+,Golan Heights,2000,
+,Golan Heights,2001,
+,Golan Heights,2002,
+,Golan Heights,2003,
+,Golan Heights,2004,
+,Golan Heights,2005,
+,Golan Heights,2006,
+,Golan Heights,2007,
+,Golan Heights,2008,
+,Golan Heights,2009,
+,Golan Heights,2010,
+,Golan Heights,2011,
+,Golan Heights,2012,
+,Golan Heights,2013,
+,Golan Heights,2014,
+,Golan Heights,2015,
+,Golan Heights,2016,
+,Golan Heights,2017,
+,Golan Heights,2018,
+,Golan Heights,2019,
+,Golan Heights,2020,
+,Golan Heights,2021,
+,Golan Heights,2022,
+,Golan Heights,2023,
+,Ilemi Triangle,1990,
+,Ilemi Triangle,1991,
+,Ilemi Triangle,1992,
+,Ilemi Triangle,1993,
+,Ilemi Triangle,1994,
+,Ilemi Triangle,1995,
+,Ilemi Triangle,1996,
+,Ilemi Triangle,1997,
+,Ilemi Triangle,1998,
+,Ilemi Triangle,1999,
+,Ilemi Triangle,2000,
+,Ilemi Triangle,2001,
+,Ilemi Triangle,2002,
+,Ilemi Triangle,2003,
+,Ilemi Triangle,2004,
+,Ilemi Triangle,2005,
+,Ilemi Triangle,2006,
+,Ilemi Triangle,2007,
+,Ilemi Triangle,2008,
+,Ilemi Triangle,2009,
+,Ilemi Triangle,2010,
+,Ilemi Triangle,2011,
+,Ilemi Triangle,2012,
+,Ilemi Triangle,2013,
+,Ilemi Triangle,2014,
+,Ilemi Triangle,2015,
+,Ilemi Triangle,2016,
+,Ilemi Triangle,2017,
+,Ilemi Triangle,2018,
+,Ilemi Triangle,2019,
+,Ilemi Triangle,2020,
+,Ilemi Triangle,2021,
+,Ilemi Triangle,2022,
+,Ilemi Triangle,2023,
+,No Man's Land,1990,
+,No Man's Land,1991,
+,No Man's Land,1992,
+,No Man's Land,1993,
+,No Man's Land,1994,
+,No Man's Land,1995,
+,No Man's Land,1996,
+,No Man's Land,1997,
+,No Man's Land,1998,
+,No Man's Land,1999,
+,No Man's Land,2000,
+,No Man's Land,2001,
+,No Man's Land,2002,
+,No Man's Land,2003,
+,No Man's Land,2004,
+,No Man's Land,2005,
+,No Man's Land,2006,
+,No Man's Land,2007,
+,No Man's Land,2008,
+,No Man's Land,2009,
+,No Man's Land,2010,
+,No Man's Land,2011,
+,No Man's Land,2012,
+,No Man's Land,2013,
+,No Man's Land,2014,
+,No Man's Land,2015,
+,No Man's Land,2016,
+,No Man's Land,2017,
+,No Man's Land,2018,
+,No Man's Land,2019,
+,No Man's Land,2020,
+,No Man's Land,2021,
+,No Man's Land,2022,
+,No Man's Land,2023,
+,Shebaa Farms Dispute,1990,
+,Shebaa Farms Dispute,1991,
+,Shebaa Farms Dispute,1992,
+,Shebaa Farms Dispute,1993,
+,Shebaa Farms Dispute,1994,
+,Shebaa Farms Dispute,1995,
+,Shebaa Farms Dispute,1996,
+,Shebaa Farms Dispute,1997,
+,Shebaa Farms Dispute,1998,
+,Shebaa Farms Dispute,1999,
+,Shebaa Farms Dispute,2000,
+,Shebaa Farms Dispute,2001,
+,Shebaa Farms Dispute,2002,
+,Shebaa Farms Dispute,2003,
+,Shebaa Farms Dispute,2004,
+,Shebaa Farms Dispute,2005,
+,Shebaa Farms Dispute,2006,
+,Shebaa Farms Dispute,2007,
+,Shebaa Farms Dispute,2008,
+,Shebaa Farms Dispute,2009,
+,Shebaa Farms Dispute,2010,
+,Shebaa Farms Dispute,2011,
+,Shebaa Farms Dispute,2012,
+,Shebaa Farms Dispute,2013,
+,Shebaa Farms Dispute,2014,
+,Shebaa Farms Dispute,2015,
+,Shebaa Farms Dispute,2016,
+,Shebaa Farms Dispute,2017,
+,Shebaa Farms Dispute,2018,
+,Shebaa Farms Dispute,2019,
+,Shebaa Farms Dispute,2020,
+,Shebaa Farms Dispute,2021,
+,Shebaa Farms Dispute,2022,
+,Shebaa Farms Dispute,2023,
+,UN Buffer Zone,1990,
+,UN Buffer Zone,1991,
+,UN Buffer Zone,1992,
+,UN Buffer Zone,1993,
+,UN Buffer Zone,1994,
+,UN Buffer Zone,1995,
+,UN Buffer Zone,1996,
+,UN Buffer Zone,1997,
+,UN Buffer Zone,1998,
+,UN Buffer Zone,1999,
+,UN Buffer Zone,2000,
+,UN Buffer Zone,2001,
+,UN Buffer Zone,2002,
+,UN Buffer Zone,2003,
+,UN Buffer Zone,2004,
+,UN Buffer Zone,2005,
+,UN Buffer Zone,2006,
+,UN Buffer Zone,2007,
+,UN Buffer Zone,2008,
+,UN Buffer Zone,2009,
+,UN Buffer Zone,2010,
+,UN Buffer Zone,2011,
+,UN Buffer Zone,2012,
+,UN Buffer Zone,2013,
+,UN Buffer Zone,2014,
+,UN Buffer Zone,2015,
+,UN Buffer Zone,2016,
+,UN Buffer Zone,2017,
+,UN Buffer Zone,2018,
+,UN Buffer Zone,2019,
+,UN Buffer Zone,2020,
+,UN Buffer Zone,2021,
+,UN Buffer Zone,2022,
+,UN Buffer Zone,2023,
+IOT,British Indian Ocean Territory,1990,
+IOT,British Indian Ocean Territory,1991,
+IOT,British Indian Ocean Territory,1992,
+IOT,British Indian Ocean Territory,1993,
+IOT,British Indian Ocean Territory,1994,
+IOT,British Indian Ocean Territory,1995,
+IOT,British Indian Ocean Territory,1996,
+IOT,British Indian Ocean Territory,1997,
+IOT,British Indian Ocean Territory,1998,
+IOT,British Indian Ocean Territory,1999,
+IOT,British Indian Ocean Territory,2000,
+IOT,British Indian Ocean Territory,2001,
+IOT,British Indian Ocean Territory,2002,
+IOT,British Indian Ocean Territory,2003,
+IOT,British Indian Ocean Territory,2004,
+IOT,British Indian Ocean Territory,2005,
+IOT,British Indian Ocean Territory,2006,
+IOT,British Indian Ocean Territory,2007,
+IOT,British Indian Ocean Territory,2008,
+IOT,British Indian Ocean Territory,2009,
+IOT,British Indian Ocean Territory,2010,
+IOT,British Indian Ocean Territory,2011,
+IOT,British Indian Ocean Territory,2012,
+IOT,British Indian Ocean Territory,2013,
+IOT,British Indian Ocean Territory,2014,
+IOT,British Indian Ocean Territory,2015,
+IOT,British Indian Ocean Territory,2016,
+IOT,British Indian Ocean Territory,2017,
+IOT,British Indian Ocean Territory,2018,
+IOT,British Indian Ocean Territory,2019,
+IOT,British Indian Ocean Territory,2020,
+IOT,British Indian Ocean Territory,2021,
+IOT,British Indian Ocean Territory,2022,
+IOT,British Indian Ocean Territory,2023,
+,Abyei,1990,
+,Abyei,1991,
+,Abyei,1992,
+,Abyei,1993,
+,Abyei,1994,
+,Abyei,1995,
+,Abyei,1996,
+,Abyei,1997,
+,Abyei,1998,
+,Abyei,1999,
+,Abyei,2000,
+,Abyei,2001,
+,Abyei,2002,
+,Abyei,2003,
+,Abyei,2004,
+,Abyei,2005,
+,Abyei,2006,
+,Abyei,2007,
+,Abyei,2008,
+,Abyei,2009,
+,Abyei,2010,
+,Abyei,2011,
+,Abyei,2012,
+,Abyei,2013,
+,Abyei,2014,
+,Abyei,2015,
+,Abyei,2016,
+,Abyei,2017,
+,Abyei,2018,
+,Abyei,2019,
+,Abyei,2020,
+,Abyei,2021,
+,Abyei,2022,
+,Abyei,2023,
+SGS,South Georgia and South Sandwich Islands,1990,
+SGS,South Georgia and South Sandwich Islands,1991,
+SGS,South Georgia and South Sandwich Islands,1992,
+SGS,South Georgia and South Sandwich Islands,1993,
+SGS,South Georgia and South Sandwich Islands,1994,
+SGS,South Georgia and South Sandwich Islands,1995,
+SGS,South Georgia and South Sandwich Islands,1996,
+SGS,South Georgia and South Sandwich Islands,1997,
+SGS,South Georgia and South Sandwich Islands,1998,
+SGS,South Georgia and South Sandwich Islands,1999,
+SGS,South Georgia and South Sandwich Islands,2000,
+SGS,South Georgia and South Sandwich Islands,2001,
+SGS,South Georgia and South Sandwich Islands,2002,
+SGS,South Georgia and South Sandwich Islands,2003,
+SGS,South Georgia and South Sandwich Islands,2004,
+SGS,South Georgia and South Sandwich Islands,2005,
+SGS,South Georgia and South Sandwich Islands,2006,
+SGS,South Georgia and South Sandwich Islands,2007,
+SGS,South Georgia and South Sandwich Islands,2008,
+SGS,South Georgia and South Sandwich Islands,2009,
+SGS,South Georgia and South Sandwich Islands,2010,
+SGS,South Georgia and South Sandwich Islands,2011,
+SGS,South Georgia and South Sandwich Islands,2012,
+SGS,South Georgia and South Sandwich Islands,2013,
+SGS,South Georgia and South Sandwich Islands,2014,
+SGS,South Georgia and South Sandwich Islands,2015,
+SGS,South Georgia and South Sandwich Islands,2016,
+SGS,South Georgia and South Sandwich Islands,2017,
+SGS,South Georgia and South Sandwich Islands,2018,
+SGS,South Georgia and South Sandwich Islands,2019,
+SGS,South Georgia and South Sandwich Islands,2020,
+SGS,South Georgia and South Sandwich Islands,2021,
+SGS,South Georgia and South Sandwich Islands,2022,
+SGS,South Georgia and South Sandwich Islands,2023,
+ESH,Western Sahara,1990,
+ESH,Western Sahara,1991,
+ESH,Western Sahara,1992,
+ESH,Western Sahara,1993,
+ESH,Western Sahara,1994,
+ESH,Western Sahara,1995,
+ESH,Western Sahara,1996,
+ESH,Western Sahara,1997,
+ESH,Western Sahara,1998,
+ESH,Western Sahara,1999,
+ESH,Western Sahara,2000,
+ESH,Western Sahara,2001,
+ESH,Western Sahara,2002,
+ESH,Western Sahara,2003,
+ESH,Western Sahara,2004,
+ESH,Western Sahara,2005,
+ESH,Western Sahara,2006,
+ESH,Western Sahara,2007,
+ESH,Western Sahara,2008,
+ESH,Western Sahara,2009,
+ESH,Western Sahara,2010,
+ESH,Western Sahara,2011,
+ESH,Western Sahara,2012,
+ESH,Western Sahara,2013,
+ESH,Western Sahara,2014,
+ESH,Western Sahara,2015,
+ESH,Western Sahara,2016,
+ESH,Western Sahara,2017,
+ESH,Western Sahara,2018,
+ESH,Western Sahara,2019,
+ESH,Western Sahara,2020,
+ESH,Western Sahara,2021,
+ESH,Western Sahara,2022,
+ESH,Western Sahara,2023,
+,Doklam,1990,
+,Doklam,1991,
+,Doklam,1992,
+,Doklam,1993,
+,Doklam,1994,
+,Doklam,1995,
+,Doklam,1996,
+,Doklam,1997,
+,Doklam,1998,
+,Doklam,1999,
+,Doklam,2000,
+,Doklam,2001,
+,Doklam,2002,
+,Doklam,2003,
+,Doklam,2004,
+,Doklam,2005,
+,Doklam,2006,
+,Doklam,2007,
+,Doklam,2008,
+,Doklam,2009,
+,Doklam,2010,
+,Doklam,2011,
+,Doklam,2012,
+,Doklam,2013,
+,Doklam,2014,
+,Doklam,2015,
+,Doklam,2016,
+,Doklam,2017,
+,Doklam,2018,
+,Doklam,2019,
+,Doklam,2020,
+,Doklam,2021,
+,Doklam,2022,
+,Doklam,2023,
+FLK,Falkland Islands,1990,
+FLK,Falkland Islands,1991,
+FLK,Falkland Islands,1992,
+FLK,Falkland Islands,1993,
+FLK,Falkland Islands,1994,
+FLK,Falkland Islands,1995,
+FLK,Falkland Islands,1996,
+FLK,Falkland Islands,1997,
+FLK,Falkland Islands,1998,
+FLK,Falkland Islands,1999,
+FLK,Falkland Islands,2000,
+FLK,Falkland Islands,2001,
+FLK,Falkland Islands,2002,
+FLK,Falkland Islands,2003,
+FLK,Falkland Islands,2004,
+FLK,Falkland Islands,2005,
+FLK,Falkland Islands,2006,
+FLK,Falkland Islands,2007,
+FLK,Falkland Islands,2008,
+FLK,Falkland Islands,2009,
+FLK,Falkland Islands,2010,
+FLK,Falkland Islands,2011,
+FLK,Falkland Islands,2012,
+FLK,Falkland Islands,2013,
+FLK,Falkland Islands,2014,
+FLK,Falkland Islands,2015,
+FLK,Falkland Islands,2016,
+FLK,Falkland Islands,2017,
+FLK,Falkland Islands,2018,
+FLK,Falkland Islands,2019,
+FLK,Falkland Islands,2020,
+FLK,Falkland Islands,2021,
+FLK,Falkland Islands,2022,
+FLK,Falkland Islands,2023,
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",1990,
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",1991,
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",1992,
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",1993,
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",1994,
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",1995,
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",1996,
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",1997,
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",1998,
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",1999,
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",2000,
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",2001,
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",2002,
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",2003,
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",2004,
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",2005,
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",2006,
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",2007,
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",2008,
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",2009,
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",2010,
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",2011,
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",2012,
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",2013,
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",2014,
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",2015,
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",2016,
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",2017,
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",2018,
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",2019,
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",2020,
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",2021,
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",2022,
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",2023,
+UKR,Ukraine,1990,52054092
+UKR,Ukraine,1991,52170961
+UKR,Ukraine,1992,52323671
+UKR,Ukraine,1993,52350126
+UKR,Ukraine,1994,52075998
+UKR,Ukraine,1995,51665539
+UKR,Ukraine,1996,51226109
+UKR,Ukraine,1997,50786885
+UKR,Ukraine,1998,50379731
+UKR,Ukraine,1999,49976446
+UKR,Ukraine,2000,49556660
+UKR,Ukraine,2001,49106855
+UKR,Ukraine,2002,48677281
+UKR,Ukraine,2003,48315136
+UKR,Ukraine,2004,47979507
+UKR,Ukraine,2005,47585556
+UKR,Ukraine,2006,47278694
+UKR,Ukraine,2007,47062798
+UKR,Ukraine,2008,46819175
+UKR,Ukraine,2009,46623731
+UKR,Ukraine,2010,46456003
+UKR,Ukraine,2011,46307853
+UKR,Ukraine,2012,46210056
+UKR,Ukraine,2013,46126770
+UKR,Ukraine,2014,45972380
+UKR,Ukraine,2015,45784896
+UKR,Ukraine,2016,45616832
+UKR,Ukraine,2017,45436041
+UKR,Ukraine,2018,45208907
+UKR,Ukraine,2019,44957458
+UKR,Ukraine,2020,44680014
+UKR,Ukraine,2021,44298640
+UKR,Ukraine,2022,41048766
+UKR,Ukraine,2023,37732836
+UMI,U.S. Minor Outlying Islands (U.S.),1990,
+UMI,U.S. Minor Outlying Islands (U.S.),1991,
+UMI,U.S. Minor Outlying Islands (U.S.),1992,
+UMI,U.S. Minor Outlying Islands (U.S.),1993,
+UMI,U.S. Minor Outlying Islands (U.S.),1994,
+UMI,U.S. Minor Outlying Islands (U.S.),1995,
+UMI,U.S. Minor Outlying Islands (U.S.),1996,
+UMI,U.S. Minor Outlying Islands (U.S.),1997,
+UMI,U.S. Minor Outlying Islands (U.S.),1998,
+UMI,U.S. Minor Outlying Islands (U.S.),1999,
+UMI,U.S. Minor Outlying Islands (U.S.),2000,
+UMI,U.S. Minor Outlying Islands (U.S.),2001,
+UMI,U.S. Minor Outlying Islands (U.S.),2002,
+UMI,U.S. Minor Outlying Islands (U.S.),2003,
+UMI,U.S. Minor Outlying Islands (U.S.),2004,
+UMI,U.S. Minor Outlying Islands (U.S.),2005,
+UMI,U.S. Minor Outlying Islands (U.S.),2006,
+UMI,U.S. Minor Outlying Islands (U.S.),2007,
+UMI,U.S. Minor Outlying Islands (U.S.),2008,
+UMI,U.S. Minor Outlying Islands (U.S.),2009,
+UMI,U.S. Minor Outlying Islands (U.S.),2010,
+UMI,U.S. Minor Outlying Islands (U.S.),2011,
+UMI,U.S. Minor Outlying Islands (U.S.),2012,
+UMI,U.S. Minor Outlying Islands (U.S.),2013,
+UMI,U.S. Minor Outlying Islands (U.S.),2014,
+UMI,U.S. Minor Outlying Islands (U.S.),2015,
+UMI,U.S. Minor Outlying Islands (U.S.),2016,
+UMI,U.S. Minor Outlying Islands (U.S.),2017,
+UMI,U.S. Minor Outlying Islands (U.S.),2018,
+UMI,U.S. Minor Outlying Islands (U.S.),2019,
+UMI,U.S. Minor Outlying Islands (U.S.),2020,
+UMI,U.S. Minor Outlying Islands (U.S.),2021,
+UMI,U.S. Minor Outlying Islands (U.S.),2022,
+UMI,U.S. Minor Outlying Islands (U.S.),2023,
+ZWE,Zimbabwe,1990,10137281
+ZWE,Zimbabwe,1991,10404816
+ZWE,Zimbabwe,1992,10702700
+ZWE,Zimbabwe,1993,10860288
+ZWE,Zimbabwe,1994,10873148
+ZWE,Zimbabwe,1995,10974599
+ZWE,Zimbabwe,1996,11158360
+ZWE,Zimbabwe,1997,11369827
+ZWE,Zimbabwe,1998,11594297
+ZWE,Zimbabwe,1999,11783458
+ZWE,Zimbabwe,2000,11892055
+ZWE,Zimbabwe,2001,11971901
+ZWE,Zimbabwe,2002,12087653
+ZWE,Zimbabwe,2003,12232323
+ZWE,Zimbabwe,2004,12365896
+ZWE,Zimbabwe,2005,12483432
+ZWE,Zimbabwe,2006,12636445
+ZWE,Zimbabwe,2007,12804058
+ZWE,Zimbabwe,2008,12959149
+ZWE,Zimbabwe,2009,13142790
+ZWE,Zimbabwe,2010,13356548
+ZWE,Zimbabwe,2011,13595424
+ZWE,Zimbabwe,2012,13817887
+ZWE,Zimbabwe,2013,14013808
+ZWE,Zimbabwe,2014,14207359
+ZWE,Zimbabwe,2015,14399013
+ZWE,Zimbabwe,2016,14600294
+ZWE,Zimbabwe,2017,14812482
+ZWE,Zimbabwe,2018,15034452
+ZWE,Zimbabwe,2019,15271368
+ZWE,Zimbabwe,2020,15526888
+ZWE,Zimbabwe,2021,15797210
+ZWE,Zimbabwe,2022,16069056
+ZWE,Zimbabwe,2023,16340822
+AUS,Australia,1990,17065128
+AUS,Australia,1991,17284036
+AUS,Australia,1992,17478635
+AUS,Australia,1993,17634808
+AUS,Australia,1994,17805468
+AUS,Australia,1995,18004882
+AUS,Australia,1996,18224767
+AUS,Australia,1997,18423037
+AUS,Australia,1998,18607584
+AUS,Australia,1999,18812264
+AUS,Australia,2000,19028802
+AUS,Australia,2001,19274701
+AUS,Australia,2002,19495210
+AUS,Australia,2003,19720737
+AUS,Australia,2004,19932722
+AUS,Australia,2005,20176844
+AUS,Australia,2006,20450966
+AUS,Australia,2007,20827622
+AUS,Australia,2008,21249199
+AUS,Australia,2009,21691653
+AUS,Australia,2010,22031750
+AUS,Australia,2011,22340024
+AUS,Australia,2012,22733465
+AUS,Australia,2013,23128129
+AUS,Australia,2014,23475686
+AUS,Australia,2015,23815995
+AUS,Australia,2016,24190907
+AUS,Australia,2017,24592588
+AUS,Australia,2018,24963258
+AUS,Australia,2019,25334826
+AUS,Australia,2020,25649248
+AUS,Australia,2021,25685412
+AUS,Australia,2022,26018721
+AUS,Australia,2023,26659922
+ESP,Spain,1990,38867322
+ESP,Spain,1991,38966376
+ESP,Spain,1992,39157685
+ESP,Spain,1993,39361262
+ESP,Spain,1994,39549108
+ESP,Spain,1995,39724050
+ESP,Spain,1996,39889852
+ESP,Spain,1997,40057389
+ESP,Spain,1998,40223509
+ESP,Spain,1999,40386875
+ESP,Spain,2000,40567864
+ESP,Spain,2001,40850412
+ESP,Spain,2002,41431558
+ESP,Spain,2003,42187645
+ESP,Spain,2004,42921895
+ESP,Spain,2005,43653155
+ESP,Spain,2006,44397319
+ESP,Spain,2007,45226803
+ESP,Spain,2008,45954106
+ESP,Spain,2009,46362946
+ESP,Spain,2010,46576897
+ESP,Spain,2011,46742697
+ESP,Spain,2012,46773055
+ESP,Spain,2013,46604197
+ESP,Spain,2014,46460733
+ESP,Spain,2015,46422303
+ESP,Spain,2016,46458139
+ESP,Spain,2017,46571232
+ESP,Spain,2018,46782011
+ESP,Spain,2019,47118501
+ESP,Spain,2020,47359424
+ESP,Spain,2021,47443821
+ESP,Spain,2022,47786102
+ESP,Spain,2023,48352528
+FRA,France,1990,58261012
+FRA,France,1991,58554242
+FRA,France,1992,58846584
+FRA,France,1993,59103094
+FRA,France,1994,59324863
+FRA,France,1995,59541294
+FRA,France,1996,59754504
+FRA,France,1997,59968066
+FRA,France,1998,60190684
+FRA,France,1999,60501986
+FRA,France,2000,60918661
+FRA,France,2001,61364377
+FRA,France,2002,61812142
+FRA,France,2003,62249855
+FRA,France,2004,62707588
+FRA,France,2005,63180854
+FRA,France,2006,63622342
+FRA,France,2007,64016890
+FRA,France,2008,64375116
+FRA,France,2009,64706436
+FRA,France,2010,65026211
+FRA,France,2011,65340830
+FRA,France,2012,65657659
+FRA,France,2013,65997932
+FRA,France,2014,66312067
+FRA,France,2015,66548272
+FRA,France,2016,66724104
+FRA,France,2017,66918020
+FRA,France,2018,67158348
+FRA,France,2019,67382061
+FRA,France,2020,67601110
+FRA,France,2021,67842811
+FRA,France,2022,68184457
+FRA,France,2023,68372286
+GBR,United Kingdom,1990,57247586
+GBR,United Kingdom,1991,57424897
+GBR,United Kingdom,1992,57580402
+GBR,United Kingdom,1993,57718614
+GBR,United Kingdom,1994,57865745
+GBR,United Kingdom,1995,58019030
+GBR,United Kingdom,1996,58166950
+GBR,United Kingdom,1997,58316954
+GBR,United Kingdom,1998,58487141
+GBR,United Kingdom,1999,58682466
+GBR,United Kingdom,2000,58892514
+GBR,United Kingdom,2001,59119673
+GBR,United Kingdom,2002,59370479
+GBR,United Kingdom,2003,59647577
+GBR,United Kingdom,2004,59987905
+GBR,United Kingdom,2005,60401206
+GBR,United Kingdom,2006,60846820
+GBR,United Kingdom,2007,61322463
+GBR,United Kingdom,2008,61806995
+GBR,United Kingdom,2009,62276270
+GBR,United Kingdom,2010,62766365
+GBR,United Kingdom,2011,63258810
+GBR,United Kingdom,2012,63711000
+GBR,United Kingdom,2013,64139000
+GBR,United Kingdom,2014,64620000
+GBR,United Kingdom,2015,65088000
+GBR,United Kingdom,2016,65607000
+GBR,United Kingdom,2017,65966000
+GBR,United Kingdom,2018,66289000
+GBR,United Kingdom,2019,66631000
+GBR,United Kingdom,2020,66744000
+GBR,United Kingdom,2021,66984000
+GBR,United Kingdom,2022,67604000
+GBR,United Kingdom,2023,68492000
+PRT,Portugal,1990,9983218
+PRT,Portugal,1991,9960235
+PRT,Portugal,1992,9952494
+PRT,Portugal,1993,9964675
+PRT,Portugal,1994,9991525
+PRT,Portugal,1995,10026176
+PRT,Portugal,1996,10063945
+PRT,Portugal,1997,10108977
+PRT,Portugal,1998,10160196
+PRT,Portugal,1999,10217828
+PRT,Portugal,2000,10289898
+PRT,Portugal,2001,10362722
+PRT,Portugal,2002,10419631
+PRT,Portugal,2003,10458821
+PRT,Portugal,2004,10483861
+PRT,Portugal,2005,10503330
+PRT,Portugal,2006,10522288
+PRT,Portugal,2007,10542964
+PRT,Portugal,2008,10558177
+PRT,Portugal,2009,10568247
+PRT,Portugal,2010,10573100
+PRT,Portugal,2011,10557560
+PRT,Portugal,2012,10514844
+PRT,Portugal,2013,10457295
+PRT,Portugal,2014,10401062
+PRT,Portugal,2015,10358076
+PRT,Portugal,2016,10325452
+PRT,Portugal,2017,10300300
+PRT,Portugal,2018,10283822
+PRT,Portugal,2019,10286263
+PRT,Portugal,2020,10297081
+PRT,Portugal,2021,10361831
+PRT,Portugal,2022,10434332
+PRT,Portugal,2023,10578174

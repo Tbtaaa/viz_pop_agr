@@ -88,13 +88,30 @@
         }
         
         .chartCanvasWrap{
-          height: 160px;  
+          height: 160px;
+          position: relative;  
         }
         
         .chartCanvasWrap canvas{
           width: 100% !important;
           height: 100% !important;
           display: block;
+        }
+
+        .noDataOverlay{
+          position: absolute;
+          inset: 0;
+          display: none;        /* se activa desde JS */
+          align-items: center;
+          justify-content: center;
+          font-size: 13px;
+          font-weight: 800;
+          letter-spacing: 0.6px;
+          color: #999;
+          background: rgba(255,255,255,0);
+          border-radius: 8px;
+          z-index: 5;
+          pointer-events: none;
         }
 
         .info-title1{
@@ -307,15 +324,17 @@
 <div id="panel">   
   <button id="closePanel" aria-label="Close panel">×</button>
   <div class="panel-title" id="panelTitle">Select a country</div>
-  
+
     <!-- Population chart -->
-    <div class="chartCanvasWrap">
-      <canvas id="popChart"></canvas>
+    <div class="chartCanvasWrap chartWrap" id="popWrap">
+    <div class="noDataOverlay" id="popNoData">NO DATA</div>
+    <canvas id="popChart"></canvas>
     </div>
-    
-    <!-- Cropland percentage chart -->
-    <div class="chartCanvasWrap">
-      <canvas id="cropChart"></canvas>
+
+    <!-- Cropland chart -->
+    <div class="chartCanvasWrap chartWrap" id="cropWrap">
+    <div class="noDataOverlay" id="cropNoData">NO DATA</div>
+    <canvas id="cropChart"></canvas>
     </div>
   </div>
 </div>
@@ -379,6 +398,11 @@ async function loadAllData() {
 }
 
 //#endregion
+
+function setChartNoData(popHas, cropHas){
+  document.getElementById("popNoData").style.display  = popHas  ? "none" : "flex";
+  document.getElementById("cropNoData").style.display = cropHas ? "none" : "flex";
+}
 
 let popChart, cropChart;
 const Y_AXIS_WIDTH = 60;
@@ -584,12 +608,12 @@ map.on('load', async () => {
 
   map.addSource("countries-src", {
     type: "vector",
-    url: "mapbox://tbtaaa.0iwy57p6",
+    url: "mapbox://tbtaaa.84hmwkpl",
     maxzoom: 5
     });
 
 // This must match the source-layer name INSIDE the tileset
-const SOURCE_LAYER = "world_boundaries_simp02-210taa";
+const SOURCE_LAYER = "world_boundaries_simp02-4vy66l";
 
 // This must match the attribute name in your tileset properties
 const NAME_FIELD = "Cntry_C";
@@ -632,9 +656,13 @@ document.getElementById("closePanel").addEventListener("click", (ev) => {
 function showCountryCharts(iso, countryName) {
   panelEl.style.opacity = 1;
   document.getElementById("panelTitle").textContent = countryName || iso;
-
+  
   const popSeries  = popByISO.get(iso)  || [];
   const cropSeries = cropByISO.get(iso) || [];
+
+  const popHas  = popSeries.length > 0;
+  const cropHas = cropSeries.length > 0;
+  setChartNoData(popHas, cropHas);
 
   popChart.data.datasets[0].data  = popSeries;
   cropChart.data.datasets[0].data = cropSeries;
@@ -695,6 +723,10 @@ map.on("mousemove", "Countries", (e) => {
 
   const popSeries  = popByISO.get(iso)  || [];
   const cropSeries = cropByISO.get(iso) || [];
+
+  const popHas  = popSeries.length > 0;
+  const cropHas = cropSeries.length > 0;
+  setChartNoData(popHas, cropHas);
 
   popChart.data.datasets[0].data  = popSeries;
   cropChart.data.datasets[0].data = cropSeries;
