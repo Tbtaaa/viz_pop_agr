@@ -183,9 +183,11 @@ colnames(world_agr)
 
 # save #########################################################################
 
+world_pop_clean <- world_pop[!is.na(world_pop$Pop_value), ]
 st_write(world_pop,
          "data/world_pop.csv")
 
+world_agr_clean <- world_agr[!is.na(world_agr$Crop_per), ]
 st_write(world_agr,
          "data/world_agr.csv")
 
