@@ -210,14 +210,38 @@
 
         .intro-purpose {
           margin: 0 0 12px 0;
+          font-family: Arial, sans-serif;
           font-size: 14px;
-          line-height: 1.2;
+          line-height: 1.4;
           color: #222;
         }
 
+        .intro-subtitle {
+          margin: 0 0 12px 0;
+          font-family: Arial, sans-serif;
+          font-size: 14px;
+          font-weight: 800;
+          line-height: 1;
+          color: #000000;
+        }
+
         .intro-instructions {
+          margin: 0 0 8px 0;
+          padding-left: 7px; 
+          list-style-position: inside;
+          font-size: 14px;
+          line-height: 1.4;
+          color: #000000;
+        }
+
+        .intro-instructions li {
+          margin: 0 0 1px 0;
+        }
+
+        .intro-note {
           margin: 0 0 22px 0;
-          font-size: 13px;
+          font-size: 12px;
+          font-style: italic; 
           line-height: 1.45;
           color: #949494;
         }
@@ -270,12 +294,17 @@
       across different regions of the world.
     </p>
 
-    <p class="intro-instructions">
-      Explore the world by hovering over countries. 
-      <br>
-      Click a country to pin its charts, and click it again to unpin.
-      <br>
-      Data availability varies by country.
+    <p class="intro-subtitle">
+      Instructions:
+    </p>
+
+    <ul class="intro-instructions">
+      <li>Explore the world by hovering over countries*</li>
+      <li>Click a country to pin its charts, and click it again to unpin</li>
+    </ul>
+
+    <p class="intro-note">
+      (*) Data availability varies by country.
     </p>
 
     <button id="startBtn">START</button>
@@ -369,9 +398,15 @@ function buildSeriesMap(rows, isoCol, yearCol, valueCol) {
   const m = new Map();
 
   for (const r of rows) {
+
     const iso = r[isoCol];
-    const year = Number(r[yearCol]);
-    const val  = Number(r[valueCol]);
+    const yearRaw = r[yearCol];
+    const valRaw  = r[valueCol];
+    const year = Number(yearRaw);
+
+    if (valRaw === "" || valRaw == null) continue;
+
+    const val = Number(valRaw);
 
     if (!iso || Number.isNaN(year) || Number.isNaN(val)) continue;
     if (!m.has(iso)) m.set(iso, []);
